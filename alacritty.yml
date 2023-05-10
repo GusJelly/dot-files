@@ -1,7 +1,7 @@
 live_config_reload: true
 
 window:
-  opacity: 1.00
+  opacity: 0.85
 
 font:
   normal:
@@ -22,45 +22,61 @@ font:
 
   size: 11
 
-colors:
-  primary:
-    background: "0x191724"
-    foreground: "0xe0def4"
-  cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
-  vi_mode_cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
-  line_indicator:
-    foreground: None
-    background: None
-  selection:
-    text: "0xe0def4"
-    background: "0x403d52"
-  normal:
-    black: "0x26233a"
-    red: "0xeb6f92"
-    green: "0x31748f"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xebbcba"
-    white: "0xe0def4"
-  bright:
-    black: "0x6e6a86"
-    red: "0xeb6f92"
-    green: "0x31748f"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xebbcba"
-    white: "0xe0def4"
-  hints:
-    start:
-      foreground: "#908caa"
-      background: "#1f1d2e"
-    end:
-      foreground: "#6e6a86"
-      background: "#1f1d2e"
 
+    ## Colors (Ayu Dark)
+    #colors:
+    #  # Default colors
+    #  primary:
+    #    background: '0x0A0E14'
+    #    foreground: '0xB3B1AD'
+    #
+    #  # Normal colors
+    #  normal:
+    #    black:   '0x01060E'
+    #    red:     '0xEA6C73'
+    #    green:   '0x91B362'
+    #    yellow:  '0xF9AF4F'
+    #    blue:    '0x53BDFA'
+    #    magenta: '0xFAE994'
+    #    cyan:    '0x90E1C6'
+    #    white:   '0xC7C7C7'
+    #
+    #  # Bright colors
+    #  bright:
+    #    black:   '0x686868'
+    #    red:     '0xF07178'
+    #    green:   '0xC2D94C'
+    #    yellow:  '0xFFB454'
+    #    blue:    '0x59C2FF'
+    #    magenta: '0xFFEE99'
+    #    cyan:    '0x95E6CB'
+    #    white:   '0xFFFFFF'
+
+# Colours (Monokai Charcoal)
+colors:
+  # Default Colours
+  primary:
+    background: '#000000'
+    foreground: '#FFFFFF'
+
+  # Normal Colours
+  normal:
+    black:   '#1a1a1a'
+    red:     '#f4005f'
+    green:   '#98e024'
+    yellow:  '#fa8419'
+    blue:    '#9d65ff'
+    magenta: '#f4005f'
+    cyan:    '#58d1eb'
+    white:   '#c4c5b5'
+
+  # Bright Colours
+  bright:
+    black:   '#625e4c'
+    red:     '#f4005f'
+    green:   '#98e024'
+    yellow:  '#e0d561'
+    blue:    '#9d65ff'
+    magenta: '#f4005f'
+    cyan:    '#58d1eb'
+    white:   '#f6f6ef'
