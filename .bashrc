@@ -14,7 +14,8 @@ export PATH
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
 
-source /usr/share/fzf/shell/key-bindings.bash
+source /home/marmelomaria/.config/fzf/key-bindings.bash
+export __GL_SYNC_DISPLAY_DEVICE=DP-2
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
@@ -33,3 +34,4 @@ unset rc
 alias ll='ls -la'
 
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
