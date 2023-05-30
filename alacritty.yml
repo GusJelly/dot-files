@@ -1,55 +1,223 @@
 live_config_reload: true
 
+selection:
+  save_to_clipboard: true
+  text: CellBackground
+
 window:
   opacity: 1.0
+  dimensions:
+    columns: 110
+    lines: 52
+  padding:
+    x: 4
+    y: 0
+  decorations: none
+  startup_mode: Windowed
+  dynamic_title: true
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+mouse:
+  hide_when_typing: true
 
 font:
   normal:
-    family: CaskaydiaCove Nerd Font Mono
+    family: MesloLGS Nerd Font Mono
     style: Regular
-
   bold:
-    family: CaskaydiaCove Nerd Font Mono
+    family: MesloLGS Nerd Font Mono
     style: Bold
-
   italic:
-    family: CaskaydiaCove Nerd Font Mono
+    family: MesloLGS Nerd Font Mono
     style: Italic
+  size: 10.5
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
 
-  bold_italic:
-    family: CaskaydiaCove Nerd Font Mono
-    style: Bold Italic
+draw_bold_text_with_bright_colors: false
 
-  size: 9.5
+    #colors:
+    #  primary:
+    #    background: "0x191724"
+    #    foreground: "0xe0def4"
+    #  cursor:
+    #    text: "0xe0def4"
+    #    cursor: "0x524f67"
+    #  vi_mode_cursor:
+    #    text: "0xe0def4"
+    #    cursor: "0x524f67"
+    #  line_indicator:
+    #    foreground: None
+    #    background: None
+    #  selection:
+    #    text: "0xe0def4"
+    #    background: "0x403d52"
+    #  normal:
+    #    black: "0x26233a"
+    #    red: "0xeb6f92"
+    #    green: "0x31748f"
+    #    yellow: "0xf6c177"
+    #    blue: "0x9ccfd8"
+    #    magenta: "0xc4a7e7"
+    #    cyan: "0xebbcba"
+    #    white: "0xe0def4"
+    #  bright:
+    #    black: "0x6e6a86"
+    #    red: "0xeb6f92"
+    #    green: "0x31748f"
+    #    yellow: "0xf6c177"
+    #    blue: "0x9ccfd8"
+    #    magenta: "0xc4a7e7"
+    #    cyan: "0xebbcba"
+    #    white: "0xe0def4"
+    #  hints:
+    #    start:
+    #      foreground: "#908caa"
+    #      background: "#1f1d2e"
+    #    end:
+    #      foreground: "#6e6a86"
+    #      background: "#1f1d2e"
 
-# Campbell (Windows 10 default)
-colors:
-  # Default colors
-  primary:
-    background: '0x0c0c0c'
-    foreground: '0xcccccc'
+    ## Colors (Konsole's Dark Pastels)
+    #colors:
+    #  # Default colors
+    #  primary:
+    #    background: '0x2C2C2C'
+    #    foreground: '0xDCDCCC'
+    #
+    #  # Normal colors
+    #  normal:
+    #    black:   '0x3F3F3F'
+    #    red:     '0x705050'
+    #    green:   '0x60B48A'
+    #    yellow:  '0xDFAF8F'
+    #    blue:    '0x9AB8D7'
+    #    magenta: '0xDC8CC3'
+    #    cyan:    '0x8CD0D3'
+    #    white:   '0xDCDCCC'
+    #
+    #  # Bright colors
+    #  bright:
+    #    black:   '0x709080'
+    #    red:     '0xDCA3A3'
+    #    green:   '0x72D5A3'
+    #    yellow:  '0xF0DFAF'
+    #    blue:    '0x94BFF3'
+    #    magenta: '0xEC93D3'
+    #    cyan:    '0x93E0E3'
+    #    white:   '0xFFFFFF'
 
-  # Normal colors
-  normal:
-    black:      '0x0c0c0c'
-    red:        '0xc50f1f'
-    green:      '0x13a10e'
-    yellow:     '0xc19c00'
-    blue:       '0x0037da'
-    magenta:    '0x881798'
-    cyan:       '0x3a96dd'
-    white:      '0xcccccc'
+    # Colors (Ayu Dark)
 
-  # Bright colors
-  bright:
-    black:      '0x767676'
-    red:        '0xe74856'
-    green:      '0x16c60c'
-    yellow:     '0xf9f1a5'
-    blue:       '0x3b78ff'
-    magenta:    '0xb4009e'
-    cyan:       '0x61d6d6'
-    white:      '0xf2f2f2'
+
+    ## Colors (Blood Moon)
+    #colors:
+    #  # Default colors
+    #  primary:
+    #    background: '0x10100E'
+    #    foreground: '0xC6C6C4'
+    #
+    #  # Normal colors
+    #  normal:
+    #    black:   '0x10100E'
+    #    red:     '0xC40233'
+    #    green:   '0x009F6B'
+    #    yellow:  '0xFFD700'
+    #    blue:    '0x0087BD'
+    #    magenta: '0x9A4EAE'
+    #    cyan:    '0x20B2AA'
+    #    white:   '0xC6C6C4'
+    #
+    #  # Bright colors
+    #  bright:
+    #    black:   '0x696969'
+    #    red:     '0xFF2400'
+    #    green:   '0x03C03C'
+    #    yellow:  '0xFDFF00'
+    #    blue:    '0x007FFF'
+    #    magenta: '0xFF1493'
+    #    cyan:    '0x00CCCC'
+    #    white:   '0xFFFAFA'
+
+    # Colors (Gotham)
+    #colors:
+    #  primary:
+    #    background: "0x191724"
+    #    foreground: "0xe0def4"
+    #  cursor:
+    #    text: "0xe0def4"
+    #    cursor: "0x524f67"
+    #  vi_mode_cursor:
+    #    text: "0xe0def4"
+    #    cursor: "0x524f67"
+    #  line_indicator:
+    #    foreground: None
+    #    background: None
+    #  selection:
+    #    text: "0xe0def4"
+    #    background: "0x403d52"
+    #  normal:
+    #    black: "0x26233a"
+    #    red: "0xeb6f92"
+    #    green: "0x31748f"
+    #    yellow: "0xf6c177"
+    #    blue: "0x9ccfd8"
+    #    magenta: "0xc4a7e7"
+    #    cyan: "0xebbcba"
+    #    white: "0xe0def4"
+    #  bright:
+    #    black: "0x6e6a86"
+    #    red: "0xeb6f92"
+    #    green: "0x31748f"
+    #    yellow: "0xf6c177"
+    #    blue: "0x9ccfd8"
+    #    magenta: "0xc4a7e7"
+    #    cyan: "0xebbcba"
+    #    white: "0xe0def4"
+    #  hints:
+    #    start:
+    #      foreground: "#908caa"
+    #      background: "#1f1d2e"
+    #    end:
+    #      foreground: "#6e6a86"
+    #      background: "#1f1d2e"
+
+
+    ## Campbell (Windows 10 default)
+    #colors:
+    #  # Default colors
+    #  primary:
+    #    background: '0x0c0c0c'
+    #    foreground: '0xcccccc'
+    #
+    #  # Normal colors
+    #  normal:
+    #    black:      '0x0c0c0c'
+    #    red:        '0xc50f1f'
+    #    green:      '0x13a10e'
+    #    yellow:     '0xc19c00'
+    #    blue:       '0x0037da'
+    #    magenta:    '0x881798'
+    #    cyan:       '0x3a96dd'
+    #    white:      '0xcccccc'
+    #
+    #  # Bright colors
+    #  bright:
+    #    black:      '0x767676'
+    #    red:        '0xe74856'
+    #    green:      '0x16c60c'
+    #    yellow:     '0xf9f1a5'
+    #    blue:       '0x3b78ff'
+    #    magenta:    '0xb4009e'
+    #    cyan:       '0x61d6d6'
+    #    white:      '0xf2f2f2'
 
 
     ## Colors (Pencil Light)
