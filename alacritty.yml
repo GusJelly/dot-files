@@ -5,7 +5,6 @@ env:
 
 selection:
   save_to_clipboard: true
-  text: CellBackground
 
 window:
   opacity: 1.00
@@ -33,7 +32,7 @@ font:
   italic:
     family: CaskaydiaCove Nerd Font Mono
     style: Italic
-  size: 11
+  size: 9.5
   offset:
     x: 0
     y: 0
@@ -44,77 +43,77 @@ font:
 draw_bold_text_with_bright_colors: false
 
 
-  ## Campbell (Windows 10 default)
-  #colors:
-  #  # Default colors
-  #  primary:
-  #    background: '0x0c0c0c'
-  #    foreground: '0xcccccc'
-  #
-  #  # Normal colors
-  #  normal:
-  #    black:      '0x0c0c0c'
-  #    red:        '0xc50f1f'
-  #    green:      '0x13a10e'
-  #    yellow:     '0xc19c00'
-  #    blue:       '0x0037da'
-  #    magenta:    '0x881798'
-  #    cyan:       '0x3a96dd'
-  #    white:      '0xcccccc'
-  #
-  #  # Bright colors
-  #  bright:
-  #    black:      '0x767676'
-  #    red:        '0xe74856'
-  #    green:      '0x16c60c'
-  #    yellow:     '0xf9f1a5'
-  #    blue:       '0x3b78ff'
-  #    magenta:    '0xb4009e'
-  #    cyan:       '0x61d6d6'
-  #    white:      '0xf2f2f2'
-
-
+# Campbell (Windows 10 default)
 colors:
+  # Default colors
   primary:
-    background: "#1a1a1a"
-    foreground: "0xe0def4"
-  cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
-  vi_mode_cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
-  line_indicator:
-    foreground: None
-    background: None
-  selection:
-    text: "0xe0def4"
-    background: "0x403d52"
+    background: '#1a1a1a'
+    foreground: '0xcccccc'
+
+  # Normal colors
   normal:
-    black: "0x26233a"
-    red: "0xeb6f92"
-    green: "0x31748f"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xebbcba"
-    white: "0xe0def4"
+    black:      '0x0c0c0c'
+    red:        '0xc50f1f'
+    green:      '0x13a10e'
+    yellow:     '0xc19c00'
+    blue:       '0x0037da'
+    magenta:    '0x881798'
+    cyan:       '0x3a96dd'
+    white:      '0xcccccc'
+
+  # Bright colors
   bright:
-    black: "0x6e6a86"
-    red: "0xeb6f92"
-    green: "0x31748f"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xebbcba"
-    white: "0xe0def4"
-  hints:
-    start:
-      foreground: "#908caa"
-      background: "#1f1d2e"
-    end:
-      foreground: "#6e6a86"
-      background: "#1f1d2e"
+    black:      '0x767676'
+    red:        '0xe74856'
+    green:      '0x16c60c'
+    yellow:     '0xf9f1a5'
+    blue:       '0x3b78ff'
+    magenta:    '0xb4009e'
+    cyan:       '0x61d6d6'
+    white:      '0xf2f2f2'
+
+
+  #colors:
+  #  primary:
+  #    background: "#1a1a1a"
+  #    foreground: "0xe0def4"
+  #  cursor:
+  #    text: "0xe0def4"
+  #    cursor: "0x524f67"
+  #  vi_mode_cursor:
+  #    text: "0xe0def4"
+  #    cursor: "0x524f67"
+  #  line_indicator:
+  #    foreground: None
+  #    background: None
+  #  selection:
+  #    text: "0xe0def4"
+  #    background: "0x403d52"
+  #  normal:
+  #    black: "0x26233a"
+  #    red: "0xeb6f92"
+  #    green: "0x31748f"
+  #    yellow: "0xf6c177"
+  #    blue: "0x9ccfd8"
+  #    magenta: "0xc4a7e7"
+  #    cyan: "0xebbcba"
+  #    white: "0xe0def4"
+  #  bright:
+  #    black: "0x6e6a86"
+  #    red: "0xeb6f92"
+  #    green: "0x31748f"
+  #    yellow: "0xf6c177"
+  #    blue: "0x9ccfd8"
+  #    magenta: "0xc4a7e7"
+  #    cyan: "0xebbcba"
+  #    white: "0xe0def4"
+  #  hints:
+  #    start:
+  #      foreground: "#908caa"
+  #      background: "#1f1d2e"
+  #    end:
+  #      foreground: "#6e6a86"
+  #      background: "#1f1d2e"
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
