@@ -11,9 +11,6 @@ window:
   padding:
     x: 4
     y: 0
-  decorations: none
-  startup_mode: Windowed
-  dynamic_title: true
 
 scrolling:
   history: 10000
@@ -24,13 +21,13 @@ mouse:
 
 font:
   normal:
-    family: CaskaydiaCove Nerd Font Mono
+    family: hack
     style: Regular
   bold:
-    family: CaskaydiaCove Nerd Font Mono
+    family: hack
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font Mono
+    family: hack
     style: Italic
   size: 9.5
   offset:
@@ -47,7 +44,7 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '#1a1a1a'
+    background: '#0A0A0A'
     foreground: '0xcccccc'
 
   # Normal colors
