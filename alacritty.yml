@@ -19,6 +19,26 @@ scrolling:
 mouse:
   hide_when_typing: true
 
+cursor:
+  #Cursor style
+  style: Beam
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    #shape: Block
+
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    #blinking: Off
+
+
 font:
   normal:
     family: hack
@@ -29,7 +49,7 @@ font:
   italic:
     family: hack
     style: Italic
-  size: 9.5
+  size: 12
   offset:
     x: 0
     y: 0
