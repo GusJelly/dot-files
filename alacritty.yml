@@ -41,15 +41,15 @@ cursor:
 
 font:
   normal:
-    family: hack
+    family: CaskaydiaCove Nerd Font Mono
     style: Regular
   bold:
-    family: hack
+    family: CaskaydiaCove Nerd Font Mono
     style: Bold
   italic:
-    family: hack
+    family: CaskaydiaCove Nerd Font Mono
     style: Italic
-  size: 12
+  size: 10.5
   offset:
     x: 0
     y: 0
@@ -64,7 +64,7 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '#0A0A0A'
+    background: '#1A1A1A'
     foreground: '0xcccccc'
 
   # Normal colors
