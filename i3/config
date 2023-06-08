@@ -2,7 +2,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:hack 9
+font pango:hack 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -46,7 +46,7 @@ bindsym $mod+Shift+q kill
 # start rofi(a program launcher)
 #bindsym $mod+d exec --no-startup-id rofi -show run
 bindsym $mod+d exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e bash -ic "{cmd} && read"'
-bindsym $mod+Shift+d exec --no-startup-id rofi -show window
+bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $mod+F4 exec --no-startup-id rofi -show p -modi p:rofi-power-menu
 
 # change focus
@@ -173,21 +173,20 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-	status_command ~/.local/bin/bumblebee-status -m cpu memory battery datetime layout\
+	status_command ~/.local/bin/bumblebee-status -m redshift cpu memory battery datetime layout\
 		pasink pasource -p datetime.format="%H:%M %a %d/%m/%Y" -t gruvbox
-
-    i3bar_command i3bar --transparency
+    #status_command i3status
 
     position top
 
-    workspace_min_width 21
+    #workspace_min_width 18
 
     colors {
-        background #161616
+        background #000000
         statusline #ffffff
-        focused_workspace  #ffffff #285577
+        focused_workspace  #285567 #285567 #ffffff
         active_workspace   #ffffff #333333
-        inactive_workspace #ffffff #222222
+        inactive_workspace #222222 #222222 #ffffff
         urgent_workspace   #ffffff #900000
     }
 }
@@ -196,7 +195,7 @@ default_border pixel 2
 gaps inner 0
 
 # class                 border  backgr. text    indicator child_border
-#client.focused          #07C8E6 #285577 #ffffff #2e9ef4   #07C8E6
+#client.focused          #F3BF76 #285577 #ffffff #2e9ef4   #F3BF76
 
 
 exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off
@@ -206,6 +205,10 @@ exec xinput --set-prop 12 'libinput Accel Profile Enabled' 0, 1
 exec xinput --set-prop 14 'libinput Accel Profile Enabled' 0, 1
 exec xinput --set-prop 15 'libinput Accel Profile Enabled' 0, 1
 
-exec nitrogen --restore
+#exec nitrogen --restore
 exec_always autotiling
 
+#polybar:
+#exec polybar
+
+exec_always redshift
