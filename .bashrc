@@ -14,7 +14,7 @@ export PATH
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
 
-source /home/marmelomaria/.config/fzf/key-bindings.bash
+source $HOME/.config/key-bindings.bash
 export __GL_SYNC_DISPLAY_DEVICE=DP-2
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
