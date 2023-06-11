@@ -1,6 +1,7 @@
 #/bin/sh
 
-nitrogen --restore
+nitrogen --restore &
 slstatus &
 mouse_accell_off &
+sxhkd &
 dwm
