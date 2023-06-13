@@ -17,6 +17,8 @@ export FZF_DEFAULT_COMMAND="fd --type f"
 source $HOME/.config/key-bindings.bash
 export __GL_SYNC_DISPLAY_DEVICE=DP-2
 
+EDITOR=nvim
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
@@ -35,3 +37,7 @@ alias ll='ls -la'
 
 eval "$(starship init bash)"
 . "$HOME/.cargo/env"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

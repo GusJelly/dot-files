@@ -1,5 +1,5 @@
 configuration {
-        font: "CaskaydiaCove Nerd Font Mono 10";
+        font: "CaskaydiaCove Nerd Font Mono 12";
     }
 //@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
 //@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
