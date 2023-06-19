@@ -70,9 +70,10 @@ bindkey '^e' edit-command-line
 
 
 # Gustavo aliases and exports and environment variables:
-alias ll='ls -la'
-alias r='ranger'
 alias t='tmux'
+alias ll='ls -l'
+alias pt='setxkbmap pt,pt'
+alias us='setxkbmap us,us'
 
 export PATH
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
@@ -82,7 +83,7 @@ source $HOME/.config/key-bindings.zsh
 export __GL_SYNC_DISPLAY_DEVICE=DP-2
 export EDITOR=nvim
 
-# Add this to your .bashrc, .zshrc or equivalent.
+# Make fff quit to current directory when executed with only f:
 # Run 'fff' with 'f' or whatever you decide to name the function.
 f() {
     fff "$@"
@@ -93,6 +94,7 @@ f() {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
