@@ -9,8 +9,8 @@ selection:
 window:
   opacity: 1.00
   padding:
-    x: 2
-    y: 0
+    x: 3
+    y: 2
 
 scrolling:
   history: 10000
@@ -24,16 +24,13 @@ cursor:
 
 font:
   normal:
-    family: MesloLGL Nerd Font Mono
-    #family: CaskaydiaCove Nerd Font Mono
+    family: CaskaydiaCove Nerd Font Mono
     style: Regular
   bold:
-    family: MesloLGL Nerd Font Mono
-    #family: CaskaydiaCove Nerd Font Mono
+    family: CaskaydiaCove Nerd Font Mono
     style: Bold
   italic:
-    family: MesloLGL Nerd Font Mono
-    #family: CaskaydiaCove Nerd Font Mono
+    family: CaskaydiaCove Nerd Font Mono
     style: Italic
   size: 10.5
   offset:
