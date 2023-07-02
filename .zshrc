@@ -83,6 +83,11 @@ source $HOME/.config/key-bindings.zsh
 export __GL_SYNC_DISPLAY_DEVICE=DP-2
 export EDITOR=nvim
 
+# Start tmux on every terminal emulator instance:
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+    exec tmux
+fi
+
 # Make fff quit to current directory when executed with only f:
 # Run 'fff' with 'f' or whatever you decide to name the function.
 f() {
@@ -97,4 +102,4 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
