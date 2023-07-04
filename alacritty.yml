@@ -21,6 +21,7 @@ mouse:
 
 cursor:
   thickness: 0.2
+  vi_mode_style: block
 
 font:
   normal:
