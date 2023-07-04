@@ -42,6 +42,10 @@ font:
 
 draw_bold_text_with_bright_colors: false
 
+# Open new terminal in current working directory:
+key_bindings:
+  - { key: Return,   mods: Alt|Shift, action: SpawnNewInstance }
+
 # Modus-Vivendi theme from emacs brother:
 colors:
   primary:
