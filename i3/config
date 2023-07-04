@@ -45,7 +45,7 @@ bindsym $mod+Shift+q kill
 
 # start rofi(a program launcher)
 #bindsym $mod+d exec --no-startup-id rofi -show run
-bindsym $mod+d exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e bash -ic "{cmd} && read"'
+bindsym $mod+p exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e bash -ic "{cmd} && read"'
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $mod+F4 exec --no-startup-id rofi -show p -modi p:rofi-power-menu
 
@@ -189,14 +189,16 @@ bar {
     }
 }
 
-default_border pixel 2
+default_border pixel 1
 gaps inner 0
 
 # class                 border  backgr. text    indicator child_border
 #client.focused          #F3BF76 #285577 #ffffff #2e9ef4   #F3BF76
 
-
 exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off
 
-exec_always xset r rate 250 30 &
+exec_always xset r rate 250 30
 exec mouse_accell_off
+
+# Change keyboard layout with alt+space:
+exec_always "setxkbmap -layout us,pt -option 'grp:alt_space_toggle'"
