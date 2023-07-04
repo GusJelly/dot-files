@@ -173,13 +173,11 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-	status_command ~/.local/bin/bumblebee-status -m redshift cpu memory battery datetime layout\
-		pasink pasource -p datetime.format="%H:%M %a %d/%m/%Y" -t gruvbox
-    #status_command i3status
+    status_command i3status
 
     position top
 
-    #workspace_min_width 18
+    workspace_min_width 20
 
     colors {
         background #000000
@@ -199,16 +197,6 @@ gaps inner 0
 
 
 exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off
-exec xinput --set-prop 14 'libinput Accel Profile Enabled' 0, 1
-exec xinput --set-prop 10 'libinput Accel Profile Enabled' 0, 1
-exec xinput --set-prop 12 'libinput Accel Profile Enabled' 0, 1
-exec xinput --set-prop 14 'libinput Accel Profile Enabled' 0, 1
-exec xinput --set-prop 15 'libinput Accel Profile Enabled' 0, 1
 
-#exec nitrogen --restore
-exec_always autotiling
-
-#polybar:
-#exec polybar
-
-exec_always redshift
+exec_always xset r rate 250 30 &
+exec mouse_accell_off

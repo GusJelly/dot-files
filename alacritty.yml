@@ -24,15 +24,15 @@ cursor:
 
 font:
   normal:
-    family: CaskaydiaCove Nerd Font Mono
+    family: Liberation Mono
     style: Regular
   bold:
-    family: CaskaydiaCove Nerd Font Mono
+    family: Liberation Mono
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font Mono
+    family: Liberation Mono
     style: Italic
-  size: 10.5
+  size: 9
   offset:
     x: 0
     y: 0
@@ -42,35 +42,73 @@ font:
 
 draw_bold_text_with_bright_colors: false
 
-
-# Campbell (Windows 10 default)
+# Modus-Vivendi theme from emacs brother:
 colors:
-  # Default colors
   primary:
-    background: '0x0c0c0c'
-    foreground: '0xcccccc'
-
+    background: "#000000"
+    foreground: "#ffffff"
+  # Bright and dim foreground colors
+    dim_foreground: "#1e1e1e"
+    bright_foreground: "#ffffff"
   # Normal colors
   normal:
-    black:      '0x0c0c0c'
-    red:        '0xc50f1f'
-    green:      '0x13a10e'
-    yellow:     '0xc19c00'
-    blue:       '0x0037da'
-    magenta:    '0x881798'
-    cyan:       '0x3a96dd'
-    white:      '0xcccccc'
-
+    black:   "#000000"
+    red:     "#ff5f59"
+    green:   "#44bc44"
+    yellow:  "#d0bc00"
+    blue:    "#2fafff"
+    magenta: "#feacd0"
+    cyan:    "#00d3d0"
+    white:   "#ffffff"
   # Bright colors
   bright:
-    black:      '0x767676'
-    red:        '0xe74856'
-    green:      '0x16c60c'
-    yellow:     '0xf9f1a5'
-    blue:       '0x3b78ff'
-    magenta:    '0xb4009e'
-    cyan:       '0x61d6d6'
-    white:      '0xf2f2f2'
+    black:   "#000000"
+    red:     "#ff5f5f"
+    green:   "#44df44"
+    yellow:  "#efef00"
+    blue:    "#338fff"
+    magenta: "#ff66ff"
+    cyan:    "#9ac8e0"
+    white:   "#ffffff"
+  # Dim colors
+  dim:
+    black:   "#000000"
+    red:     "#ff9580"
+    green:   "#88ca9f"
+    yellow:  "#d2b580"
+    blue:    "#82b0ec"
+    magenta: "#caa6df"
+    cyan:    "#9ac8e0"
+    white:   "#989898"
+
+## Campbell (Windows 10 default)
+#colors:
+#  # Default colors
+#  primary:
+#    background: '0x0c0c0c'
+#    foreground: '0xcccccc'
+#
+#  # Normal colors
+#  normal:
+#    black:      '0x0c0c0c'
+#    red:        '0xc50f1f'
+#    green:      '0x13a10e'
+#    yellow:     '0xc19c00'
+#    blue:       '0x0037da'
+#    magenta:    '0x881798'
+#    cyan:       '0x3a96dd'
+#    white:      '0xcccccc'
+#
+#  # Bright colors
+#  bright:
+#    black:      '0x767676'
+#    red:        '0xe74856'
+#    green:      '0x16c60c'
+#    yellow:     '0xf9f1a5'
+#    blue:       '0x3b78ff'
+#    magenta:    '0xb4009e'
+#    cyan:       '0x61d6d6'
+#    white:      '0xf2f2f2'
 
 
 ## Colors (Gruvbox dark)
