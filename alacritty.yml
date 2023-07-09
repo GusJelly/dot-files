@@ -33,7 +33,7 @@ font:
   italic:
     family: CaskaydiaCove Nerd Font Mono
     style: Italic
-  size: 9.5
+  size: 10.5
   offset:
     x: 0
     y: 0
@@ -47,83 +47,83 @@ draw_bold_text_with_bright_colors: false
 key_bindings:
   - { key: Return,   mods: Alt|Shift, action: SpawnNewInstance }
 
-## Modus-Vivendi theme from emacs brother:
-#colors:
-#  primary:
-#    background: "#000000"
-#    foreground: "#ffffff"
-#  # Bright and dim foreground colors
-#    dim_foreground: "#1e1e1e"
-#    bright_foreground: "#ffffff"
-#  # Normal colors
-#  normal:
-#    black:   "#000000"
-#    red:     "#ff5f59"
-#    green:   "#44bc44"
-#    yellow:  "#d0bc00"
-#    blue:    "#2fafff"
-#    magenta: "#feacd0"
-#    cyan:    "#00d3d0"
-#    white:   "#ffffff"
-#  # Bright colors
-#  bright:
-#    black:   "#000000"
-#    red:     "#ff5f5f"
-#    green:   "#44df44"
-#    yellow:  "#efef00"
-#    blue:    "#338fff"
-#    magenta: "#ff66ff"
-#    cyan:    "#9ac8e0"
-#    white:   "#ffffff"
-#  # Dim colors
-#  dim:
-#    black:   "#000000"
-#    red:     "#ff9580"
-#    green:   "#88ca9f"
-#    yellow:  "#d2b580"
-#    blue:    "#82b0ec"
-#    magenta: "#caa6df"
-#    cyan:    "#9ac8e0"
-#    white:   "#989898"
-
-# modus-operandi (Light theme)
+# Modus-Vivendi theme from emacs brother:
 colors:
   primary:
-    background: "#ffffff"
-    foreground: "#000000"   
+    background: "#000000"
+    foreground: "#ffffff"
   # Bright and dim foreground colors
-    dim_foreground: "#595959"
+    dim_foreground: "#1e1e1e"
     bright_foreground: "#ffffff"
   # Normal colors
   normal:
     black:   "#000000"
-    red:     "#a60000"
-    green:   "#006800"
-    yellow:  "#6f5500"
-    blue:    "#0031a9"
-    magenta: "#721045"
-    cyan:    "#005e8b"
+    red:     "#ff5f59"
+    green:   "#44bc44"
+    yellow:  "#d0bc00"
+    blue:    "#2fafff"
+    magenta: "#feacd0"
+    cyan:    "#00d3d0"
     white:   "#ffffff"
   # Bright colors
   bright:
     black:   "#000000"
-    red:     "#d00000"
-    green:   "#008900"
-    yellow:  "#808000"
-    blue:    "#0000ff"
-    magenta: "#dd22dd"
-    cyan:    "#008899"
+    red:     "#ff5f5f"
+    green:   "#44df44"
+    yellow:  "#efef00"
+    blue:    "#338fff"
+    magenta: "#ff66ff"
+    cyan:    "#9ac8e0"
     white:   "#ffffff"
   # Dim colors
   dim:
-    black:   "#f0f0f0"
-    red:     "#7f0000"
-    green:   "#2a5045"
-    yellow:  "#624416"
-    blue:    "#003497"
-    magenta: "#7c318f"
-    cyan:    "#005077"
-    white:   "#595959"
+    black:   "#000000"
+    red:     "#ff9580"
+    green:   "#88ca9f"
+    yellow:  "#d2b580"
+    blue:    "#82b0ec"
+    magenta: "#caa6df"
+    cyan:    "#9ac8e0"
+    white:   "#989898"
+
+## modus-operandi (Light theme)
+#colors:
+#  primary:
+#    background: "#ffffff"
+#    foreground: "#000000"   
+#  # Bright and dim foreground colors
+#    dim_foreground: "#595959"
+#    bright_foreground: "#ffffff"
+#  # Normal colors
+#  normal:
+#    black:   "#000000"
+#    red:     "#a60000"
+#    green:   "#006800"
+#    yellow:  "#6f5500"
+#    blue:    "#0031a9"
+#    magenta: "#721045"
+#    cyan:    "#005e8b"
+#    white:   "#ffffff"
+#  # Bright colors
+#  bright:
+#    black:   "#000000"
+#    red:     "#d00000"
+#    green:   "#008900"
+#    yellow:  "#808000"
+#    blue:    "#0000ff"
+#    magenta: "#dd22dd"
+#    cyan:    "#008899"
+#    white:   "#ffffff"
+#  # Dim colors
+#  dim:
+#    black:   "#f0f0f0"
+#    red:     "#7f0000"
+#    green:   "#2a5045"
+#    yellow:  "#624416"
+#    blue:    "#003497"
+#    magenta: "#7c318f"
+#    cyan:    "#005077"
+#    white:   "#595959"
 
 ## Campbell (Windows 10 default)
 #colors:
