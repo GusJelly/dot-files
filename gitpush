@@ -11,7 +11,7 @@ fi
 
 if [ -z "$message" ]; then
     temp_file=$(mktemp)
-    vim "$temp_file"
+    nvim "$temp_file"
     message=$(cat "$temp_file")
     rm "$temp_file"
 fi
