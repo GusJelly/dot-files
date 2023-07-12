@@ -1,7 +1,5 @@
+# Alacritty config
 live_config_reload: true
-
-env:
-  TERM: xterm-256color
 
 selection:
   save_to_clipboard: true
@@ -22,6 +20,7 @@ mouse:
 cursor:
   thickness: 0.25
   vi_mode_style: block
+  blinking: never
 
 font:
   normal:
@@ -33,7 +32,7 @@ font:
   italic:
     family: CaskaydiaCove Nerd Font Mono
     style: Italic
-  size: 10.5
+  size: 13.5
   offset:
     x: 0
     y: 0
@@ -47,83 +46,152 @@ draw_bold_text_with_bright_colors: false
 key_bindings:
   - { key: Return,   mods: Alt|Shift, action: SpawnNewInstance }
 
-# Modus-Vivendi theme from emacs brother:
+
+### COLORSCHEMES ###
+
 colors:
+  # Default colors
   primary:
-    background: "#000000"
-    foreground: "#ffffff"
-  # Bright and dim foreground colors
-    dim_foreground: "#1e1e1e"
-    bright_foreground: "#ffffff"
+    # background: '0x1e2127'
+    background: '#282C34'
+    foreground: '0xabb2bf'
+
+    # Bright and dim foreground colors
+    #
+    # The dimmed foreground color is calculated automatically if it is not present.
+    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
+    # is `false`, the normal foreground color will be used.
+    dim_foreground: '0x9a9a9a'
+    bright_foreground: '0xe6efff'
+
+  # Cursor colors
+  #
+  # Colors which should be used to draw the terminal cursor. If these are unset,
+  # the cursor color will be the inverse of the cell color.
+  cursor:
+    text: '0x000000'
+    cursor: '0xffffff'
+
   # Normal colors
   normal:
-    black:   "#000000"
-    red:     "#ff5f59"
-    green:   "#44bc44"
-    yellow:  "#d0bc00"
-    blue:    "#2fafff"
-    magenta: "#feacd0"
-    cyan:    "#00d3d0"
-    white:   "#ffffff"
+    black:   '0x1e2127'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0x828791'
+
   # Bright colors
   bright:
-    black:   "#000000"
-    red:     "#ff5f5f"
-    green:   "#44df44"
-    yellow:  "#efef00"
-    blue:    "#338fff"
-    magenta: "#ff66ff"
-    cyan:    "#9ac8e0"
-    white:   "#ffffff"
-  # Dim colors
-  dim:
-    black:   "#000000"
-    red:     "#ff9580"
-    green:   "#88ca9f"
-    yellow:  "#d2b580"
-    blue:    "#82b0ec"
-    magenta: "#caa6df"
-    cyan:    "#9ac8e0"
-    white:   "#989898"
+    black:   '0x5c6370'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0xe6efff'
 
-## modus-operandi (Light theme)
-#colors:
-#  primary:
-#    background: "#ffffff"
-#    foreground: "#000000"   
-#  # Bright and dim foreground colors
-#    dim_foreground: "#595959"
-#    bright_foreground: "#ffffff"
-#  # Normal colors
-#  normal:
-#    black:   "#000000"
-#    red:     "#a60000"
-#    green:   "#006800"
-#    yellow:  "#6f5500"
-#    blue:    "#0031a9"
-#    magenta: "#721045"
-#    cyan:    "#005e8b"
-#    white:   "#ffffff"
-#  # Bright colors
-#  bright:
-#    black:   "#000000"
-#    red:     "#d00000"
-#    green:   "#008900"
-#    yellow:  "#808000"
-#    blue:    "#0000ff"
-#    magenta: "#dd22dd"
-#    cyan:    "#008899"
-#    white:   "#ffffff"
-#  # Dim colors
-#  dim:
-#    black:   "#f0f0f0"
-#    red:     "#7f0000"
-#    green:   "#2a5045"
-#    yellow:  "#624416"
-#    blue:    "#003497"
-#    magenta: "#7c318f"
-#    cyan:    "#005077"
-#    white:   "#595959"
+  # Dim colors
+  #
+  # If the dim colors are not set, they will be calculated automatically based
+  # on the `normal` colors.
+  dim:
+    black:   '0x1e2127'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0x828791'
+
+  # Indexed Colors
+  #
+  # The indexed colors include all colors from 16 to 256.
+  # When these are not set, they're filled with sensible defaults.
+  # indexed_colors:
+  #   - { index: 16, color: '0x000000' }
+  
+    ## Modus-Vivendi theme from emacs brother:
+    #colors:
+    #  primary:
+    #    background: "#000000"
+    #    foreground: "#ffffff"
+    #  # Bright and dim foreground colors
+    #    dim_foreground: "#1e1e1e"
+    #    bright_foreground: "#ffffff"
+    #  # Normal colors
+    #  normal:
+    #    black:   "#000000"
+    #    red:     "#ff5f59"
+    #    green:   "#44bc44"
+    #    yellow:  "#d0bc00"
+    #    blue:    "#2fafff"
+    #    magenta: "#feacd0"
+    #    cyan:    "#00d3d0"
+    #    white:   "#ffffff"
+    #  # Bright colors
+    #  bright:
+    #    black:   "#000000"
+    #    red:     "#ff5f5f"
+    #    green:   "#44df44"
+    #    yellow:  "#efef00"
+    #    blue:    "#338fff"
+    #    magenta: "#ff66ff"
+    #    cyan:    "#9ac8e0"
+    #    white:   "#ffffff"
+    #  # Dim colors
+    #  dim:
+    #    black:   "#000000"
+    #    red:     "#ff9580"
+    #    green:   "#88ca9f"
+    #    yellow:  "#d2b580"
+    #    blue:    "#82b0ec"
+    #    magenta: "#caa6df"
+    #    cyan:    "#9ac8e0"
+    #    white:   "#989898"
+
+    ## modus-operandi (Light theme)
+    #colors:
+    #  primary:
+    #    background: "#ffffff"
+    #    foreground: "#000000"   
+    #  # Bright and dim foreground colors
+    #    dim_foreground: "#595959"
+    #    bright_foreground: "#ffffff"
+    #  # Normal colors
+    #  normal:
+    #    black:   "#000000"
+    #    red:     "#a60000"
+    #    green:   "#006800"
+    #    yellow:  "#6f5500"
+    #    blue:    "#0031a9"
+    #    magenta: "#721045"
+    #    cyan:    "#005e8b"
+    #    white:   "#ffffff"
+    #  # Bright colors
+    #  bright:
+    #    black:   "#000000"
+    #    red:     "#d00000"
+    #    green:   "#008900"
+    #    yellow:  "#808000"
+    #    blue:    "#0000ff"
+    #    magenta: "#dd22dd"
+    #    cyan:    "#008899"
+    #    white:   "#ffffff"
+    #  # Dim colors
+    #  dim:
+    #    black:   "#f0f0f0"
+    #    red:     "#7f0000"
+    #    green:   "#2a5045"
+    #    yellow:  "#624416"
+    #    blue:    "#003497"
+    #    magenta: "#7c318f"
+    #    cyan:    "#005077"
+    #    white:   "#595959"
 
 ## Campbell (Windows 10 default)
 #colors:
