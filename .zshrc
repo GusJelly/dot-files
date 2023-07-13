@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+# Personal stuff:
 # vi mode
 bindkey -v
 export KEYTIMEOUT=1
@@ -116,7 +117,6 @@ alias ll='ls -l'
 alias pt='setxkbmap pt,pt'
 alias us='setxkbmap us,us'
 alias nf='nvim $(fzf)'
-alias r='ranger'
 alias night='redshift -P -O 3500k'
 
 # DoomEmacs:
@@ -137,6 +137,9 @@ f() {
     fff "$@"
     cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
 }
+
+# Make ranger exit into current directory:
+alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
