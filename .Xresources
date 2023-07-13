@@ -1,73 +1,54 @@
-! Simple Terminal theme:
+! Base16 Gruvbox dark, hard
+! Scheme: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
-! Dawn:
-*background: #faf4ed 
-*foreground: #575279
+#define base00 #1d2021
+#define base01 #3c3836
+#define base02 #504945
+#define base03 #665c54
+#define base04 #bdae93
+#define base05 #d5c4a1
+#define base06 #ebdbb2
+#define base07 #fbf1c7
+#define base08 #fb4934
+#define base09 #fe8019
+#define base0A #fabd2f
+#define base0B #b8bb26
+#define base0C #8ec07c
+#define base0D #83a598
+#define base0E #d3869b
+#define base0F #d65d0e
 
-! overlay + muted
-*color0: #f2e9e1
-*color8: #9893a5
+*.foreground:   base05
+#ifdef background_opacity
+*.background:   [background_opacity]base00
+#else
+*.background:   base00
+#endif
+*.cursorColor:  base05
 
-! love
-*color1: #b4637a
-*color9: #b4637a
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
 
-! foam
-*color2: #56949f
-*color10: #56949f
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
 
-! gold
-*color3: #ea9d34
-*color11: #ea9d34
-
-! pine
-*color4: #286983
-*color12: #286983
-
-! iris
-*color5: #907aa9
-*color13: #907aa9
-
-! rose
-*color6: #d7827e
-*color14: #d7827e
-
-! text
-*color7: #575279
-*color15: #575279
-
-!! Default:
-!*background: #191724 
-!*foreground: #e0def4
-!
-!! overlay + muted
-!*color0: #26233a
-!*color8: #6e6a86
-!
-!! love
-!*color1: #eb6f92
-!*color9: #eb6f92
-!
-!! foam
-!*color2: #9ccfd8
-!*color10: #9ccfd8
-!
-!! gold
-!*color3: #f6c177
-!*color11: #f6c177
-!
-!! pine
-!*color4: #31748f
-!*color12: #31748f
-!
-!! iris
-!*color5: #c4a7e7
-!*color13: #c4a7e7
-!
-!! rose
-!*color6: #ebbcba
-!*color14: #ebbcba
-!
-!! text
-!*color7: #e0def4
-!*color15: #e0def4
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
