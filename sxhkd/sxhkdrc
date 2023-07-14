@@ -1,6 +1,2 @@
-# Change to portuguese layout:
-super + shift + p
-    setxkbmap pt,pt
-
-super + shift + u
-    setxkbmap us,us
+super + space
+	setxkbmap {pt, us}
