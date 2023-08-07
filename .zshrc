@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting common-aliases)
+plugins=(git common-aliases)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,16 +108,17 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Gustavo aliases and exports and environment variables:
 alias ll='ls -l'
 alias pt='setxkbmap pt,pt'
 alias us='setxkbmap us,us'
 alias nf='nvim $(fzf)'
 alias night='redshift -P -O 3500k'
+alias n="nvim"
+alias db="distrobox"
+alias ta="tmux attach"
+alias t="tmux"
+alias lg="lazygit"
 
 # DoomEmacs:
 alias doom='~/.config/emacs/bin/doom'
@@ -127,7 +128,6 @@ export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
 
 source $HOME/.config/key-bindings.zsh
-export __GL_SYNC_DISPLAY_DEVICE=DP-2
 export EDITOR=nvim
 export VISUAL=nvim
 
@@ -141,10 +141,8 @@ f() {
 # Make ranger exit into current directory:
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
