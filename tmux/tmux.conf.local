@@ -358,6 +358,9 @@ set -sg repeat-time 0                   # increase repeat timeout
 set -g base-index 0           # start windows numbering at 1
 setw -g pane-base-index 0     # make pane numbering consistent with windows
 
+set -g default-terminal "tmux-256color"
+set -ag terminal-overrides ",xterm-256color:RGB"
+
 # start with mouse mode enabled
 #set -g mouse on
 
