@@ -65,7 +65,7 @@ tmux_conf_24b_colour=auto
 #   - tmux_conf_theme_mouse
 #   - tmux_conf_theme_root
 #   - tmux_conf_theme_synchronized
-tmux_conf_theme=enabled
+tmux_conf_theme=disabled
 
 # default theme
 tmux_conf_theme_colour_1="#080808"    # dark gray
@@ -358,7 +358,8 @@ set -sg repeat-time 0                   # increase repeat timeout
 set -g base-index 0           # start windows numbering at 1
 setw -g pane-base-index 0     # make pane numbering consistent with windows
 
-set -g default-terminal "tmux-256color"
+set -g default-terminal "foot"
+# set -g default-terminal "tmux-256color"
 set -ag terminal-overrides ",xterm-256color:RGB"
 
 # start with mouse mode enabled
@@ -425,10 +426,11 @@ tmux_conf_uninstall_plugins_on_reload=true
 #set -g @continuum-restore 'on'
 
 # available plugins: battery, cpu-usage, git, gpu-usage, ram-usage, network, network-bandwidth, network-ping, attached-clients, network-vpn, weather, time, spotify-tui, kubernetes-context
-set -g @plugin 'dracula/tmux'
-set -g @dracula-plugins "cpu-usage ram-usage"
-set -g @dracula-show-powerline true
-
+# set -g @plugin 'dracula/tmux'
+# set -g @dracula-plugins "ram-usage time"
+# set -g @dracula-show-powerline true
+# set -g @plugin 'egel/tmux-gruvbox'
+# set -g @tmux-gruvbox 'dark' # or 'light'
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the
