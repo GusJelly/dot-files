@@ -5,7 +5,9 @@ xterm*background: black
 xterm*foreground: white
 xterm*vt100.locale: false
 xterm*vt100.utf8: true
-xterm*faceName: NotoSansM Nerd Font Mono
+! xterm*faceName: NotoSansM Nerd Font Mono
+xterm*faceName: CaskaydiaCove Nerd Font Mono
+xterm*faceSize: 9
 xterm*ScrollBar: false
 ! xterm*bufferedFPS: 175
 
@@ -18,37 +20,37 @@ xterm*VT100.Translations: #override \n\
 
 ! special
 xterm*.foreground:   #ffffff
-xterm*.background:   #0f0f0f
+xterm*.background:   #1f1f1f
 xterm*.cursorColor:  #ffffff
 
-! ! black
-! xterm*.color0:       #090300
-! xterm*.color8:       #5c5855
-!
-! ! red
-! xterm*.color1:       #db2d20
-! xterm*.color9:       #db2d20
-!
-! ! green
-! xterm*.color2:       #01a252
-! xterm*.color10:      #01a252
-!
-! ! yellow
-! xterm*.color3:       #fded02
-! xterm*.color11:      #fded02
-!
-! ! blue
-! xterm*.color4:       #01a0e4
-! xterm*.color12:      #01a0e4
-!
-! ! magenta
-! xterm*.color5:       #a16a94
-! xterm*.color13:      #a16a94
-!
-! ! cyan
-! xterm*.color6:       #b5e4f4
-! xterm*.color14:      #b5e4f4
-!
-! ! white
-! xterm*.color7:       #a5a2a2
-! xterm*.color15:      #f7f7f7
+! black
+*.color0:       #0f0f0f
+*.color8:       #5c5855
+
+! red
+*.color1:       #db2d20
+*.color9:       #db2d20
+
+! green
+*.color2:       #01a252
+*.color10:      #01a252
+
+! yellow
+*.color3:       #fded02
+*.color11:      #fded02
+
+! blue
+*.color4:       #01a0e4
+*.color12:      #01a0e4
+
+! magenta
+*.color5:       #a16a94
+*.color13:      #a16a94
+
+! cyan
+*.color6:       #b5e4f4
+*.color14:      #b5e4f4
+
+! white
+*.color7:       #a5a2a2
+*.color15:      #f7f7f7

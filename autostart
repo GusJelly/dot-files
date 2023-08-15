@@ -4,5 +4,5 @@ nitrogen --restore &
 slstatus &
 mouse_accell_off &
 sxhkd &
-xset r rate 250 30 &
+xset r rate 200 30 &
 dwm
