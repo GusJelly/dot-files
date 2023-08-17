@@ -123,7 +123,10 @@ alias lg="lazygit"
 # DoomEmacs:
 alias doom='~/.config/emacs/bin/doom'
 
+export LOCAL="$HOME/.local/bin"
 export PATH
+export CGO_ENABLED=1
+export PATH=$PATH:$LOCAL
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
 
@@ -146,3 +149,6 @@ alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# opam configuration
+[[ ! -r /home/gustavo/.opam/opam-init/init.zsh ]] || source /home/gustavo/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
