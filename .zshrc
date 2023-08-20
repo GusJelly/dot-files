@@ -124,8 +124,10 @@ alias lg="lazygit"
 alias doom='~/.config/emacs/bin/doom'
 
 export LOCAL="$HOME/.local/bin"
+export GO="/usr/local/go/bin"
 export PATH
 export CGO_ENABLED=1
+export PATH=$PATH:$GO
 export PATH=$PATH:$LOCAL
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
@@ -152,3 +154,7 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # opam configuration
 [[ ! -r /home/gustavo/.opam/opam-init/init.zsh ]] || source /home/gustavo/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

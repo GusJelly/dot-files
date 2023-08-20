@@ -41,6 +41,7 @@
 ** Chess-App
    DEADLINE: <2023-09-01 Fri>
    An app that lets you play over the board chess
+*** TODO Move solver
 *** TODO possible move calculation per position
 *** DONE figure out how the app works fundamentaly
     CLOSED: [2023-08-12 Sat 18:33]

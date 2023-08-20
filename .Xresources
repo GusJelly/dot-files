@@ -1,13 +1,14 @@
 !! xterm
 xterm*termName: xterm-256color
 xterm*selectToClipboard: true
-xterm*background: black
-xterm*foreground: white
-xterm*vt100.locale: false
+xterm*vt100.locale: true
 xterm*vt100.utf8: true
 ! xterm*faceName: NotoSansM Nerd Font Mono
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm.vt100.metaSendsEscape: true
 xterm*faceName: CaskaydiaCove Nerd Font Mono
-xterm*faceSize: 11
+xterm*faceSize: 10
 xterm*ScrollBar: false
 ! xterm*bufferedFPS: 175
 
@@ -17,78 +18,78 @@ xterm*VT100.Translations: #override \n\
   Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
   Ctrl <Key> minus: smaller-vt-font() \n\
   Ctrl <Key> plus: larger-vt-font() \n\
-  Ctrl <Key> 0: default-vt-font()
+  Ctrl <Key>c: string("Alt + C pressed")
 
-! ! special
-! xterm*.foreground:   #ffffff
-! xterm*.background:   #1f1f1f
-! xterm*.cursorColor:  #ffffff
+! special
+xterm*.foreground:   #ffffff
+xterm*.background:   #282C34
+xterm*.cursorColor:  #ffffff
+
+! black
+*.color0:       #282C34
+*.color8:       #5c5855
+
+! red
+*.color1:       #db2d20
+*.color9:       #db2d20
+
+! green
+*.color2:       #01a252
+*.color10:      #01a252
+
+! yellow
+*.color3:       #fded02
+*.color11:      #fded02
+
+! blue
+*.color4:       #01a0e4
+*.color12:      #01a0e4
+
+! magenta
+*.color5:       #a16a94
+*.color13:      #a16a94
+
+! cyan
+*.color6:       #b5e4f4
+*.color14:      #b5e4f4
+
+! white
+*.color7:       #a5a2a2
+*.color15:      #f7f7f7
+
+! ! ! Rose-Pine
+! *background: #191724 
+! *foreground: #e0def4
 !
-! ! black
-! *.color0:       #0f0f0f
-! *.color8:       #5c5855
+! ! overlay + muted
+! ! *color0: #191724
+! *color0: #0f0f0f
+! *color8: #6e6a86
 !
-! ! red
-! *.color1:       #db2d20
-! *.color9:       #db2d20
+! ! love
+! *color1: #eb6f92
+! *color9: #eb6f92
 !
-! ! green
-! *.color2:       #01a252
-! *.color10:      #01a252
+! ! foam
+! *color2: #9ccfd8
+! *color10: #9ccfd8
 !
-! ! yellow
-! *.color3:       #fded02
-! *.color11:      #fded02
+! ! gold
+! *color3: #f6c177
+! *color11: #f6c177
 !
-! ! blue
-! *.color4:       #01a0e4
-! *.color12:      #01a0e4
+! ! pine
+! *color4: #31748f
+! *color12: #31748f
 !
-! ! magenta
-! *.color5:       #a16a94
-! *.color13:      #a16a94
+! ! iris
+! *color5: #c4a7e7
+! *color13: #c4a7e7
 !
-! ! cyan
-! *.color6:       #b5e4f4
-! *.color14:      #b5e4f4
+! ! rose
+! *color6: #ebbcba
+! *color14: #ebbcba
 !
-! ! white
-! *.color7:       #a5a2a2
-! *.color15:      #f7f7f7
-
-! ! Rose-Pine
-*background: #191724 
-*foreground: #e0def4
-
-! overlay + muted
-! *color0: #191724
-*color0: #0f0f0f
-*color8: #6e6a86
-
-! love
-*color1: #eb6f92
-*color9: #eb6f92
-
-! foam
-*color2: #9ccfd8
-*color10: #9ccfd8
-
-! gold
-*color3: #f6c177
-*color11: #f6c177
-
-! pine
-*color4: #31748f
-*color12: #31748f
-
-! iris
-*color5: #c4a7e7
-*color13: #c4a7e7
-
-! rose
-*color6: #ebbcba
-*color14: #ebbcba
-
-! text
-*color7: #e0def4
-*color15: #e0def4
+! ! text
+! *color7: #e0def4
+! *color15: #e0def4
