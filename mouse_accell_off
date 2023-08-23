@@ -5,4 +5,3 @@ exec xinput --set-prop 10 'libinput Accel Profile Enabled' 0, 1
 exec xinput --set-prop 12 'libinput Accel Profile Enabled' 0, 1
 exec xinput --set-prop 14 'libinput Accel Profile Enabled' 0, 1
 exec xinput --set-prop 15 'libinput Accel Profile Enabled' 0, 1
-
