@@ -120,41 +120,39 @@ alias ta="tmux attach"
 alias t="tmux"
 alias lg="lazygit"
 
-# DoomEmacs:
-alias doom='~/.config/emacs/bin/doom'
+# neovim quick navigation for editing:
+alias nc="cd $HOME/.config/nvim; nvim ."
+alias ac="cd $HOME/.config; nvim alacritty.yml"
+alias zshrc="cd $HOME; nvim .zshrc"
+alias notes="cd $HOME/vimwiki; nvim index.md"
+alias diary="cd $HOME/vimwiki/diary; nvim diary.md"
 
+# PATH fuckery:
 export LOCAL="$HOME/.local/bin"
 export GO="/usr/local/go/bin"
 export PATH
 export CGO_ENABLED=1
 export PATH=$PATH:$GO
 export PATH=$PATH:$LOCAL
+export PATH=$PATH:"/home/gustavo/idea-IC-232.8660.185/bin/"
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
 
+# key-bindings for fzf and default nvim editor:
 source $HOME/.config/key-bindings.zsh
 export EDITOR=nvim
 export VISUAL=nvim
 
-# Make fff quit to current directory when executed with only f:
-# Run 'fff' with 'f' or whatever you decide to name the function.
-f() {
-    fff "$@"
-    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
-}
-
 # Make ranger exit into current directory:
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # opam configuration
 [[ ! -r /home/gustavo/.opam/opam-init/init.zsh ]] || source /home/gustavo/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
+# Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
