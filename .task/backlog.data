@@ -1,0 +1,72 @@
+{"description":"**Talk** to ***mom***","entry":"20230823T130249Z","modified":"20230823T130249Z","status":"pending","uuid":"7d9bcf0f-898c-42cc-803a-db69655544e0"}
+{"description":"Work on the *Java* project","entry":"20230823T130249Z","modified":"20230823T130249Z","status":"pending","uuid":"69ef9a9e-8182-4027-8dda-f607069d9050"}
+{"description":"Start *Outsystems* project","entry":"20230823T130249Z","modified":"20230823T130249Z","status":"pending","uuid":"c1d1ff33-e3c0-494c-9555-efa770d05ecd"}
+{"description":"Buy Food for grandma","entry":"20230823T130249Z","modified":"20230823T130249Z","status":"pending","uuid":"b212176d-0860-48e1-8344-1e8b4cca2e06"}
+{"description":"Talk to dad about concerta medication","entry":"20230823T130249Z","modified":"20230823T130249Z","status":"pending","uuid":"7dd42f33-5073-4baa-b623-90f9f2c1c189"}
+{"description":"**Talk** to ***mom***","entry":"20230823T130249Z","modified":"20230823T130432Z","start":"20230823T130432Z","status":"pending","uuid":"7d9bcf0f-898c-42cc-803a-db69655544e0"}
+{"description":"**Talk** to ***mom***","entry":"20230823T130249Z","modified":"20230823T130441Z","status":"pending","uuid":"7d9bcf0f-898c-42cc-803a-db69655544e0"}
+{"description":"Work on the Chess app","entry":"20230823T135151Z","modified":"20230823T135151Z","status":"pending","uuid":"89ed9a71-3f91-458c-a058-d7d5a67274c5"}
+{"description":"Talk to mom","entry":"20230823T135151Z","modified":"20230823T135151Z","status":"pending","uuid":"66f3e173-824c-439c-a649-d8f44122991f"}
+{"description":"Work on the Chess app","entry":"20230823T135151Z","modified":"20230823T135233Z","status":"pending","uuid":"89ed9a71-3f91-458c-a058-d7d5a67274c5","annotations":[{"entry":"20230823T135233Z","description":"wiki: \/home\/gustavo\/vimwiki\/diary\/2023-08-24.md"}]}
+{"description":"Water the garden","entry":"20230823T174108Z","modified":"20230823T174108Z","status":"pending","uuid":"6e241150-9a39-4c1d-8efb-88db3a7b2232"}
+{"description":"**Talk** to ***mom***","entry":"20230823T174108Z","modified":"20230823T174108Z","status":"pending","uuid":"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"}
+{"description":"Work on the *Java* project","entry":"20230823T174108Z","modified":"20230823T174108Z","status":"pending","uuid":"4e76f500-7d12-4932-a494-3b8120ce16ad"}
+{"description":"Start *Outsystems* project","entry":"20230823T174108Z","modified":"20230823T174108Z","status":"pending","uuid":"88dc048d-bf32-4412-810b-cd4e1cffabbe"}
+{"description":"Buy Food for grandma","end":"20230823T174108Z","entry":"20230823T174108Z","modified":"20230823T174108Z","status":"completed","uuid":"fa766ab8-754b-400a-9534-ad725e32edce"}
+{"description":"Talk to dad about *concerta* medication","entry":"20230823T174109Z","modified":"20230823T174109Z","status":"pending","uuid":"cdbdbe67-c431-4227-b5fc-408e25914ae8"}
+{"description":"Work on the Chess app","entry":"20230823T174144Z","modified":"20230823T174144Z","status":"pending","uuid":"547a983c-012e-4ae5-be55-6ec7ff242b37"}
+{"description":"Talk to mom","entry":"20230823T174145Z","modified":"20230823T174145Z","status":"pending","uuid":"1b51c686-7f0f-4d12-aa06-4933d295532b"}
+{"description":"Buy Food for grandma","entry":"20230823T174108Z","modified":"20230823T174241Z","status":"pending","uuid":"fa766ab8-754b-400a-9534-ad725e32edce"}
+{"description":"Buy Food for grandma","end":"20230823T174242Z","entry":"20230823T174108Z","modified":"20230823T174242Z","status":"completed","uuid":"fa766ab8-754b-400a-9534-ad725e32edce"}
+{"description":"**Talk** to ***mom***","entry":"20230823T174108Z","modified":"20230823T175123Z","start":"20230823T175123Z","status":"pending","uuid":"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"}
+{"description":"Talk to dad about *concerta* medication","entry":"20230823T174109Z","modified":"20230823T175125Z","start":"20230823T175125Z","status":"pending","uuid":"cdbdbe67-c431-4227-b5fc-408e25914ae8"}
+{"description":"Talk to dad about *concerta* medication","end":"20230823T182240Z","entry":"20230823T174109Z","modified":"20230823T182240Z","status":"completed","uuid":"cdbdbe67-c431-4227-b5fc-408e25914ae8"}
+{"description":"**Talk** to ***mom***","end":"20230823T183034Z","entry":"20230823T174108Z","modified":"20230823T183034Z","status":"completed","uuid":"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"}
+{"description":"Talk to mom","end":"20230823T183034Z","entry":"20230823T174108Z","modified":"20230823T183048Z","status":"completed","uuid":"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"}
+{"description":"Work on the Java project","entry":"20230823T174108Z","modified":"20230823T183054Z","status":"pending","uuid":"4e76f500-7d12-4932-a494-3b8120ce16ad"}
+{"description":"Start Outsystems project","entry":"20230823T174108Z","modified":"20230823T183054Z","status":"pending","uuid":"88dc048d-bf32-4412-810b-cd4e1cffabbe"}
+{"description":"Take out the trash","entry":"20230823T185237Z","modified":"20230823T185237Z","status":"pending","uuid":"ad8e3388-0e76-43df-b6f9-e143a320cf87"}
+{"description":"Take out the trash","entry":"20230823T185255Z","modified":"20230823T185255Z","status":"pending","uuid":"2764d12c-3e00-4ae7-bf3b-537d67598074"}
+{"description":"Talk to dad","entry":"20230823T185918Z","modified":"20230823T185918Z","status":"pending","uuid":"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"}
+{"description":"Talk to dad about meds and wedding","entry":"20230823T185918Z","modified":"20230823T185922Z","status":"pending","uuid":"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"}
+{"description":"Water the garden","entry":"20230823T174108Z","modified":"20230823T192326Z","start":"20230823T192326Z","status":"pending","uuid":"6e241150-9a39-4c1d-8efb-88db3a7b2232"}
+{"description":"Take out the trash","entry":"20230823T185255Z","modified":"20230823T192328Z","start":"20230823T192328Z","status":"pending","uuid":"2764d12c-3e00-4ae7-bf3b-537d67598074"}
+{"description":"Take out the trash","entry":"20230823T185255Z","modified":"20230823T200313Z","status":"pending","uuid":"2764d12c-3e00-4ae7-bf3b-537d67598074"}
+{"description":"Water the garden","end":"20230823T200317Z","entry":"20230823T174108Z","modified":"20230823T200317Z","status":"completed","uuid":"6e241150-9a39-4c1d-8efb-88db3a7b2232"}
+{"description":"Driving Code class","entry":"20230823T213644Z","modified":"20230823T213644Z","status":"pending","uuid":"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"}
+{"description":"Driving Code class","entry":"20230823T213644Z","modified":"20230823T213816Z","scheduled":"20230828T230000Z","status":"pending","uuid":"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"}
+{"description":"Driving Code class","entry":"20230823T213644Z","modified":"20230823T214654Z","scheduled":"20230829T170000Z","status":"pending","until":"20230829T180000Z","uuid":"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"}
+{"description":"**Talk** to ***mom***","end":"20230823T214705Z","entry":"20230823T130249Z","modified":"20230823T214705Z","status":"deleted","uuid":"7d9bcf0f-898c-42cc-803a-db69655544e0"}
+{"description":"Buy Food for grandma","end":"20230823T214709Z","entry":"20230823T130249Z","modified":"20230823T214709Z","status":"deleted","uuid":"b212176d-0860-48e1-8344-1e8b4cca2e06"}
+{"description":"Talk to dad about concerta medication","end":"20230823T214716Z","entry":"20230823T130249Z","modified":"20230823T214716Z","status":"completed","uuid":"7dd42f33-5073-4baa-b623-90f9f2c1c189"}
+{"description":"Talk to mom","end":"20230823T214726Z","entry":"20230823T135151Z","modified":"20230823T214726Z","status":"completed","uuid":"66f3e173-824c-439c-a649-d8f44122991f"}
+{"description":"Take out the trash","end":"20230823T214745Z","entry":"20230823T185237Z","modified":"20230823T214745Z","status":"completed","uuid":"ad8e3388-0e76-43df-b6f9-e143a320cf87"}
+{"description":"Take out the trash","end":"20230823T214747Z","entry":"20230823T185255Z","modified":"20230823T214747Z","status":"completed","uuid":"2764d12c-3e00-4ae7-bf3b-537d67598074"}
+{"description":"Work on the *Java* project","end":"20230823T214815Z","entry":"20230823T130249Z","modified":"20230823T214815Z","status":"deleted","uuid":"69ef9a9e-8182-4027-8dda-f607069d9050"}
+{"description":"Start *Outsystems* project","end":"20230823T214817Z","entry":"20230823T130249Z","modified":"20230823T214817Z","status":"deleted","uuid":"c1d1ff33-e3c0-494c-9555-efa770d05ecd"}
+{"description":"Work on the Java project","end":"20230823T214819Z","entry":"20230823T174108Z","modified":"20230823T214819Z","status":"deleted","uuid":"4e76f500-7d12-4932-a494-3b8120ce16ad"}
+{"description":"Start Outsystems project","end":"20230823T214821Z","entry":"20230823T174108Z","modified":"20230823T214821Z","status":"deleted","uuid":"88dc048d-bf32-4412-810b-cd4e1cffabbe"}
+{"description":"Talk to mom","end":"20230823T214825Z","entry":"20230823T174145Z","modified":"20230823T214825Z","status":"deleted","uuid":"1b51c686-7f0f-4d12-aa06-4933d295532b"}
+{"description":"task","entry":"20230823T214839Z","modified":"20230823T214839Z","status":"pending","uuid":"bbdaea52-a41c-446b-94ca-b2ff23cd35e7"}
+{"description":"task","end":"20230823T214844Z","entry":"20230823T214839Z","modified":"20230823T214844Z","status":"deleted","uuid":"bbdaea52-a41c-446b-94ca-b2ff23cd35e7"}
+{"description":"Driving Code class","entry":"20230823T214912Z","modified":"20230823T214912Z","status":"pending","uuid":"ba928384-76a1-4299-9d3b-9bad2630769c"}
+{"description":"Driving Code class","entry":"20230823T214912Z","modified":"20230823T215003Z","scheduled":"20230830T170000Z","status":"pending","until":"20230830T180000Z","uuid":"ba928384-76a1-4299-9d3b-9bad2630769c"}
+{"description":"Talk to dad about meds and wedding","due":"20230824T160000Z","entry":"20230823T185918Z","modified":"20230823T215226Z","scheduled":"20230824T090000Z","status":"pending","uuid":"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"}
+{"description":"Talk to mom and make her happy!","entry":"20230823T215325Z","modified":"20230823T215325Z","status":"pending","uuid":"4982ab01-0cd1-48c0-bd8e-a50d26297093"}
+{"description":"Talk to mom and make her happy!","due":"20230824T220000Z","entry":"20230823T215325Z","modified":"20230823T215432Z","scheduled":"20230824T170000Z","status":"pending","uuid":"4982ab01-0cd1-48c0-bd8e-a50d26297093"}
+{"description":"Work on the Chess app","due":"20230824T160000Z","entry":"20230823T174144Z","modified":"20230823T215649Z","scheduled":"20230824T080000Z","status":"pending","uuid":"547a983c-012e-4ae5-be55-6ec7ff242b37"}
+{"description":"Escrever fitas para Barbara","entry":"20230823T222929Z","modified":"20230823T222929Z","status":"pending","uuid":"3d41964c-1b48-4dd4-bb37-6e396741cb3c"}
+{"description":"Escrever fitas para Barbara","due":"20230825T093000Z","entry":"20230823T222929Z","modified":"20230823T223035Z","scheduled":"20230824T140000Z","status":"pending","uuid":"3d41964c-1b48-4dd4-bb37-6e396741cb3c"}
+{"description":"Work on the Chess app","end":"20230823T223108Z","entry":"20230823T135151Z","modified":"20230823T223108Z","status":"deleted","uuid":"89ed9a71-3f91-458c-a058-d7d5a67274c5","annotations":[{"entry":"20230823T135233Z","description":"wiki: \/home\/gustavo\/vimwiki\/diary\/2023-08-24.md"}]}
+{"description":"Driving Code class","entry":"20230823T223139Z","modified":"20230823T223139Z","status":"pending","uuid":"330fd059-79fc-4298-9805-bbe239bba8b1"}
+{"description":"Driving Code class","entry":"20230823T223139Z","modified":"20230823T223325Z","scheduled":"20230831T170000Z","status":"pending","until":"20230831T180000Z","uuid":"330fd059-79fc-4298-9805-bbe239bba8b1"}
+{"description":"Talk to dad about meds and wedding","due":"20230824T160000Z","end":"20230823T223357Z","entry":"20230823T185918Z","modified":"20230823T223357Z","scheduled":"20230824T090000Z","status":"deleted","uuid":"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"}
+{"description":"Talk to dad about meds and wedding","entry":"20230823T223435Z","modified":"20230823T223435Z","status":"pending","uuid":"4feae1d8-cab4-478e-9116-7881cde194af"}
+{"description":"Talk to dad about meds and wedding","due":"20230824T170000Z","entry":"20230823T223435Z","modified":"20230823T223525Z","scheduled":"20230824T093000Z","status":"pending","uuid":"4feae1d8-cab4-478e-9116-7881cde194af"}
+{"description":"Casamento do Pai e dar-lhe fitas da Barbara","entry":"20230823T223632Z","modified":"20230823T223632Z","status":"pending","uuid":"f1a0b1d8-640e-47df-8f42-1c2a3263995f"}
+{"description":"Casamento do Pai e dar-lhe fitas da Barbara","entry":"20230823T223632Z","modified":"20230823T223711Z","scheduled":"20230825T093000Z","status":"pending","until":"20230825T143000Z","uuid":"f1a0b1d8-640e-47df-8f42-1c2a3263995f"}
+{"description":"Work on the Chess app","due":"20230824T160000Z","entry":"20230823T174144Z","modified":"20230824T121208Z","scheduled":"20230824T080000Z","start":"20230824T121208Z","status":"pending","uuid":"547a983c-012e-4ae5-be55-6ec7ff242b37"}
+{"description":"Work on the Chess app","due":"20230824T160000Z","entry":"20230823T174144Z","modified":"20230824T141355Z","scheduled":"20230824T080000Z","status":"pending","uuid":"547a983c-012e-4ae5-be55-6ec7ff242b37"}
+{"description":"Talk to dad about meds and wedding","due":"20230824T170000Z","end":"20230824T141402Z","entry":"20230823T223435Z","modified":"20230824T141402Z","scheduled":"20230824T093000Z","status":"completed","uuid":"4feae1d8-cab4-478e-9116-7881cde194af"}
+{"description":"Work on the Chess app","due":"20230824T160000Z","end":"20230824T174014Z","entry":"20230823T174144Z","modified":"20230824T174014Z","scheduled":"20230824T080000Z","status":"completed","uuid":"547a983c-012e-4ae5-be55-6ec7ff242b37"}
+{"description":"Talk to mom and make her happy!","due":"20230824T220000Z","end":"20230824T174115Z","entry":"20230823T215325Z","modified":"20230824T174115Z","scheduled":"20230824T170000Z","status":"completed","uuid":"4982ab01-0cd1-48c0-bd8e-a50d26297093"}

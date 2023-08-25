@@ -9,9 +9,10 @@ selection:
 
 window:
   opacity: 1.00
-  padding:
-    x: 0
-    y: 0
+  dynamic_padding: true
+  # padding:
+  #   x: 4
+  #   y: 2
 
 scrolling:
   history: 10000
@@ -22,7 +23,7 @@ mouse:
 
 cursor:
   blinking: never
-  thickness: 0.25
+  thickness: 0.15
   vi_mode_style: block
 
 font:
@@ -35,7 +36,7 @@ font:
   italic:
     family: CaskaydiaCove Nerd Font Mono
     style: Italic
-  size: 9.5
+  size: 11
   offset:
     x: 0
     y: 0
@@ -52,144 +53,145 @@ key_bindings:
 
 ### COLORSCHEMES ###
 # Gruvbox-Material:
-schemes:
-  gruvbox_material_hard_dark: &gruvbox_material_hard_dark
-    cursor:
-      text: '0x000000'
-      cursor: '0xffffff'
-    primary:
-      background: '0x1d2021'
-      foreground: '0xd4be98'
-    normal:
-      black:   '0x32302f'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-    bright:
-      black:   '0x32302f'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-  gruvbox_material_medium_dark: &gruvbox_material_medium_dark
-    primary:
-      background: '0x282828'
-      foreground: '0xd4be98'
-    normal:
-      black:   '0x3c3836'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-    bright:
-      black:   '0x3c3836'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-  gruvbox_material_soft_dark: &gruvbox_material_soft_dark
-    primary:
-      background: '0x32302f'
-      foreground: '0xd4be98'
-    normal:
-      black:   '0x45403d'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-    bright:
-      black:   '0x45403d'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-  gruvbox_material_hard_light: &gruvbox_material_hard_light
-    primary:
-      background: '0xf9f5d7'
-      foreground: '0x654735'
-    normal:
-      black:   '0x654735'
-      red:     '0xc14a4a'
-      green:   '0x6c782e'
-      yellow:  '0xb47109'
-      blue:    '0x45707a'
-      magenta: '0x945e80'
-      cyan:    '0x4c7a5d'
-      white:   '0xf2e5bc'
-    bright:
-      black:   '0x654735'
-      red:     '0xc14a4a'
-      green:   '0x6c782e'
-      yellow:  '0xb47109'
-      blue:    '0x45707a'
-      magenta: '0x945e80'
-      cyan:    '0x4c7a5d'
-      white:   '0xf2e5bc'
-  gruvbox_material_medium_light: &gruvbox_material_medium_light
-    primary:
-      background: '0xfbf1c7'
-      foreground: '0x654735'
-    normal:
-      black:   '0x654735'
-      red:     '0xc14a4a'
-      green:   '0x6c782e'
-      yellow:  '0xb47109'
-      blue:    '0x45707a'
-      magenta: '0x945e80'
-      cyan:    '0x4c7a5d'
-      white:   '0xeee0b7'
-    bright:
-      black:   '0x654735'
-      red:     '0xc14a4a'
-      green:   '0x6c782e'
-      yellow:  '0xb47109'
-      blue:    '0x45707a'
-      magenta: '0x945e80'
-      cyan:    '0x4c7a5d'
-      white:   '0xeee0b7'
-  gruvbox_material_soft_light: &gruvbox_material_soft_light
-    primary:
-      background: '0xf2e5bc'
-      foreground: '0x654735'
-    normal:
-      black:   '0x654735'
-      red:     '0xc14a4a'
-      green:   '0x6c782e'
-      yellow:  '0xb47109'
-      blue:    '0x45707a'
-      magenta: '0x945e80'
-      cyan:    '0x4c7a5d'
-      white:   '0xe6d5ae'
-    bright:
-      black:   '0x654735'
-      red:     '0xc14a4a'
-      green:   '0x6c782e'
-      yellow:  '0xb47109'
-      blue:    '0x45707a'
-      magenta: '0x945e80'
-      cyan:    '0x4c7a5d'
-      white:   '0xe6d5ae'
-
-colors: *gruvbox_material_hard_dark
+# schemes:
+#   gruvbox_material_hard_dark: &gruvbox_material_hard_dark
+#     cursor:
+#       text: '0x000000'
+#       cursor: '0xffffff'
+#     primary:
+#       # background: '0x1d2021'
+#       background: '0x0f0f0f'
+#       foreground: '0xd4be98'
+#     normal:
+#       black:   '0x32302f'
+#       red:     '0xea6962'
+#       green:   '0xa9b665'
+#       yellow:  '0xd8a657'
+#       blue:    '0x7daea3'
+#       magenta: '0xd3869b'
+#       cyan:    '0x89b482'
+#       white:   '0xd4be98'
+#     bright:
+#       black:   '0x32302f'
+#       red:     '0xea6962'
+#       green:   '0xa9b665'
+#       yellow:  '0xd8a657'
+#       blue:    '0x7daea3'
+#       magenta: '0xd3869b'
+#       cyan:    '0x89b482'
+#       white:   '0xd4be98'
+#   gruvbox_material_medium_dark: &gruvbox_material_medium_dark
+#     primary:
+#       background: '0x282828'
+#       foreground: '0xd4be98'
+#     normal:
+#       black:   '0x3c3836'
+#       red:     '0xea6962'
+#       green:   '0xa9b665'
+#       yellow:  '0xd8a657'
+#       blue:    '0x7daea3'
+#       magenta: '0xd3869b'
+#       cyan:    '0x89b482'
+#       white:   '0xd4be98'
+#     bright:
+#       black:   '0x3c3836'
+#       red:     '0xea6962'
+#       green:   '0xa9b665'
+#       yellow:  '0xd8a657'
+#       blue:    '0x7daea3'
+#       magenta: '0xd3869b'
+#       cyan:    '0x89b482'
+#       white:   '0xd4be98'
+#   gruvbox_material_soft_dark: &gruvbox_material_soft_dark
+#     primary:
+#       background: '0x32302f'
+#       foreground: '0xd4be98'
+#     normal:
+#       black:   '0x45403d'
+#       red:     '0xea6962'
+#       green:   '0xa9b665'
+#       yellow:  '0xd8a657'
+#       blue:    '0x7daea3'
+#       magenta: '0xd3869b'
+#       cyan:    '0x89b482'
+#       white:   '0xd4be98'
+#     bright:
+#       black:   '0x45403d'
+#       red:     '0xea6962'
+#       green:   '0xa9b665'
+#       yellow:  '0xd8a657'
+#       blue:    '0x7daea3'
+#       magenta: '0xd3869b'
+#       cyan:    '0x89b482'
+#       white:   '0xd4be98'
+#   gruvbox_material_hard_light: &gruvbox_material_hard_light
+#     primary:
+#       background: '0xf9f5d7'
+#       foreground: '0x654735'
+#     normal:
+#       black:   '0x654735'
+#       red:     '0xc14a4a'
+#       green:   '0x6c782e'
+#       yellow:  '0xb47109'
+#       blue:    '0x45707a'
+#       magenta: '0x945e80'
+#       cyan:    '0x4c7a5d'
+#       white:   '0xf2e5bc'
+#     bright:
+#       black:   '0x654735'
+#       red:     '0xc14a4a'
+#       green:   '0x6c782e'
+#       yellow:  '0xb47109'
+#       blue:    '0x45707a'
+#       magenta: '0x945e80'
+#       cyan:    '0x4c7a5d'
+#       white:   '0xf2e5bc'
+#   gruvbox_material_medium_light: &gruvbox_material_medium_light
+#     primary:
+#       background: '0xfbf1c7'
+#       foreground: '0x654735'
+#     normal:
+#       black:   '0x654735'
+#       red:     '0xc14a4a'
+#       green:   '0x6c782e'
+#       yellow:  '0xb47109'
+#       blue:    '0x45707a'
+#       magenta: '0x945e80'
+#       cyan:    '0x4c7a5d'
+#       white:   '0xeee0b7'
+#     bright:
+#       black:   '0x654735'
+#       red:     '0xc14a4a'
+#       green:   '0x6c782e'
+#       yellow:  '0xb47109'
+#       blue:    '0x45707a'
+#       magenta: '0x945e80'
+#       cyan:    '0x4c7a5d'
+#       white:   '0xeee0b7'
+#   gruvbox_material_soft_light: &gruvbox_material_soft_light
+#     primary:
+#       background: '0xf2e5bc'
+#       foreground: '0x654735'
+#     normal:
+#       black:   '0x654735'
+#       red:     '0xc14a4a'
+#       green:   '0x6c782e'
+#       yellow:  '0xb47109'
+#       blue:    '0x45707a'
+#       magenta: '0x945e80'
+#       cyan:    '0x4c7a5d'
+#       white:   '0xe6d5ae'
+#     bright:
+#       black:   '0x654735'
+#       red:     '0xc14a4a'
+#       green:   '0x6c782e'
+#       yellow:  '0xb47109'
+#       blue:    '0x45707a'
+#       magenta: '0x945e80'
+#       cyan:    '0x4c7a5d'
+#       white:   '0xe6d5ae'
+#
+# colors: *gruvbox_material_hard_dark
 
 
 # TokyoNight Alacritty Colors
@@ -406,37 +408,37 @@ colors: *gruvbox_material_hard_dark
     #    cyan:    "#005077"
     #    white:   "#595959"
 
-## Campbell (Windows 10 default)
-# colors:
-#  # Default colors
-#  cursor:
-#    text: '0x000000'
-#    cursor: '0xffffff'
-#  primary:
-#    background: '0x2a2a2a'
-#    foreground: '0xcccccc'
-#
-#  # Normal colors
-#  normal:
-#    black:      '0x0c0c0c'
-#    red:        '0xc50f1f'
-#    green:      '0x13a10e'
-#    yellow:     '0xc19c00'
-#    blue:       '0x0037da'
-#    magenta:    '0x881798'
-#    cyan:       '0x3a96dd'
-#    white:      '0xcccccc'
-#
-#  # Bright colors
-#  bright:
-#    black:      '0x767676'
-#    red:        '0xe74856'
-#    green:      '0x16c60c'
-#    yellow:     '0xf9f1a5'
-#    blue:       '0x3b78ff'
-#    magenta:    '0xb4009e'
-#    cyan:       '0x61d6d6'
-#    white:      '0xf2f2f2'
+# Campbell (Windows 10 default)
+colors:
+ # Default colors
+ cursor:
+   text: '0x000000'
+   cursor: '0xffffff'
+ primary:
+   background: '0x0c0c0c'
+   foreground: '0xcccccc'
+
+ # Normal colors
+ normal:
+   black:      '0x0c0c0c'
+   red:        '0xc50f1f'
+   green:      '0x13a10e'
+   yellow:     '0xc19c00'
+   blue:       '0x0037da'
+   magenta:    '0x881798'
+   cyan:       '0x3a96dd'
+   white:      '0xcccccc'
+
+ # Bright colors
+ bright:
+   black:      '0x767676'
+   red:        '0xe74856'
+   green:      '0x16c60c'
+   yellow:     '0xf9f1a5'
+   blue:       '0x3b78ff'
+   magenta:    '0xb4009e'
+   cyan:       '0x61d6d6'
+   white:      '0xf2f2f2'
 
 
 # # Colors (Gruvbox dark)

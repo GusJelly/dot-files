@@ -128,6 +128,7 @@ alias notes="cd $HOME/vimwiki; nvim index.md"
 alias diary="cd $HOME/vimwiki/diary; nvim diary.md"
 
 # PATH fuckery:
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.8.0.7-1.fc38.x86_64
 export LOCAL="$HOME/.local/bin"
 export GO="/usr/local/go/bin"
 export PATH

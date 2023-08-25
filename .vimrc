@@ -1,3 +1,7 @@
+nnoremap <SPACE> <Nop> 
+
+let mapleader=" "
+
 nnoremap <leader>pv :Explore<CR>
 
 vnoremap J :m '>+1<CR>gv=gv

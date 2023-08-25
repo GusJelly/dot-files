@@ -1,0 +1,262 @@
+time 1692795769
+new [description:"**Talk** to ***mom***" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+---
+time 1692795769
+new [description:"Work on the *Java* project" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"69ef9a9e-8182-4027-8dda-f607069d9050"]
+---
+time 1692795769
+new [description:"Start *Outsystems* project" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"c1d1ff33-e3c0-494c-9555-efa770d05ecd"]
+---
+time 1692795769
+new [description:"Buy Food for grandma" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"b212176d-0860-48e1-8344-1e8b4cca2e06"]
+---
+time 1692795769
+new [description:"Talk to dad about concerta medication" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"7dd42f33-5073-4baa-b623-90f9f2c1c189"]
+---
+time 1692795872
+old [description:"**Talk** to ***mom***" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+new [description:"**Talk** to ***mom***" entry:"1692795769" modified:"1692795872" start:"1692795872" status:"pending" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+---
+time 1692795881
+old [description:"**Talk** to ***mom***" entry:"1692795769" modified:"1692795872" start:"1692795872" status:"pending" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+new [description:"**Talk** to ***mom***" entry:"1692795769" modified:"1692795881" status:"pending" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+---
+time 1692798711
+new [description:"Work on the Chess app" entry:"1692798711" modified:"1692798711" status:"pending" uuid:"89ed9a71-3f91-458c-a058-d7d5a67274c5"]
+---
+time 1692798711
+new [description:"Talk to mom" entry:"1692798711" modified:"1692798711" status:"pending" uuid:"66f3e173-824c-439c-a649-d8f44122991f"]
+---
+time 1692798753
+old [description:"Work on the Chess app" entry:"1692798711" modified:"1692798711" status:"pending" uuid:"89ed9a71-3f91-458c-a058-d7d5a67274c5"]
+new [annotation_1692798753:"wiki: \/home\/gustavo\/vimwiki\/diary\/2023-08-24.md" description:"Work on the Chess app" entry:"1692798711" modified:"1692798753" status:"pending" uuid:"89ed9a71-3f91-458c-a058-d7d5a67274c5"]
+---
+time 1692812468
+new [description:"Water the garden" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"6e241150-9a39-4c1d-8efb-88db3a7b2232"]
+---
+time 1692812468
+new [description:"**Talk** to ***mom***" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+---
+time 1692812468
+new [description:"Work on the *Java* project" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"4e76f500-7d12-4932-a494-3b8120ce16ad"]
+---
+time 1692812468
+new [description:"Start *Outsystems* project" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"88dc048d-bf32-4412-810b-cd4e1cffabbe"]
+---
+time 1692812468
+new [description:"Buy Food for grandma" end:"1692812468" entry:"1692812468" modified:"1692812468" status:"completed" uuid:"fa766ab8-754b-400a-9534-ad725e32edce"]
+---
+time 1692812469
+new [description:"Talk to dad about *concerta* medication" entry:"1692812469" modified:"1692812469" status:"pending" uuid:"cdbdbe67-c431-4227-b5fc-408e25914ae8"]
+---
+time 1692812504
+new [description:"Work on the Chess app" entry:"1692812504" modified:"1692812504" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+---
+time 1692812505
+new [description:"Talk to mom" entry:"1692812505" modified:"1692812505" status:"pending" uuid:"1b51c686-7f0f-4d12-aa06-4933d295532b"]
+---
+time 1692812561
+old [description:"Buy Food for grandma" end:"1692812468" entry:"1692812468" modified:"1692812468" status:"completed" uuid:"fa766ab8-754b-400a-9534-ad725e32edce"]
+new [description:"Buy Food for grandma" entry:"1692812468" modified:"1692812561" status:"pending" uuid:"fa766ab8-754b-400a-9534-ad725e32edce"]
+---
+time 1692812562
+old [description:"Buy Food for grandma" entry:"1692812468" modified:"1692812561" status:"pending" uuid:"fa766ab8-754b-400a-9534-ad725e32edce"]
+new [description:"Buy Food for grandma" end:"1692812562" entry:"1692812468" modified:"1692812562" status:"completed" uuid:"fa766ab8-754b-400a-9534-ad725e32edce"]
+---
+time 1692813083
+old [description:"**Talk** to ***mom***" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+new [description:"**Talk** to ***mom***" entry:"1692812468" modified:"1692813083" start:"1692813083" status:"pending" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+---
+time 1692813085
+old [description:"Talk to dad about *concerta* medication" entry:"1692812469" modified:"1692812469" status:"pending" uuid:"cdbdbe67-c431-4227-b5fc-408e25914ae8"]
+new [description:"Talk to dad about *concerta* medication" entry:"1692812469" modified:"1692813085" start:"1692813085" status:"pending" uuid:"cdbdbe67-c431-4227-b5fc-408e25914ae8"]
+---
+time 1692814960
+old [description:"Talk to dad about *concerta* medication" entry:"1692812469" modified:"1692813085" start:"1692813085" status:"pending" uuid:"cdbdbe67-c431-4227-b5fc-408e25914ae8"]
+new [description:"Talk to dad about *concerta* medication" end:"1692814960" entry:"1692812469" modified:"1692814960" status:"completed" uuid:"cdbdbe67-c431-4227-b5fc-408e25914ae8"]
+---
+time 1692815434
+old [description:"**Talk** to ***mom***" entry:"1692812468" modified:"1692813083" start:"1692813083" status:"pending" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+new [description:"**Talk** to ***mom***" end:"1692815434" entry:"1692812468" modified:"1692815434" status:"completed" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+---
+time 1692815448
+old [description:"**Talk** to ***mom***" end:"1692815434" entry:"1692812468" modified:"1692815434" status:"completed" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+new [description:"Talk to mom" end:"1692815434" entry:"1692812468" modified:"1692815448" status:"completed" uuid:"6987f7fb-1bc9-4a8c-b789-6d6dd18753b1"]
+---
+time 1692815454
+old [description:"Work on the *Java* project" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"4e76f500-7d12-4932-a494-3b8120ce16ad"]
+new [description:"Work on the Java project" entry:"1692812468" modified:"1692815454" status:"pending" uuid:"4e76f500-7d12-4932-a494-3b8120ce16ad"]
+---
+time 1692815454
+old [description:"Start *Outsystems* project" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"88dc048d-bf32-4412-810b-cd4e1cffabbe"]
+new [description:"Start Outsystems project" entry:"1692812468" modified:"1692815454" status:"pending" uuid:"88dc048d-bf32-4412-810b-cd4e1cffabbe"]
+---
+time 1692816757
+new [description:"Take out the trash" entry:"1692816757" modified:"1692816757" status:"pending" uuid:"ad8e3388-0e76-43df-b6f9-e143a320cf87"]
+---
+time 1692816775
+new [description:"Take out the trash" entry:"1692816775" modified:"1692816775" status:"pending" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+---
+time 1692817158
+new [description:"Talk to dad" entry:"1692817158" modified:"1692817158" status:"pending" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+---
+time 1692817162
+old [description:"Talk to dad" entry:"1692817158" modified:"1692817158" status:"pending" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+new [description:"Talk to dad about meds and wedding" entry:"1692817158" modified:"1692817162" status:"pending" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+---
+time 1692818606
+old [description:"Water the garden" entry:"1692812468" modified:"1692812468" status:"pending" uuid:"6e241150-9a39-4c1d-8efb-88db3a7b2232"]
+new [description:"Water the garden" entry:"1692812468" modified:"1692818606" start:"1692818606" status:"pending" uuid:"6e241150-9a39-4c1d-8efb-88db3a7b2232"]
+---
+time 1692818608
+old [description:"Take out the trash" entry:"1692816775" modified:"1692816775" status:"pending" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+new [description:"Take out the trash" entry:"1692816775" modified:"1692818608" start:"1692818608" status:"pending" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+---
+time 1692820993
+old [description:"Take out the trash" entry:"1692816775" modified:"1692818608" start:"1692818608" status:"pending" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+new [description:"Take out the trash" entry:"1692816775" modified:"1692820993" status:"pending" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+---
+time 1692820997
+old [description:"Water the garden" entry:"1692812468" modified:"1692818606" start:"1692818606" status:"pending" uuid:"6e241150-9a39-4c1d-8efb-88db3a7b2232"]
+new [description:"Water the garden" end:"1692820997" entry:"1692812468" modified:"1692820997" status:"completed" uuid:"6e241150-9a39-4c1d-8efb-88db3a7b2232"]
+---
+time 1692826604
+new [description:"Driving Code class" entry:"1692826604" modified:"1692826604" status:"pending" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1692826696
+old [description:"Driving Code class" entry:"1692826604" modified:"1692826604" status:"pending" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+new [description:"Driving Code class" entry:"1692826604" modified:"1692826696" scheduled:"1693263600" status:"pending" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1692827214
+old [description:"Driving Code class" entry:"1692826604" modified:"1692826696" scheduled:"1693263600" status:"pending" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+new [description:"Driving Code class" entry:"1692826604" modified:"1692827214" scheduled:"1693328400" status:"pending" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1692827225
+old [description:"**Talk** to ***mom***" entry:"1692795769" modified:"1692795881" status:"pending" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+new [description:"**Talk** to ***mom***" end:"1692827225" entry:"1692795769" modified:"1692827225" status:"deleted" uuid:"7d9bcf0f-898c-42cc-803a-db69655544e0"]
+---
+time 1692827229
+old [description:"Buy Food for grandma" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"b212176d-0860-48e1-8344-1e8b4cca2e06"]
+new [description:"Buy Food for grandma" end:"1692827229" entry:"1692795769" modified:"1692827229" status:"deleted" uuid:"b212176d-0860-48e1-8344-1e8b4cca2e06"]
+---
+time 1692827236
+old [description:"Talk to dad about concerta medication" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"7dd42f33-5073-4baa-b623-90f9f2c1c189"]
+new [description:"Talk to dad about concerta medication" end:"1692827236" entry:"1692795769" modified:"1692827236" status:"completed" uuid:"7dd42f33-5073-4baa-b623-90f9f2c1c189"]
+---
+time 1692827246
+old [description:"Talk to mom" entry:"1692798711" modified:"1692798711" status:"pending" uuid:"66f3e173-824c-439c-a649-d8f44122991f"]
+new [description:"Talk to mom" end:"1692827246" entry:"1692798711" modified:"1692827246" status:"completed" uuid:"66f3e173-824c-439c-a649-d8f44122991f"]
+---
+time 1692827265
+old [description:"Take out the trash" entry:"1692816757" modified:"1692816757" status:"pending" uuid:"ad8e3388-0e76-43df-b6f9-e143a320cf87"]
+new [description:"Take out the trash" end:"1692827265" entry:"1692816757" modified:"1692827265" status:"completed" uuid:"ad8e3388-0e76-43df-b6f9-e143a320cf87"]
+---
+time 1692827267
+old [description:"Take out the trash" entry:"1692816775" modified:"1692820993" status:"pending" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+new [description:"Take out the trash" end:"1692827267" entry:"1692816775" modified:"1692827267" status:"completed" uuid:"2764d12c-3e00-4ae7-bf3b-537d67598074"]
+---
+time 1692827295
+old [description:"Work on the *Java* project" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"69ef9a9e-8182-4027-8dda-f607069d9050"]
+new [description:"Work on the *Java* project" end:"1692827295" entry:"1692795769" modified:"1692827295" status:"deleted" uuid:"69ef9a9e-8182-4027-8dda-f607069d9050"]
+---
+time 1692827297
+old [description:"Start *Outsystems* project" entry:"1692795769" modified:"1692795769" status:"pending" uuid:"c1d1ff33-e3c0-494c-9555-efa770d05ecd"]
+new [description:"Start *Outsystems* project" end:"1692827297" entry:"1692795769" modified:"1692827297" status:"deleted" uuid:"c1d1ff33-e3c0-494c-9555-efa770d05ecd"]
+---
+time 1692827299
+old [description:"Work on the Java project" entry:"1692812468" modified:"1692815454" status:"pending" uuid:"4e76f500-7d12-4932-a494-3b8120ce16ad"]
+new [description:"Work on the Java project" end:"1692827299" entry:"1692812468" modified:"1692827299" status:"deleted" uuid:"4e76f500-7d12-4932-a494-3b8120ce16ad"]
+---
+time 1692827301
+old [description:"Start Outsystems project" entry:"1692812468" modified:"1692815454" status:"pending" uuid:"88dc048d-bf32-4412-810b-cd4e1cffabbe"]
+new [description:"Start Outsystems project" end:"1692827301" entry:"1692812468" modified:"1692827301" status:"deleted" uuid:"88dc048d-bf32-4412-810b-cd4e1cffabbe"]
+---
+time 1692827305
+old [description:"Talk to mom" entry:"1692812505" modified:"1692812505" status:"pending" uuid:"1b51c686-7f0f-4d12-aa06-4933d295532b"]
+new [description:"Talk to mom" end:"1692827305" entry:"1692812505" modified:"1692827305" status:"deleted" uuid:"1b51c686-7f0f-4d12-aa06-4933d295532b"]
+---
+time 1692827319
+new [description:"task" entry:"1692827319" modified:"1692827319" status:"pending" uuid:"bbdaea52-a41c-446b-94ca-b2ff23cd35e7"]
+---
+time 1692827324
+old [description:"task" entry:"1692827319" modified:"1692827319" status:"pending" uuid:"bbdaea52-a41c-446b-94ca-b2ff23cd35e7"]
+new [description:"task" end:"1692827324" entry:"1692827319" modified:"1692827324" status:"deleted" uuid:"bbdaea52-a41c-446b-94ca-b2ff23cd35e7"]
+---
+time 1692827352
+new [description:"Driving Code class" entry:"1692827352" modified:"1692827352" status:"pending" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+---
+time 1692827403
+old [description:"Driving Code class" entry:"1692827352" modified:"1692827352" status:"pending" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+new [description:"Driving Code class" entry:"1692827352" modified:"1692827403" scheduled:"1693414800" status:"pending" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+---
+time 1692827546
+old [description:"Talk to dad about meds and wedding" entry:"1692817158" modified:"1692817162" status:"pending" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+new [description:"Talk to dad about meds and wedding" due:"1692892800" entry:"1692817158" modified:"1692827546" scheduled:"1692867600" status:"pending" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+---
+time 1692827605
+new [description:"Talk to mom and make her happy!" entry:"1692827605" modified:"1692827605" status:"pending" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
+---
+time 1692827672
+old [description:"Talk to mom and make her happy!" entry:"1692827605" modified:"1692827605" status:"pending" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
+new [description:"Talk to mom and make her happy!" due:"1692914400" entry:"1692827605" modified:"1692827672" scheduled:"1692896400" status:"pending" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
+---
+time 1692827809
+old [description:"Work on the Chess app" entry:"1692812504" modified:"1692812504" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+new [description:"Work on the Chess app" due:"1692892800" entry:"1692812504" modified:"1692827809" scheduled:"1692864000" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+---
+time 1692829769
+new [description:"Escrever fitas para Barbara" entry:"1692829769" modified:"1692829769" status:"pending" uuid:"3d41964c-1b48-4dd4-bb37-6e396741cb3c"]
+---
+time 1692829835
+old [description:"Escrever fitas para Barbara" entry:"1692829769" modified:"1692829769" status:"pending" uuid:"3d41964c-1b48-4dd4-bb37-6e396741cb3c"]
+new [description:"Escrever fitas para Barbara" due:"1692955800" entry:"1692829769" modified:"1692829835" scheduled:"1692885600" status:"pending" uuid:"3d41964c-1b48-4dd4-bb37-6e396741cb3c"]
+---
+time 1692829868
+old [annotation_1692798753:"wiki: \/home\/gustavo\/vimwiki\/diary\/2023-08-24.md" description:"Work on the Chess app" entry:"1692798711" modified:"1692798753" status:"pending" uuid:"89ed9a71-3f91-458c-a058-d7d5a67274c5"]
+new [annotation_1692798753:"wiki: \/home\/gustavo\/vimwiki\/diary\/2023-08-24.md" description:"Work on the Chess app" end:"1692829868" entry:"1692798711" modified:"1692829868" status:"deleted" uuid:"89ed9a71-3f91-458c-a058-d7d5a67274c5"]
+---
+time 1692829899
+new [description:"Driving Code class" entry:"1692829899" modified:"1692829899" status:"pending" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+---
+time 1692830005
+old [description:"Driving Code class" entry:"1692829899" modified:"1692829899" status:"pending" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+new [description:"Driving Code class" entry:"1692829899" modified:"1692830005" scheduled:"1693501200" status:"pending" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+---
+time 1692830037
+old [description:"Talk to dad about meds and wedding" due:"1692892800" entry:"1692817158" modified:"1692827546" scheduled:"1692867600" status:"pending" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+new [description:"Talk to dad about meds and wedding" due:"1692892800" end:"1692830037" entry:"1692817158" modified:"1692830037" scheduled:"1692867600" status:"deleted" uuid:"c3b19abc-b3ae-4177-9c6d-bf7b6e3b1a22"]
+---
+time 1692830075
+new [description:"Talk to dad about meds and wedding" entry:"1692830075" modified:"1692830075" status:"pending" uuid:"4feae1d8-cab4-478e-9116-7881cde194af"]
+---
+time 1692830125
+old [description:"Talk to dad about meds and wedding" entry:"1692830075" modified:"1692830075" status:"pending" uuid:"4feae1d8-cab4-478e-9116-7881cde194af"]
+new [description:"Talk to dad about meds and wedding" due:"1692896400" entry:"1692830075" modified:"1692830125" scheduled:"1692869400" status:"pending" uuid:"4feae1d8-cab4-478e-9116-7881cde194af"]
+---
+time 1692830192
+new [description:"Casamento do Pai e dar-lhe fitas da Barbara" entry:"1692830192" modified:"1692830192" status:"pending" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+---
+time 1692830231
+old [description:"Casamento do Pai e dar-lhe fitas da Barbara" entry:"1692830192" modified:"1692830192" status:"pending" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+new [description:"Casamento do Pai e dar-lhe fitas da Barbara" entry:"1692830192" modified:"1692830231" scheduled:"1692955800" status:"pending" until:"1692973800" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+---
+time 1692879128
+old [description:"Work on the Chess app" due:"1692892800" entry:"1692812504" modified:"1692827809" scheduled:"1692864000" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+new [description:"Work on the Chess app" due:"1692892800" entry:"1692812504" modified:"1692879128" scheduled:"1692864000" start:"1692879128" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+---
+time 1692886435
+old [description:"Work on the Chess app" due:"1692892800" entry:"1692812504" modified:"1692879128" scheduled:"1692864000" start:"1692879128" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+new [description:"Work on the Chess app" due:"1692892800" entry:"1692812504" modified:"1692886435" scheduled:"1692864000" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+---
+time 1692886442
+old [description:"Talk to dad about meds and wedding" due:"1692896400" entry:"1692830075" modified:"1692830125" scheduled:"1692869400" status:"pending" uuid:"4feae1d8-cab4-478e-9116-7881cde194af"]
+new [description:"Talk to dad about meds and wedding" due:"1692896400" end:"1692886442" entry:"1692830075" modified:"1692886442" scheduled:"1692869400" status:"completed" uuid:"4feae1d8-cab4-478e-9116-7881cde194af"]
+---
+time 1692898814
+old [description:"Work on the Chess app" due:"1692892800" entry:"1692812504" modified:"1692886435" scheduled:"1692864000" status:"pending" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+new [description:"Work on the Chess app" due:"1692892800" end:"1692898814" entry:"1692812504" modified:"1692898814" scheduled:"1692864000" status:"completed" uuid:"547a983c-012e-4ae5-be55-6ec7ff242b37"]
+---
+time 1692898875
+old [description:"Talk to mom and make her happy!" due:"1692914400" entry:"1692827605" modified:"1692827672" scheduled:"1692896400" status:"pending" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
+new [description:"Talk to mom and make her happy!" due:"1692914400" end:"1692898875" entry:"1692827605" modified:"1692898875" scheduled:"1692896400" status:"completed" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
+---
