@@ -119,6 +119,7 @@ alias db="distrobox"
 alias ta="tmux attach"
 alias t="tmux"
 alias lg="lazygit"
+alias tui="taskwarrior-tui"
 
 # neovim quick navigation for editing:
 alias nc="cd $HOME/.config/nvim; nvim ."
@@ -126,6 +127,7 @@ alias ac="cd $HOME/.config; nvim alacritty.yml"
 alias zshrc="cd $HOME; nvim .zshrc"
 alias notes="cd $HOME/vimwiki; nvim index.md"
 alias diary="cd $HOME/vimwiki/diary; nvim diary.md"
+alias chess="cd $HOME/ProjetoJava2/chess-app"
 
 # PATH fuckery:
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.8.0.7-1.fc38.x86_64
@@ -155,5 +157,11 @@ alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# cd on exit with fff file manager
+f() {
+    fff "$@"
+    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+}
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
