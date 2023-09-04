@@ -108,18 +108,14 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
-# Gustavo aliases and exports and environment variables:
-alias ll='ls -l'
 alias pt='setxkbmap pt,pt'
 alias us='setxkbmap us,us'
-alias nf='nvim $(fzf)'
 alias night='redshift -P -O 3500k'
 alias n="nvim"
 alias db="distrobox"
 alias ta="tmux attach"
 alias t="tmux"
 alias lg="lazygit"
-alias tui="taskwarrior-tui"
 
 # neovim quick navigation for editing:
 alias nc="cd $HOME/.config/nvim; nvim ."
@@ -128,6 +124,7 @@ alias zshrc="cd $HOME; nvim .zshrc"
 alias notes="cd $HOME/vimwiki; nvim index.md"
 alias diary="cd $HOME/vimwiki/diary; nvim diary.md"
 alias chess="cd $HOME/ProjetoJava2/chess-app"
+alias p="prj"
 
 # PATH fuckery:
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.8.0.7-1.fc38.x86_64
@@ -138,7 +135,7 @@ export CGO_ENABLED=1
 export PATH=$PATH:$GO
 export PATH=$PATH:$LOCAL
 export PATH=$PATH:"/home/gustavo/idea-IC-232.8660.185/bin/"
-export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
+# export FZF_DEFAULT_OPTS="--preview 'less --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
 
 # key-bindings for fzf and default nvim editor:
@@ -149,19 +146,17 @@ export VISUAL=nvim
 # Make ranger exit into current directory:
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
-
-# opam configuration
-[[ ! -r /home/gustavo/.opam/opam-init/init.zsh ]] || source /home/gustavo/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
-
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# cd on exit with fff file manager
-f() {
-    fff "$@"
-    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
-}
+# Source custom scripts:
+sh_folder="$HOME/projects/scripts/shellScripts"
+for script_file in "$sh_folder"/*.sh; do
+    if [[ -f "$script_file" ]]; then
+        source "$script_file"
+    fi
+done
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -360,7 +360,11 @@ setw -g pane-base-index 1     # make pane numbering consistent with windows
 
 # set -g default-terminal "foot"
 set -g default-terminal "tmux-256color"
-set -ga terminal-overrides '*:Ss=\E[%p1%d q:Se=\E[ q'
+set -g status-bg '#191724'
+set -g status-fg '#E0DEF4'
+
+# bindings
+bind t run-shell "tmux neww 'vit'"
 
 # start with mouse mode enabled
 #set -g mouse on
@@ -431,8 +435,8 @@ tmux_conf_uninstall_plugins_on_reload=true
 # set -g @dracula-show-powerline true
 # set -g @plugin 'egel/tmux-gruvbox'
 # set -g @tmux-gruvbox 'dark' # or 'light'
-set -g @plugin 'jimeh/tmux-themepack'
-set -g @themepack 'powerline/default/green'
+# set -g @plugin 'jimeh/tmux-themepack'
+# set -g @themepack 'basic'
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the

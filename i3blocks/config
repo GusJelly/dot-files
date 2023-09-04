@@ -1,38 +1,25 @@
-# i3blocks configuration file
-#
-# The i3blocks man page describes the usage of the binary,
-# and its website describes the configuration:
-#
-#     https://vivien.github.io/i3blocks
+# Guess the weather hourly
+[weather]
+command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=3600
+color=#A4C2F4
 
+# Print cpu usage
+[cpu]
+command=cpu.sh
+interval=5
 
-# Global properties
-separator=true
-separator_block_width=15
+# Print ram usage
+[ram]
+command=ram.sh
+interval=5
 
-[kbdd_layout]
-command=kbdd_layout
-interval=persist
+# Print disk usage
+[disk]
+command=disk.sh
+interval=5
 
+# Update time every 5 seconds
 [time]
-command=date '+%Y-%m-%d %H:%M:%S'
-interval=1
-
-[greetings]
-color=#f5af19
-command=echo "Hello, $USER!"
-interval=once
-
-#[rofi-calendar]
-#command=rofi-calendar
-#interval=3600
-#BAR_POSITION=top
-#WEEK_START=monday
-#DATEFTM=+%a %d %b %Y
-#SHORTFMT=+%d/%m/%Y
-#LABEL= 
-#FONT=Monospace 10
-##LEFTCLICK_PREV_MONTH=false
-##PREV_MONTH_TEXT=« previous month «
-##NEXT_MONTH_TEXT=» next month »
-#ROFI_CONFIG_FILE=~/.config/rofi/config.rasi
+command=date +"%a %d-%m-%Y %X"
+interval=5
