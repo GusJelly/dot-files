@@ -260,3 +260,1001 @@ time 1692898875
 old [description:"Talk to mom and make her happy!" due:"1692914400" entry:"1692827605" modified:"1692827672" scheduled:"1692896400" status:"pending" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
 new [description:"Talk to mom and make her happy!" due:"1692914400" end:"1692898875" entry:"1692827605" modified:"1692898875" scheduled:"1692896400" status:"completed" uuid:"4982ab01-0cd1-48c0-bd8e-a50d26297093"]
 ---
+time 1692932551
+old [description:"Escrever fitas para Barbara" due:"1692955800" entry:"1692829769" modified:"1692829835" scheduled:"1692885600" status:"pending" uuid:"3d41964c-1b48-4dd4-bb37-6e396741cb3c"]
+new [description:"Escrever fitas para Barbara" due:"1692955800" end:"1692932551" entry:"1692829769" modified:"1692932551" scheduled:"1692885600" status:"completed" uuid:"3d41964c-1b48-4dd4-bb37-6e396741cb3c"]
+---
+time 1692932584
+old [description:"Casamento do Pai e dar-lhe fitas da Barbara" entry:"1692830192" modified:"1692830231" scheduled:"1692955800" status:"pending" until:"1692973800" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+new [description:"Casamento do Pai e dar-lhe fitas da Barbara" entry:"1692830192" modified:"1692932584" priority:"H" scheduled:"1692955800" status:"pending" until:"1692973800" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+---
+time 1692932679
+new [description:"Pawn" entry:"1692932679" modified:"1692932679" status:"pending" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+---
+time 1692932745
+new [description:"Possible move calculation" entry:"1692932745" modified:"1692932745" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692932745
+old [description:"Pawn" entry:"1692932679" modified:"1692932679" status:"pending" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+new [dep_28862f3b-19a8-434e-838d-9f473b871504:"x" depends:"28862f3b-19a8-434e-838d-9f473b871504" description:"Pawn" entry:"1692932679" modified:"1692932745" status:"pending" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+---
+time 1692932858
+old [dep_28862f3b-19a8-434e-838d-9f473b871504:"x" depends:"28862f3b-19a8-434e-838d-9f473b871504" description:"Pawn" entry:"1692932679" modified:"1692932745" status:"pending" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+new [dep_28862f3b-19a8-434e-838d-9f473b871504:"x" depends:"28862f3b-19a8-434e-838d-9f473b871504" description:"Pawn" due:"1693144800" entry:"1692932679" modified:"1692932858" scheduled:"1693058400" status:"pending" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+---
+time 1692932965
+old [description:"Possible move calculation" entry:"1692932745" modified:"1692932745" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692932965" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692972686
+old [description:"Casamento do Pai e dar-lhe fitas da Barbara" entry:"1692830192" modified:"1692932584" priority:"H" scheduled:"1692955800" status:"pending" until:"1692973800" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+new [description:"Casamento do Pai e dar-lhe fitas da Barbara" end:"1692972686" entry:"1692830192" modified:"1692972686" priority:"H" scheduled:"1692955800" status:"completed" until:"1692973800" uuid:"f1a0b1d8-640e-47df-8f42-1c2a3263995f"]
+---
+time 1692972721
+old [dep_28862f3b-19a8-434e-838d-9f473b871504:"x" depends:"28862f3b-19a8-434e-838d-9f473b871504" description:"Pawn" due:"1693144800" entry:"1692932679" modified:"1692932858" scheduled:"1693058400" status:"pending" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+new [dep_28862f3b-19a8-434e-838d-9f473b871504:"x" depends:"28862f3b-19a8-434e-838d-9f473b871504" description:"Pawn" due:"1693144800" end:"1692972721" entry:"1692932679" modified:"1692972721" scheduled:"1693058400" status:"deleted" uuid:"1e8cf59f-4996-4dab-8170-dd8999d1e1d8"]
+---
+time 1692973276
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692932965" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973276" scheduled:"1692972000" start:"1692973276" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692973280
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973276" scheduled:"1692972000" start:"1692973276" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973280" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692973280
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973280" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973280" scheduled:"1692972000" start:"1692973280" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692973281
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973280" scheduled:"1692972000" start:"1692973280" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973281" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692973282
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973281" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973282" scheduled:"1692972000" start:"1692973282" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692973282
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973282" scheduled:"1692972000" start:"1692973282" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973282" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692974653
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692973282" scheduled:"1692972000" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692974653" scheduled:"1692972000" start:"1692974653" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692984783
+old [description:"Possible move calculation" due:"1693231200" entry:"1692932745" modified:"1692974653" scheduled:"1692972000" start:"1692974653" status:"pending" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+new [description:"Possible move calculation" due:"1693231200" end:"1692984783" entry:"1692932745" modified:"1692984783" scheduled:"1692972000" status:"completed" uuid:"28862f3b-19a8-434e-838d-9f473b871504"]
+---
+time 1692984903
+new [description:"Possible moves for every piece" entry:"1692984903" modified:"1692984903" status:"pending" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+---
+time 1692984959
+old [description:"Possible moves for every piece" entry:"1692984903" modified:"1692984903" status:"pending" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+new [description:"Possible moves for every piece" due:"1693090800" entry:"1692984903" modified:"1692984959" status:"pending" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+---
+time 1692985008
+old [description:"Possible moves for every piece" due:"1693090800" entry:"1692984903" modified:"1692984959" status:"pending" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+new [description:"Possible moves for every piece" due:"1693090800" entry:"1692984903" modified:"1692985008" status:"pending" tags:"Java" tags_Java:"x" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+---
+time 1692985067
+old [description:"Driving Code class" entry:"1692826604" modified:"1692827214" scheduled:"1693328400" status:"pending" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+new [description:"Driving Code class" entry:"1692826604" modified:"1692985067" scheduled:"1693328400" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1692985079
+old [description:"Driving Code class" entry:"1692827352" modified:"1692827403" scheduled:"1693414800" status:"pending" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+new [description:"Driving Code class" entry:"1692827352" modified:"1692985079" scheduled:"1693414800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+---
+time 1692985087
+old [description:"Driving Code class" entry:"1692829899" modified:"1692830005" scheduled:"1693501200" status:"pending" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+new [description:"Driving Code class" entry:"1692829899" modified:"1692985087" scheduled:"1693501200" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+---
+time 1692985099
+old [description:"Possible moves for every piece" due:"1693090800" entry:"1692984903" modified:"1692985008" status:"pending" tags:"Java" tags_Java:"x" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+new [description:"Possible moves for every piece" due:"1693090800" entry:"1692984903" modified:"1692985099" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+---
+time 1692985142
+new [description:"Possible moves for King" entry:"1692985142" modified:"1692985142" status:"pending" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+---
+time 1692985173
+new [description:"Possible moves for Queen" entry:"1692985173" modified:"1692985173" status:"pending" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+---
+time 1692985178
+new [description:"Possible moves for Bishop" entry:"1692985178" modified:"1692985178" status:"pending" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+---
+time 1692985185
+new [description:"Possible moves for Knight" entry:"1692985185" modified:"1692985185" status:"pending" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+---
+time 1692985192
+new [description:"Possible moves for Rook" entry:"1692985192" modified:"1692985192" status:"pending" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+---
+time 1692985206
+old [description:"Possible moves for King" entry:"1692985142" modified:"1692985142" status:"pending" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+new [description:"Possible moves for King" entry:"1692985142" modified:"1692985206" project:"ChessApp" status:"pending" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+---
+time 1692985213
+old [description:"Possible moves for Queen" entry:"1692985173" modified:"1692985173" status:"pending" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+new [description:"Possible moves for Queen" entry:"1692985173" modified:"1692985213" project:"ChessApp" status:"pending" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+---
+time 1692985221
+old [description:"Possible moves for Bishop" entry:"1692985178" modified:"1692985178" status:"pending" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+new [description:"Possible moves for Bishop" entry:"1692985178" modified:"1692985221" project:"ChessApp" status:"pending" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+---
+time 1692985224
+old [description:"Possible moves for Knight" entry:"1692985185" modified:"1692985185" status:"pending" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+new [description:"Possible moves for Knight" entry:"1692985185" modified:"1692985224" project:"ChessApp" status:"pending" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+---
+time 1692985227
+old [description:"Possible moves for Rook" entry:"1692985192" modified:"1692985192" status:"pending" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+new [description:"Possible moves for Rook" entry:"1692985192" modified:"1692985227" project:"ChessApp" status:"pending" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+---
+time 1692985234
+old [description:"Possible moves for King" entry:"1692985142" modified:"1692985206" project:"ChessApp" status:"pending" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+new [description:"Possible moves for King" entry:"1692985142" modified:"1692985234" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+---
+time 1692985270
+old [description:"Possible moves for Queen" entry:"1692985173" modified:"1692985213" project:"ChessApp" status:"pending" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+new [description:"Possible moves for Queen" entry:"1692985173" modified:"1692985270" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+---
+time 1692985273
+old [description:"Possible moves for Bishop" entry:"1692985178" modified:"1692985221" project:"ChessApp" status:"pending" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+new [description:"Possible moves for Bishop" entry:"1692985178" modified:"1692985273" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+---
+time 1692985276
+old [description:"Possible moves for Knight" entry:"1692985185" modified:"1692985224" project:"ChessApp" status:"pending" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+new [description:"Possible moves for Knight" entry:"1692985185" modified:"1692985276" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+---
+time 1692985279
+old [description:"Possible moves for Rook" entry:"1692985192" modified:"1692985227" project:"ChessApp" status:"pending" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+new [description:"Possible moves for Rook" entry:"1692985192" modified:"1692985279" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+---
+time 1692985647
+old [description:"Possible moves for King" entry:"1692985142" modified:"1692985234" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+new [description:"Possible moves for King" due:"1693090800" entry:"1692985142" modified:"1692985647" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+---
+time 1692985657
+old [description:"Possible moves for Queen" entry:"1692985173" modified:"1692985270" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+new [description:"Possible moves for Queen" due:"1693090800" entry:"1692985173" modified:"1692985657" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+---
+time 1692985659
+old [description:"Possible moves for Bishop" entry:"1692985178" modified:"1692985273" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+new [description:"Possible moves for Bishop" due:"1693090800" entry:"1692985178" modified:"1692985659" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+---
+time 1692985662
+old [description:"Possible moves for Knight" entry:"1692985185" modified:"1692985276" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+new [description:"Possible moves for Knight" due:"1693090800" entry:"1692985185" modified:"1692985662" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+---
+time 1692985663
+old [description:"Possible moves for Rook" entry:"1692985192" modified:"1692985279" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+new [description:"Possible moves for Rook" due:"1693090800" entry:"1692985192" modified:"1692985663" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+---
+time 1692985666
+old [description:"Possible moves for every piece" due:"1693090800" entry:"1692984903" modified:"1692985099" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+new [description:"Possible moves for every piece" due:"1693090800" end:"1692985666" entry:"1692984903" modified:"1692985666" project:"ChessApp" status:"completed" tags:"Java" tags_Java:"x" uuid:"973f97ac-9eff-44e9-97d7-9705fb404302"]
+---
+time 1692985692
+old [description:"Possible moves for King" due:"1693090800" entry:"1692985142" modified:"1692985647" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+new [description:"Possible moves for King" due:"1693090800" entry:"1692985142" modified:"1692985692" project:"ChessApp" start:"1692985692" status:"pending" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+---
+time 1692985830
+old [description:"Possible moves for King" due:"1693090800" entry:"1692985142" modified:"1692985692" project:"ChessApp" start:"1692985692" status:"pending" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+new [description:"Possible moves for King" due:"1693090800" end:"1692985830" entry:"1692985142" modified:"1692985830" project:"ChessApp" status:"completed" tags:"Java" tags_Java:"x" uuid:"c8d11d2d-b6f2-4d10-a4e7-03c721ae23dd"]
+---
+time 1692985832
+old [description:"Possible moves for Queen" due:"1693090800" entry:"1692985173" modified:"1692985657" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+new [description:"Possible moves for Queen" due:"1693090800" entry:"1692985173" modified:"1692985832" project:"ChessApp" start:"1692985832" status:"pending" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+---
+time 1692986081
+old [description:"Possible moves for Queen" due:"1693090800" entry:"1692985173" modified:"1692985832" project:"ChessApp" start:"1692985832" status:"pending" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+new [description:"Possible moves for Queen" due:"1693090800" end:"1692986081" entry:"1692985173" modified:"1692986081" project:"ChessApp" status:"completed" tags:"Java" tags_Java:"x" uuid:"bdca3d49-dc95-4209-affb-0df250f9ca07"]
+---
+time 1692986082
+old [description:"Possible moves for Bishop" due:"1693090800" entry:"1692985178" modified:"1692985659" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+new [description:"Possible moves for Bishop" due:"1693090800" entry:"1692985178" modified:"1692986082" project:"ChessApp" start:"1692986082" status:"pending" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+---
+time 1692986147
+old [description:"Possible moves for Bishop" due:"1693090800" entry:"1692985178" modified:"1692986082" project:"ChessApp" start:"1692986082" status:"pending" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+new [description:"Possible moves for Bishop" due:"1693090800" end:"1692986147" entry:"1692985178" modified:"1692986147" project:"ChessApp" status:"completed" tags:"Java" tags_Java:"x" uuid:"22b8fe0b-b0a5-4528-ac89-4ae4fae6f3cf"]
+---
+time 1692986148
+old [description:"Possible moves for Knight" due:"1693090800" entry:"1692985185" modified:"1692985662" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+new [description:"Possible moves for Knight" due:"1693090800" entry:"1692985185" modified:"1692986148" project:"ChessApp" start:"1692986148" status:"pending" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+---
+time 1692986198
+old [description:"Possible moves for Knight" due:"1693090800" entry:"1692985185" modified:"1692986148" project:"ChessApp" start:"1692986148" status:"pending" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+new [description:"Possible moves for Knight" due:"1693090800" end:"1692986198" entry:"1692985185" modified:"1692986198" project:"ChessApp" status:"completed" tags:"Java" tags_Java:"x" uuid:"847d00ce-74ad-4954-8f9c-eecfce61f336"]
+---
+time 1692986199
+old [description:"Possible moves for Rook" due:"1693090800" entry:"1692985192" modified:"1692985663" project:"ChessApp" status:"pending" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+new [description:"Possible moves for Rook" due:"1693090800" entry:"1692985192" modified:"1692986199" project:"ChessApp" start:"1692986199" status:"pending" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+---
+time 1692986266
+old [description:"Possible moves for Rook" due:"1693090800" entry:"1692985192" modified:"1692986199" project:"ChessApp" start:"1692986199" status:"pending" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+new [description:"Possible moves for Rook" due:"1693090800" end:"1692986266" entry:"1692985192" modified:"1692986266" project:"ChessApp" status:"completed" tags:"Java" tags_Java:"x" uuid:"0412c65a-a43d-4581-b509-dc5e84d85458"]
+---
+time 1693066563
+new [description:"Water garden" entry:"1693066563" modified:"1693066563" status:"pending" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693066569
+new [description:"Take out trash" entry:"1693066569" modified:"1693066569" status:"pending" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693066603
+old [description:"Water garden" entry:"1693066563" modified:"1693066563" status:"pending" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" entry:"1693066563" modified:"1693066603" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693066612
+old [description:"Take out trash" entry:"1693066569" modified:"1693066569" status:"pending" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" entry:"1693066569" modified:"1693066612" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693066655
+old [description:"Water garden" entry:"1693066563" modified:"1693066603" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" modified:"1693066655" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693066736
+old [description:"Water garden" due:"1693090800" entry:"1693066563" modified:"1693066655" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" modified:"1693066736" recur:"daily" rtype:"periodic" status:"recurring" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693066737
+new [description:"Water garden" due:"1693090800" entry:"1693066737" imask:"0" modified:"1693066736" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"0dae7d95-5e95-4e9e-984e-561e1b31bf22"]
+---
+time 1693066737
+old [description:"Water garden" due:"1693090800" entry:"1693066563" modified:"1693066736" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"-" modified:"1693066737" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693066768
+old [description:"Take out trash" entry:"1693066569" modified:"1693066612" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" modified:"1693066768" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693066776
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" modified:"1693066768" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" modified:"1693066776" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693066777
+new [description:"Take out trash" due:"1693090800" entry:"1693066777" imask:"0" modified:"1693066776" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"e8577f96-849d-4d1a-afe2-58f8afd46553"]
+---
+time 1693066777
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" modified:"1693066776" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"-" modified:"1693066777" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693072254
+old [description:"Water garden" due:"1693090800" entry:"1693066737" imask:"0" modified:"1693066736" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"0dae7d95-5e95-4e9e-984e-561e1b31bf22"]
+new [description:"Water garden" due:"1693090800" entry:"1693066737" imask:"0" modified:"1693072254" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"Housekeeping" tags_Housekeeping:"x" uuid:"0dae7d95-5e95-4e9e-984e-561e1b31bf22"]
+---
+time 1693072261
+old [description:"Take out trash" due:"1693090800" entry:"1693066777" imask:"0" modified:"1693066776" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"e8577f96-849d-4d1a-afe2-58f8afd46553"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066777" imask:"0" modified:"1693072261" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"Housekeeping" tags_Housekeeping:"x" uuid:"e8577f96-849d-4d1a-afe2-58f8afd46553"]
+---
+time 1693073678
+new [description:"Call Marta about the therapy sessions" entry:"1693073678" modified:"1693073678" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693073756
+old [description:"Call Marta about the therapy sessions" entry:"1693073678" modified:"1693073678" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+new [description:"Call Marta about the therapy sessions" entry:"1693073678" modified:"1693073756" priority:"H" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693073803
+old [description:"Call Marta about the therapy sessions" entry:"1693073678" modified:"1693073756" priority:"H" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+new [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693073803" priority:"H" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693073829
+old [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693073803" priority:"H" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+new [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693073829" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693073848
+old [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693073829" status:"pending" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+new [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693073848" status:"pending" tags:"Therapy" tags_Therapy:"x" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693079848
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"-" modified:"1693066737" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+" modified:"1693079848" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693079848
+old [description:"Water garden" due:"1693090800" entry:"1693066737" imask:"0" modified:"1693072254" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"Housekeeping" tags_Housekeeping:"x" uuid:"0dae7d95-5e95-4e9e-984e-561e1b31bf22"]
+new [description:"Water garden" due:"1693090800" end:"1693079848" entry:"1693066737" imask:"0" modified:"1693079848" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"Housekeeping" tags_Housekeeping:"x" uuid:"0dae7d95-5e95-4e9e-984e-561e1b31bf22"]
+---
+time 1693079850
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"-" modified:"1693066777" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+" modified:"1693079850" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693079850
+old [description:"Take out trash" due:"1693090800" entry:"1693066777" imask:"0" modified:"1693072261" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"Housekeeping" tags_Housekeeping:"x" uuid:"e8577f96-849d-4d1a-afe2-58f8afd46553"]
+new [description:"Take out trash" due:"1693090800" end:"1693079850" entry:"1693066777" imask:"0" modified:"1693079850" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"Housekeeping" tags_Housekeeping:"x" uuid:"e8577f96-849d-4d1a-afe2-58f8afd46553"]
+---
+time 1693079927
+old [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693073848" status:"pending" tags:"Therapy" tags_Therapy:"x" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+new [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693079927" scheduled:"1693126800" status:"pending" tags_Therapy:"x" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693104226
+new [description:"Water garden" due:"1693177200" entry:"1693104226" imask:"1" modified:"1693079848" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5831a5e2-977a-46b3-982e-1cda372c4ade"]
+---
+time 1693104226
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+" modified:"1693079848" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+-" modified:"1693104226" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693104226
+new [description:"Take out trash" due:"1693177200" entry:"1693104226" imask:"1" modified:"1693079850" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"68e6651b-3aae-4bcb-95ea-fa0b86cb48cd"]
+---
+time 1693104226
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+" modified:"1693079850" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+-" modified:"1693104226" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693104255
+old [description:"Driving Code class" entry:"1692826604" modified:"1692985067" scheduled:"1693328400" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+new [description:"Driving Code class" entry:"1692826604" modified:"1693104255" priority:"H" scheduled:"1693328400" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1693104258
+old [description:"Driving Code class" entry:"1692827352" modified:"1692985079" scheduled:"1693414800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+new [description:"Driving Code class" entry:"1692827352" modified:"1693104258" priority:"H" scheduled:"1693414800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+---
+time 1693104262
+old [description:"Driving Code class" entry:"1692829899" modified:"1692985087" scheduled:"1693501200" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+new [description:"Driving Code class" entry:"1692829899" modified:"1693104262" priority:"H" scheduled:"1693501200" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+---
+time 1693150229
+new [description:"Configure vim for using vimwiki and taskwiki" entry:"1693150229" modified:"1693150229" status:"pending" uuid:"40e63ea2-b966-461b-8285-52e275576df1"]
+---
+time 1693155187
+old [description:"Call Marta about the therapy sessions" due:"1693152000" entry:"1693073678" modified:"1693079927" scheduled:"1693126800" status:"pending" tags:"Therapy" tags_Therapy:"x" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+new [description:"Call Marta about the therapy sessions" due:"1693152000" end:"1693155187" entry:"1693073678" modified:"1693155187" scheduled:"1693126800" status:"completed" tags:"Therapy" tags_Therapy:"x" uuid:"cc4b337f-6169-4b6b-80d9-7e7bbc7f61cb"]
+---
+time 1693159711
+old [description:"Configure vim for using vimwiki and taskwiki" entry:"1693150229" modified:"1693150229" status:"pending" uuid:"40e63ea2-b966-461b-8285-52e275576df1"]
+new [description:"Configure vim for using vimwiki and taskwiki" end:"1693159711" entry:"1693150229" modified:"1693159711" status:"completed" uuid:"40e63ea2-b966-461b-8285-52e275576df1"]
+---
+time 1693174763
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+-" modified:"1693104226" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++" modified:"1693174763" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693174763
+old [description:"Water garden" due:"1693177200" entry:"1693104226" imask:"1" modified:"1693079848" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5831a5e2-977a-46b3-982e-1cda372c4ade"]
+new [description:"Water garden" due:"1693177200" end:"1693174763" entry:"1693104226" imask:"1" modified:"1693174763" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"5831a5e2-977a-46b3-982e-1cda372c4ade"]
+---
+time 1693174765
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+-" modified:"1693104226" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++" modified:"1693174765" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693174765
+old [description:"Take out trash" due:"1693177200" entry:"1693104226" imask:"1" modified:"1693079850" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"68e6651b-3aae-4bcb-95ea-fa0b86cb48cd"]
+new [description:"Take out trash" due:"1693177200" end:"1693174765" entry:"1693104226" imask:"1" modified:"1693174765" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"68e6651b-3aae-4bcb-95ea-fa0b86cb48cd"]
+---
+time 1693225521
+new [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693174763" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693225521
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++" modified:"1693174763" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++-" modified:"1693225521" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693225521
+new [description:"Take out trash" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693174765" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+---
+time 1693225521
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++" modified:"1693174765" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++-" modified:"1693225521" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693225554
+new [description:"Get product for grandma from Zezinha" entry:"1693225554" modified:"1693225554" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+---
+time 1693225584
+old [description:"Get product for grandma from Zezinha" entry:"1693225554" modified:"1693225554" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+new [description:"Get product for grandma from Zezinha" entry:"1693225554" modified:"1693225584" scheduled:"1693231200" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+---
+time 1693225617
+old [description:"Get product for grandma from Zezinha" entry:"1693225554" modified:"1693225584" scheduled:"1693231200" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+new [description:"Get product for grandma from Zezinha" due:"1693238400" entry:"1693225554" modified:"1693225617" scheduled:"1693231200" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+---
+time 1693225841
+old [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693174763" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+new [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693225841" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693225850
+old [description:"Take out trash" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693174765" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+new [description:"Take out trash" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693225850" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+---
+time 1693225854
+old [description:"Get product for grandma from Zezinha" due:"1693238400" entry:"1693225554" modified:"1693225617" scheduled:"1693231200" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+new [description:"Get product for grandma from Zezinha" due:"1693238400" entry:"1693225554" modified:"1693225854" priority:"H" scheduled:"1693231200" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+---
+time 1693242204
+old [description:"Get product for grandma from Zezinha" due:"1693238400" entry:"1693225554" modified:"1693225854" priority:"H" scheduled:"1693231200" status:"pending" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+new [description:"Get product for grandma from Zezinha" due:"1693238400" end:"1693242204" entry:"1693225554" modified:"1693242204" priority:"H" scheduled:"1693231200" status:"completed" uuid:"f72e2a32-7ce5-4171-943f-f6739564694c"]
+---
+time 1693243303
+new [description:"Consulta com Marta" entry:"1693243303" modified:"1693243303" status:"pending" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+---
+time 1693243368
+old [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693225841" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+new [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243368" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" scheduled:"1694696400" status:"pending" tags_housekeeping:"x" until:"1694700000" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693243421
+old [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243368" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" scheduled:"1694696400" status:"pending" tags:"housekeeping" tags_housekeeping:"x" until:"1694700000" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+new [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243421" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" scheduled:"1693245600" status:"pending" tags_housekeeping:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693243465
+old [description:"Consulta com Marta" entry:"1693243303" modified:"1693243303" status:"pending" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+new [description:"14:00:00" entry:"1693243303" modified:"1693243465" scheduled:"1694646000" status:"pending" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+---
+time 1693243493
+old [description:"14:00:00" entry:"1693243303" modified:"1693243465" scheduled:"1694646000" status:"pending" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+new [description:"14:00:00" entry:"1693243303" modified:"1693243493" scheduled:"1694696400" status:"pending" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+---
+time 1693243590
+old [description:"14:00:00" entry:"1693243303" modified:"1693243493" scheduled:"1694696400" status:"pending" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+new [description:"14:00:00" due:"1694700000" entry:"1693243303" modified:"1693243590" scheduled:"1694696400" status:"pending" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+---
+time 1693243608
+old [description:"14:00:00" due:"1694700000" entry:"1693243303" modified:"1693243590" scheduled:"1694696400" status:"pending" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+new [description:"14:00:00" due:"1694700000" entry:"1693243303" modified:"1693243608" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"recurring" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+---
+time 1693243609
+new [description:"14:00:00" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693243608" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+---
+time 1693243609
+old [description:"14:00:00" due:"1694700000" entry:"1693243303" modified:"1693243608" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"recurring" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+new [description:"14:00:00" due:"1694700000" entry:"1693243303" mask:"-" modified:"1693243609" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"recurring" until:"1694700000" uuid:"763de4c8-011e-4cd0-b01b-cab7c6d0a323"]
+---
+time 1693243673
+old [description:"14:00:00" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693243608" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+new [description:"14:00:00" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693243673" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags:"routine" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+---
+time 1693243679
+old [description:"Take out trash" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693225850" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+new [description:"Take out trash" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243679" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+---
+time 1693243698
+old [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243421" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" scheduled:"1693245600" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+new [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243698" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" scheduled:"1693245600" status:"pending" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693243857
+new [description:"Schedule Road Code Classes" entry:"1693243857" modified:"1693243857" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+---
+time 1693243920
+old [description:"Schedule Road Code Classes" entry:"1693243857" modified:"1693243857" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+new [description:"Schedule Road Code Classes" due:"1693436400" entry:"1693243857" modified:"1693243920" status:"pending" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+---
+time 1693243946
+old [description:"Schedule Road Code Classes" due:"1693436400" entry:"1693243857" modified:"1693243920" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+new [description:"Schedule Road Code Classes" due:"1693436400" entry:"1693243857" modified:"1693243946" priority:"H" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+---
+time 1693243951
+old [description:"Schedule Road Code Classes" due:"1693436400" entry:"1693243857" modified:"1693243946" priority:"H" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+new [description:"Schedule Road Code Classes" due:"1693436400" entry:"1693243857" modified:"1693243951" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+---
+time 1693245538
+old [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243698" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" scheduled:"1693245600" status:"pending" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+new [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693245538" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693245578
+old [description:"14:00:00" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693243673" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags:"routine" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+new [description:"Consulta com a Marta" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693245578" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+---
+time 1693256799
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++-" modified:"1693225521" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++" modified:"1693256799" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693256799
+old [description:"Water garden" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693245538" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+new [description:"Water garden" due:"1693263600" end:"1693256799" entry:"1693225521" imask:"2" modified:"1693256799" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" priority:"L" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"a9ed1814-06ae-4e39-bd6c-44d81669ee69"]
+---
+time 1693257183
+new [description:"Clean kitchen floor with mop" entry:"1693257183" modified:"1693257183" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+---
+time 1693257321
+old [description:"Clean kitchen floor with mop" entry:"1693257183" modified:"1693257183" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+new [description:"Clean kitchen floor with mop" due:"1693299600" entry:"1693257183" modified:"1693257321" scheduled:"1693260000" status:"pending" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+---
+time 1693257488
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" modified:"1693257488" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693257489
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257489" imask:"0" modified:"1693257488" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"24671095-349d-45fb-9093-8dea20d37e9f"]
+---
+time 1693257489
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" modified:"1693257488" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"-" modified:"1693257489" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693262283
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++-" modified:"1693225521" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++" modified:"1693262283" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693262283
+old [description:"Take out trash" due:"1693263600" entry:"1693225521" imask:"2" modified:"1693243679" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" priority:"L" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+new [description:"Take out trash" due:"1693263600" end:"1693262283" entry:"1693225521" imask:"2" modified:"1693262283" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" priority:"L" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping,routine" tags_housekeeping:"x" tags_routine:"x" uuid:"d4d2b2cb-e6aa-4f93-8d49-8c24fc2d2eca"]
+---
+time 1693262303
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"-" modified:"1693257489" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+" modified:"1693262303" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693262303
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257489" imask:"0" modified:"1693257488" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"24671095-349d-45fb-9093-8dea20d37e9f"]
+new [description:"Fechar portadas" due:"1693335600" end:"1693262303" entry:"1693257489" imask:"0" modified:"1693262303" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"24671095-349d-45fb-9093-8dea20d37e9f"]
+---
+time 1693263819
+new [description:"Water garden" due:"1693350000" entry:"1693263819" imask:"3" modified:"1693256799" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"aee4ae50-8c9a-42e8-8028-8e206729586f"]
+---
+time 1693263819
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++" modified:"1693256799" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++-" modified:"1693263819" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693263819
+new [description:"Take out trash" due:"1693350000" entry:"1693263819" imask:"3" modified:"1693262283" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"2961585a-2a6a-461d-9fd9-a8d5f9d0d862"]
+---
+time 1693263819
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++" modified:"1693262283" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++-" modified:"1693263819" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693310416
+old [description:"Clean kitchen floor with mop" due:"1693299600" entry:"1693257183" modified:"1693257321" scheduled:"1693260000" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+new [description:"Clean kitchen floor with mop" due:"1693350000" entry:"1693257183" modified:"1693310416" scheduled:"1693260000" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+---
+time 1693317384
+old [description:"Clean kitchen floor with mop" due:"1693350000" entry:"1693257183" modified:"1693310416" scheduled:"1693260000" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+new [description:"Clean kitchen floor with mop" due:"1693350000" end:"1693317384" entry:"1693257183" modified:"1693317384" scheduled:"1693260000" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"dbffa1d2-93b5-44dc-93fd-070292686f96"]
+---
+time 1693325029
+old [description:"Driving Code class" entry:"1692826604" modified:"1693104255" priority:"H" scheduled:"1693328400" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+new [description:"Driving Code class" entry:"1692826604" modified:"1693325029" priority:"H" scheduled:"1693328400" start:"1693325029" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1693341758
+old [description:"Driving Code class" entry:"1692826604" modified:"1693325029" priority:"H" scheduled:"1693328400" start:"1693325029" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+new [description:"Driving Code class" end:"1693341758" entry:"1692826604" modified:"1693341758" priority:"H" scheduled:"1693328400" start:"1693325029" status:"deleted" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693332000" uuid:"4c5d0c85-2a1f-4eb5-95d0-66dd532e3e82"]
+---
+time 1693341758
+new [description:"Fechar portadas" due:"1693422000" entry:"1693341758" imask:"1" modified:"1693262303" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ac2da22e-e27c-48ac-ad04-f6eb08f3df2e"]
+---
+time 1693341758
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+" modified:"1693262303" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+-" modified:"1693341758" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693341765
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++-" modified:"1693263819" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++" modified:"1693341765" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693341765
+old [description:"Water garden" due:"1693350000" entry:"1693263819" imask:"3" modified:"1693256799" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"aee4ae50-8c9a-42e8-8028-8e206729586f"]
+new [description:"Water garden" due:"1693350000" end:"1693341765" entry:"1693263819" imask:"3" modified:"1693341765" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"aee4ae50-8c9a-42e8-8028-8e206729586f"]
+---
+time 1693341769
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+-" modified:"1693341758" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++" modified:"1693341769" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693341769
+old [description:"Fechar portadas" due:"1693422000" entry:"1693341758" imask:"1" modified:"1693262303" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ac2da22e-e27c-48ac-ad04-f6eb08f3df2e"]
+new [description:"Fechar portadas" due:"1693422000" end:"1693341769" entry:"1693341758" imask:"1" modified:"1693341769" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"ac2da22e-e27c-48ac-ad04-f6eb08f3df2e"]
+---
+time 1693357166
+new [description:"Water garden" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693341765" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"6a063bf5-4dfa-49b5-9be9-02e521b63450"]
+---
+time 1693357166
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++" modified:"1693341765" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++-" modified:"1693357166" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693357166
+new [description:"Take out trash" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693263819" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+---
+time 1693357166
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++-" modified:"1693263819" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++--" modified:"1693357166" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693357170
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++--" modified:"1693357166" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++-" modified:"1693357170" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693357170
+old [description:"Take out trash" due:"1693350000" entry:"1693263819" imask:"3" modified:"1693262283" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"2961585a-2a6a-461d-9fd9-a8d5f9d0d862"]
+new [description:"Take out trash" due:"1693350000" end:"1693357170" entry:"1693263819" imask:"3" modified:"1693357170" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"2961585a-2a6a-461d-9fd9-a8d5f9d0d862"]
+---
+time 1693357173
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++-" modified:"1693357166" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++" modified:"1693357173" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693357173
+old [description:"Water garden" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693341765" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"6a063bf5-4dfa-49b5-9be9-02e521b63450"]
+new [description:"Water garden" due:"1693436400" end:"1693357173" entry:"1693357166" imask:"4" modified:"1693357173" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"6a063bf5-4dfa-49b5-9be9-02e521b63450"]
+---
+time 1693428603
+old [description:"Driving Code class" entry:"1692827352" modified:"1693104258" priority:"H" scheduled:"1693414800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+new [description:"Driving Code class" end:"1693428603" entry:"1692827352" modified:"1693428603" priority:"H" scheduled:"1693414800" status:"deleted" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693418400" uuid:"ba928384-76a1-4299-9d3b-9bad2630769c"]
+---
+time 1693428603
+new [description:"Fechar portadas" due:"1693508400" entry:"1693428603" imask:"2" modified:"1693341769" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5fe816f9-bc54-461a-88f4-3806391b1cb4"]
+---
+time 1693428603
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++" modified:"1693341769" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++-" modified:"1693428603" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693428608
+old [description:"Schedule Road Code Classes" due:"1693436400" entry:"1693243857" modified:"1693243951" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+new [description:"Schedule Road Code Classes" due:"1693436400" end:"1693428608" entry:"1693243857" modified:"1693428608" status:"completed" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"87d462f6-17b5-4751-8fee-2df59927cc30"]
+---
+time 1693428610
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++-" modified:"1693428603" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++" modified:"1693428610" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693428610
+old [description:"Fechar portadas" due:"1693508400" entry:"1693428603" imask:"2" modified:"1693341769" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5fe816f9-bc54-461a-88f4-3806391b1cb4"]
+new [description:"Fechar portadas" due:"1693508400" end:"1693428610" entry:"1693428603" imask:"2" modified:"1693428610" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"5fe816f9-bc54-461a-88f4-3806391b1cb4"]
+---
+time 1693428849
+old [description:"Take out trash" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693263819" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+new [description:"Take out trash" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693428849" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" start:"1693428849" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+---
+time 1693437905
+new [description:"Water garden" due:"1693522800" entry:"1693437905" imask:"5" modified:"1693357173" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"7692ec8d-b3d9-46ad-8bd6-ff948504bbfa"]
+---
+time 1693437905
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++" modified:"1693357173" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++-" modified:"1693437905" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693437905
+new [description:"Take out trash" due:"1693522800" entry:"1693437905" imask:"5" modified:"1693357170" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"250d4af6-a991-4bf3-b237-86bf17439e45"]
+---
+time 1693437905
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++-" modified:"1693357170" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++--" modified:"1693437905" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693437907
+old [description:"Take out trash" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693428849" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" start:"1693428849" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+new [description:"Take out trash" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693437907" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+---
+time 1693438131
+new [description:"Road Code class" entry:"1693438131" modified:"1693438131" scheduled:"1694386800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
+time 1693438354
+new [description:"driving code class" entry:"1693438354" modified:"1693438354" scheduled:"1694473200" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+---
+time 1693438559
+new [description:"Road Code class DriversLicense" entry:"1693438559" modified:"1693438559" scheduled:"1694559600" status:"pending" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+---
+time 1693438674
+new [description:"Road Code Class 18:00:00" entry:"1693438674" modified:"1693438674" scheduled:"1694646000" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+---
+time 1693438822
+old [description:"Road Code class" entry:"1693438131" modified:"1693438131" scheduled:"1694386800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+new [description:"Road Code class" entry:"1693438131" modified:"1693438822" scheduled:"1694451600" status:"pending" tags_DriversLicense:"x" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
+time 1693438837
+old [description:"driving code class" entry:"1693438354" modified:"1693438354" scheduled:"1694473200" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+new [description:"driving code class" entry:"1693438354" modified:"1693438837" scheduled:"1694538000" status:"pending" tags_DriversLicense:"x" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+---
+time 1693438897
+old [description:"Road Code Class 18:00:00" entry:"1693438674" modified:"1693438674" scheduled:"1694646000" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+new [description:"Road Code Class" entry:"1693438674" modified:"1693438897" scheduled:"1694710800" status:"pending" tags_DriversLicense:"x" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+---
+time 1693438909
+old [description:"Road Code class DriversLicense" entry:"1693438559" modified:"1693438559" scheduled:"1694559600" status:"pending" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+new [description:"Road Code class DriversLicense" entry:"1693438559" modified:"1693438909" scheduled:"1694624400" status:"pending" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+---
+time 1693442303
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++--" modified:"1693437905" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++-" modified:"1693442303" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693442303
+old [description:"Take out trash" due:"1693436400" entry:"1693357166" imask:"4" modified:"1693437907" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+new [description:"Take out trash" due:"1693436400" end:"1693442303" entry:"1693357166" imask:"4" modified:"1693442303" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"30898e83-65ef-4a87-a7ac-48790258d126"]
+---
+time 1693442331
+old [description:"Road Code class" entry:"1693438131" modified:"1693438822" scheduled:"1694451600" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+new [description:"Road Code class" due:"1694455200" entry:"1693438131" modified:"1693442331" scheduled:"1694451600" status:"pending" tags_DriversLicense:"x" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
+time 1693442350
+old [description:"driving code class" entry:"1693438354" modified:"1693438837" scheduled:"1694538000" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+new [description:"driving code class" due:"1694455200" entry:"1693438354" modified:"1693442350" scheduled:"1694538000" status:"pending" tags_DriversLicense:"x" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+---
+time 1693442360
+old [description:"Road Code Class" entry:"1693438674" modified:"1693438897" scheduled:"1694710800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+new [description:"Road Code Class" due:"1694455200" entry:"1693438674" modified:"1693442360" scheduled:"1694710800" status:"pending" tags_DriversLicense:"x" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+---
+time 1693442394
+old [description:"Road Code class DriversLicense" entry:"1693438559" modified:"1693438909" scheduled:"1694624400" status:"pending" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+new [description:"Road Code class" entry:"1693438559" modified:"1693442394" scheduled:"1694624400" status:"pending" until:"1694628000" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+---
+time 1693442419
+old [description:"Road Code class" due:"1694455200" entry:"1693438131" modified:"1693442331" scheduled:"1694451600" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+new [description:"Road Code class" entry:"1693438131" modified:"1693442419" scheduled:"1694451600" status:"pending" tags_DriversLicense:"x" until:"1694455200" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
+time 1693442431
+old [description:"Consulta com a Marta" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693245578" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags:"routine" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+new [description:"Consulta com a Marta" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693442431" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+---
+time 1693442446
+old [description:"Road Code Class" due:"1694455200" entry:"1693438674" modified:"1693442360" scheduled:"1694710800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+new [description:"Road Code Class" entry:"1693438674" modified:"1693442446" scheduled:"1694710800" status:"pending" tags_DriversLicense:"x" until:"1694455200" uuid:"fa9cf9e7-a38c-4257-8408-c6340f635d53"]
+---
+time 1693442463
+old [description:"Consulta com a Marta" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693442431" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags:"routine" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+new [description:"Consulta com a Marta" due:"1694700000" entry:"1693243609" imask:"0" modified:"1693442463" parent:"763de4c8-011e-4cd0-b01b-cab7c6d0a323" recur:"weekly" rtype:"periodic" scheduled:"1694696400" status:"pending" tags_routine:"x" until:"1694700000" uuid:"3432a01a-06d7-4858-975d-e05f1ba45678"]
+---
+time 1693442496
+old [description:"driving code class" due:"1694455200" entry:"1693438354" modified:"1693442350" scheduled:"1694538000" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+new [description:"driving code class" entry:"1693438354" modified:"1693442496" scheduled:"1694538000" status:"pending" tags_DriversLicense:"x" until:"1694455200" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+---
+time 1693442512
+old [description:"driving code class" entry:"1693438354" modified:"1693442496" scheduled:"1694538000" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694455200" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+new [description:"Road Code class" entry:"1693438354" modified:"1693442512" scheduled:"1694538000" status:"pending" tags_DriversLicense:"x" until:"1694455200" uuid:"781377af-58e2-4f08-960c-64cfd644b4e3"]
+---
+time 1693515554
+old [description:"Driving Code class" entry:"1692829899" modified:"1693104262" priority:"H" scheduled:"1693501200" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+new [description:"Driving Code class" end:"1693515554" entry:"1692829899" modified:"1693515554" priority:"H" scheduled:"1693501200" status:"deleted" tags:"DriversLicense" tags_DriversLicense:"x" until:"1693504800" uuid:"330fd059-79fc-4298-9805-bbe239bba8b1"]
+---
+time 1693515554
+new [description:"Fechar portadas" due:"1693594800" entry:"1693515554" imask:"3" modified:"1693428610" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d5162c23-96e3-46ec-8893-014fe77b0f46"]
+---
+time 1693515554
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++" modified:"1693428610" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++-" modified:"1693515554" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693515558
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++-" modified:"1693437905" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++" modified:"1693515558" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693515558
+old [description:"Water garden" due:"1693522800" entry:"1693437905" imask:"5" modified:"1693357173" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"7692ec8d-b3d9-46ad-8bd6-ff948504bbfa"]
+new [description:"Water garden" due:"1693522800" end:"1693515558" entry:"1693437905" imask:"5" modified:"1693515558" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"7692ec8d-b3d9-46ad-8bd6-ff948504bbfa"]
+---
+time 1693515559
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++-" modified:"1693442303" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++" modified:"1693515559" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693515559
+old [description:"Take out trash" due:"1693522800" entry:"1693437905" imask:"5" modified:"1693357170" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"250d4af6-a991-4bf3-b237-86bf17439e45"]
+new [description:"Take out trash" due:"1693522800" end:"1693515559" entry:"1693437905" imask:"5" modified:"1693515559" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"250d4af6-a991-4bf3-b237-86bf17439e45"]
+---
+time 1693533218
+new [description:"Water garden" due:"1693609200" entry:"1693533218" imask:"6" modified:"1693515558" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5052cd77-c331-49b1-a9d2-fba2ad8ae310"]
+---
+time 1693533218
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++" modified:"1693515558" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++-" modified:"1693533218" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693533218
+new [description:"Take out trash" due:"1693609200" entry:"1693533218" imask:"6" modified:"1693515559" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"1ea75eb2-d6b5-4b14-a908-adb81141ef00"]
+---
+time 1693533218
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++" modified:"1693515559" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++-" modified:"1693533218" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693533254
+old [description:"Road Code class" entry:"1693438559" modified:"1693442394" scheduled:"1694624400" status:"pending" until:"1694628000" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+new [description:"Road Code class" entry:"1693438559" modified:"1693533254" scheduled:"1694624400" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694628000" uuid:"0bb0a0c0-3b36-4a6f-be5e-31bd110e5a1a"]
+---
+time 1693593637
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++-" modified:"1693533218" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++" modified:"1693593637" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693593637
+old [description:"Water garden" due:"1693609200" entry:"1693533218" imask:"6" modified:"1693515558" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5052cd77-c331-49b1-a9d2-fba2ad8ae310"]
+new [description:"Water garden" due:"1693609200" end:"1693593637" entry:"1693533218" imask:"6" modified:"1693593637" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"5052cd77-c331-49b1-a9d2-fba2ad8ae310"]
+---
+time 1693603680
+new [description:"Fechar portadas" due:"1693681200" entry:"1693603680" imask:"4" modified:"1693515554" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4710d19-9c7c-4a0b-a3d6-b630730984f0"]
+---
+time 1693603680
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++-" modified:"1693515554" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++--" modified:"1693603680" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693603688
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++-" modified:"1693533218" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++" modified:"1693603688" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693603688
+old [description:"Take out trash" due:"1693609200" entry:"1693533218" imask:"6" modified:"1693515559" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"1ea75eb2-d6b5-4b14-a908-adb81141ef00"]
+new [description:"Take out trash" due:"1693609200" end:"1693603688" entry:"1693533218" imask:"6" modified:"1693603688" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"1ea75eb2-d6b5-4b14-a908-adb81141ef00"]
+---
+time 1693668616
+new [description:"Water garden" due:"1693695600" entry:"1693668616" imask:"7" modified:"1693593637" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"eabc707d-9798-4bc1-a964-48a5c0ce9770"]
+---
+time 1693668616
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++" modified:"1693593637" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++-" modified:"1693668616" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693668616
+new [description:"Take out trash" due:"1693695600" entry:"1693668616" imask:"7" modified:"1693603688" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"13cc9d13-b9ff-4611-a55f-840f428267e0"]
+---
+time 1693668616
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++" modified:"1693603688" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++-" modified:"1693668616" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693668621
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++--" modified:"1693603680" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++-" modified:"1693668621" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693668621
+old [description:"Fechar portadas" due:"1693594800" entry:"1693515554" imask:"3" modified:"1693428610" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d5162c23-96e3-46ec-8893-014fe77b0f46"]
+new [description:"Fechar portadas" due:"1693594800" end:"1693668621" entry:"1693515554" imask:"3" modified:"1693668621" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"d5162c23-96e3-46ec-8893-014fe77b0f46"]
+---
+time 1693671149
+old [description:"Road Code class" entry:"1693438131" modified:"1693442419" scheduled:"1694451600" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694455200" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+new [description:"Road Code class" entry:"1693438131" modified:"1693671149" scheduled:"1694422800" status:"pending" tags_DriversLicense:"x" until:"1694426400" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
+time 1693676890
+old [description:"Fechar portadas" due:"1693681200" entry:"1693603680" imask:"4" modified:"1693515554" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4710d19-9c7c-4a0b-a3d6-b630730984f0"]
+new [description:"Fechar portadas" due:"1693688400" entry:"1693603680" imask:"4" modified:"1693676890" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags_housekeeping:"x" uuid:"d4710d19-9c7c-4a0b-a3d6-b630730984f0"]
+---
+time 1693676976
+new [description:"Ir a Fernanda" entry:"1693676976" modified:"1693676976" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ee8b1261-c3ca-4a35-aa6b-a30ff87f68bb"]
+---
+time 1693676997
+new [description:"Limpar chao cozinha" entry:"1693676997" modified:"1693676997" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"7875a32f-fe58-4366-ab1b-637139a8eadb"]
+---
+time 1693677029
+old [description:"Limpar chao cozinha" entry:"1693676997" modified:"1693676997" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"7875a32f-fe58-4366-ab1b-637139a8eadb"]
+new [description:"Limpar chao cozinha" due:"1693681200" entry:"1693676997" modified:"1693677029" status:"pending" tags_housekeeping:"x" uuid:"7875a32f-fe58-4366-ab1b-637139a8eadb"]
+---
+time 1693677039
+old [description:"Ir a Fernanda" entry:"1693676976" modified:"1693676976" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ee8b1261-c3ca-4a35-aa6b-a30ff87f68bb"]
+new [description:"Ir a Fernanda" entry:"1693676976" modified:"1693677039" start:"1693677039" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ee8b1261-c3ca-4a35-aa6b-a30ff87f68bb"]
+---
+time 1693677049
+old [description:"Take out trash" due:"1693695600" entry:"1693668616" imask:"7" modified:"1693603688" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"13cc9d13-b9ff-4611-a55f-840f428267e0"]
+new [description:"Take out trash" due:"1693695600" entry:"1693668616" imask:"7" modified:"1693677049" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" start:"1693677049" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"13cc9d13-b9ff-4611-a55f-840f428267e0"]
+---
+time 1693707733
+new [description:"Water garden" due:"1693782000" entry:"1693707733" imask:"8" modified:"1693668616" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"b8f11068-074e-411e-a4f4-2c1c83f1643f"]
+---
+time 1693707733
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++-" modified:"1693668616" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++--" modified:"1693707733" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693707733
+new [description:"Take out trash" due:"1693782000" entry:"1693707733" imask:"8" modified:"1693668616" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d34765fd-26fd-4596-be99-1ba72b3fec00"]
+---
+time 1693707733
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++-" modified:"1693668616" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++--" modified:"1693707733" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693707733
+new [description:"Fechar portadas" due:"1693767600" entry:"1693707733" imask:"5" modified:"1693668621" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"92908abb-0dbd-4cfd-b1c3-6b3f5d1e9ece"]
+---
+time 1693707733
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++-" modified:"1693668621" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++--" modified:"1693707733" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693707737
+old [description:"Ir a Fernanda" entry:"1693676976" modified:"1693677039" start:"1693677039" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ee8b1261-c3ca-4a35-aa6b-a30ff87f68bb"]
+new [description:"Ir a Fernanda" end:"1693707737" entry:"1693676976" modified:"1693707737" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"ee8b1261-c3ca-4a35-aa6b-a30ff87f68bb"]
+---
+time 1693707739
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++--" modified:"1693707733" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++-" modified:"1693707739" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693707739
+old [description:"Take out trash" due:"1693695600" entry:"1693668616" imask:"7" modified:"1693677049" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" start:"1693677049" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"13cc9d13-b9ff-4611-a55f-840f428267e0"]
+new [description:"Take out trash" due:"1693695600" end:"1693707739" entry:"1693668616" imask:"7" modified:"1693707739" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"13cc9d13-b9ff-4611-a55f-840f428267e0"]
+---
+time 1693707743
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++--" modified:"1693707733" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++-" modified:"1693707743" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693707743
+old [description:"Fechar portadas" due:"1693688400" entry:"1693603680" imask:"4" modified:"1693676890" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4710d19-9c7c-4a0b-a3d6-b630730984f0"]
+new [description:"Fechar portadas" due:"1693688400" end:"1693707743" entry:"1693603680" imask:"4" modified:"1693707743" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"d4710d19-9c7c-4a0b-a3d6-b630730984f0"]
+---
+time 1693707745
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++--" modified:"1693707733" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++-" modified:"1693707745" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693707745
+old [description:"Water garden" due:"1693695600" entry:"1693668616" imask:"7" modified:"1693593637" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"eabc707d-9798-4bc1-a964-48a5c0ce9770"]
+new [description:"Water garden" due:"1693695600" end:"1693707745" entry:"1693668616" imask:"7" modified:"1693707745" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"eabc707d-9798-4bc1-a964-48a5c0ce9770"]
+---
+time 1693707746
+old [description:"Limpar chao cozinha" due:"1693681200" entry:"1693676997" modified:"1693677029" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"7875a32f-fe58-4366-ab1b-637139a8eadb"]
+new [description:"Limpar chao cozinha" due:"1693681200" end:"1693707746" entry:"1693676997" modified:"1693707746" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"7875a32f-fe58-4366-ab1b-637139a8eadb"]
+---
+time 1693709597
+new [description:"Outsystems project with Tomas" entry:"1693709597" modified:"1693709597" scheduled:"1693749600" status:"pending" tags:"outsystems" tags_outsystems:"x" uuid:"7b1599cb-66c1-42fc-84d2-2c539a1b6344"]
+---
+time 1693815576
+new [description:"Water garden" due:"1693868400" entry:"1693815576" imask:"9" modified:"1693707745" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"8a70f8ce-3f7e-46e8-8d2d-80faa77556dc"]
+---
+time 1693815576
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++-" modified:"1693707745" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++--" modified:"1693815576" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693815576
+new [description:"Take out trash" due:"1693868400" entry:"1693815576" imask:"9" modified:"1693707739" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"f6e16609-e237-43d3-93fb-87575ecfacde"]
+---
+time 1693815576
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++-" modified:"1693707739" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++--" modified:"1693815576" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693815576
+new [description:"Fechar portadas" due:"1693854000" entry:"1693815576" imask:"6" modified:"1693707743" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"b99e623c-39db-4739-a7cf-f4698e2a77b8"]
+---
+time 1693815576
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++-" modified:"1693707743" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++--" modified:"1693815576" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693815579
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++--" modified:"1693815576" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++-" modified:"1693815579" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693815579
+old [description:"Fechar portadas" due:"1693767600" entry:"1693707733" imask:"5" modified:"1693668621" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"92908abb-0dbd-4cfd-b1c3-6b3f5d1e9ece"]
+new [description:"Fechar portadas" due:"1693767600" end:"1693815579" entry:"1693707733" imask:"5" modified:"1693815579" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"92908abb-0dbd-4cfd-b1c3-6b3f5d1e9ece"]
+---
+time 1693815580
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++--" modified:"1693815576" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++-" modified:"1693815580" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693815580
+old [description:"Water garden" due:"1693782000" entry:"1693707733" imask:"8" modified:"1693668616" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"b8f11068-074e-411e-a4f4-2c1c83f1643f"]
+new [description:"Water garden" due:"1693782000" end:"1693815580" entry:"1693707733" imask:"8" modified:"1693815580" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"b8f11068-074e-411e-a4f4-2c1c83f1643f"]
+---
+time 1693815581
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++--" modified:"1693815576" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++-" modified:"1693815581" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693815581
+old [description:"Take out trash" due:"1693782000" entry:"1693707733" imask:"8" modified:"1693668616" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"d34765fd-26fd-4596-be99-1ba72b3fec00"]
+new [description:"Take out trash" due:"1693782000" end:"1693815581" entry:"1693707733" imask:"8" modified:"1693815581" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"d34765fd-26fd-4596-be99-1ba72b3fec00"]
+---
+time 1693872785
+new [description:"Water garden" due:"1693954800" entry:"1693872785" imask:"10" modified:"1693815580" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"ec64e0f7-f6f2-462b-accf-e5155ba3a1a0"]
+---
+time 1693872785
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++-" modified:"1693815580" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++--" modified:"1693872785" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693872785
+new [description:"Take out trash" due:"1693954800" entry:"1693872785" imask:"10" modified:"1693815581" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"8f553f4a-aff2-4040-bcc0-76bd31d641b1"]
+---
+time 1693872785
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++-" modified:"1693815581" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++--" modified:"1693872785" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693872785
+new [description:"Fechar portadas" due:"1693940400" entry:"1693872785" imask:"7" modified:"1693815579" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"23726d56-66f7-4a84-8ba9-5a18bfbada0a"]
+---
+time 1693872785
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++-" modified:"1693815579" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++--" modified:"1693872785" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693872787
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++--" modified:"1693872785" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++++-" modified:"1693872787" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1693872787
+old [description:"Fechar portadas" due:"1693854000" entry:"1693815576" imask:"6" modified:"1693707743" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"b99e623c-39db-4739-a7cf-f4698e2a77b8"]
+new [description:"Fechar portadas" due:"1693854000" end:"1693872787" entry:"1693815576" imask:"6" modified:"1693872787" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"b99e623c-39db-4739-a7cf-f4698e2a77b8"]
+---
+time 1693872788
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++--" modified:"1693872785" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++++-" modified:"1693872788" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1693872788
+old [description:"Water garden" due:"1693868400" entry:"1693815576" imask:"9" modified:"1693707745" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"8a70f8ce-3f7e-46e8-8d2d-80faa77556dc"]
+new [description:"Water garden" due:"1693868400" end:"1693872788" entry:"1693815576" imask:"9" modified:"1693872788" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"8a70f8ce-3f7e-46e8-8d2d-80faa77556dc"]
+---
+time 1693872789
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++--" modified:"1693872785" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++++-" modified:"1693872789" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1693872789
+old [description:"Take out trash" due:"1693868400" entry:"1693815576" imask:"9" modified:"1693707739" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"f6e16609-e237-43d3-93fb-87575ecfacde"]
+new [description:"Take out trash" due:"1693868400" end:"1693872789" entry:"1693815576" imask:"9" modified:"1693872789" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"f6e16609-e237-43d3-93fb-87575ecfacde"]
+---
+time 1693872849
+new [description:"Create virtual machine for visual studio" entry:"1693872849" modified:"1693872849" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"1f80ca28-568c-417e-9759-29f1b9ffc675"]
+---
+time 1693872956
+new [description:"Create 2 windows Servers virtual machines and one cliente" entry:"1693872956" modified:"1693872956" status:"pending" tags:"Ramires" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+---
+time 1693873190
+old [description:"Create virtual machine for visual studio" entry:"1693872849" modified:"1693872849" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"1f80ca28-568c-417e-9759-29f1b9ffc675"]
+new [description:"Create virtual machine for visual studio" due:"1694185200" entry:"1693872849" modified:"1693873190" status:"pending" tags_Pacheco:"x" uuid:"1f80ca28-568c-417e-9759-29f1b9ffc675"]
+---
+time 1693873226
+old [description:"Create 2 windows Servers virtual machines and one cliente" entry:"1693872956" modified:"1693872956" status:"pending" tags:"Ramires" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+new [description:"Create 2 windows Servers virtual machines and one client" entry:"1693872956" modified:"1693873226" status:"pending" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+---
+time 1693873261
+old [description:"Create 2 windows Servers virtual machines and one client" entry:"1693872956" modified:"1693873226" status:"pending" tags:"Ramires" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+new [description:"Create 2 windows Servers virtual machines and one client" due:"1693926000" entry:"1693872956" modified:"1693873261" status:"pending" tags:"Ramires" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+---
+time 1693928210
+old [description:"Create 2 windows Servers virtual machines and one client" due:"1693926000" entry:"1693872956" modified:"1693873261" status:"pending" tags:"Ramires" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+new [description:"Create 2 windows Servers virtual machines and one client" due:"1694098800" entry:"1693872956" modified:"1693928210" status:"pending" tags_Ramires:"x" uuid:"23d5a4f8-2824-450a-9868-15df5ee23f1b"]
+---
+time 1693929574
+new [description:"Do swift exercises and put them in a git repository" entry:"1693929574" modified:"1693929574" status:"pending" tags:"swift" tags_swift:"x" uuid:"2bd9b2a6-8576-42c8-bfba-ffc328915904"]
+---
