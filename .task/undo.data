@@ -1381,3 +1381,98 @@ time 1694196447
 old [description:"Do swift exercises and put them in a git repository" entry:"1693929574" modified:"1693929574" status:"pending" tags:"swift" tags_swift:"x" uuid:"2bd9b2a6-8576-42c8-bfba-ffc328915904"]
 new [description:"Do swift exercises and put them in a git repository" end:"1694196447" entry:"1693929574" modified:"1694196447" status:"completed" tags:"swift" tags_swift:"x" uuid:"2bd9b2a6-8576-42c8-bfba-ffc328915904"]
 ---
+time 1694200388
+new [description:"Fechar portadas" due:"1694286000" entry:"1694200388" imask:"11" modified:"1694196440" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"60f691d8-bc6b-4d8c-bf88-84cb02d5018d"]
+---
+time 1694200388
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++-" modified:"1694196440" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++--" modified:"1694200388" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1694202325
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++--" modified:"1694200388" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++-X" modified:"1694202325" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1694202325
+old [description:"Fechar portadas" due:"1694286000" entry:"1694200388" imask:"11" modified:"1694196440" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"60f691d8-bc6b-4d8c-bf88-84cb02d5018d"]
+new [description:"Fechar portadas" due:"1694286000" end:"1694202325" entry:"1694200388" imask:"11" modified:"1694202325" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"deleted" tags:"housekeeping" tags_housekeeping:"x" uuid:"60f691d8-bc6b-4d8c-bf88-84cb02d5018d"]
+---
+time 1694202778
+new [description:"Exercisios aula 08-09-2023" entry:"1694202778" modified:"1694202778" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+---
+time 1694202793
+new [description:"Exercisios aula 04-09-2023" entry:"1694202793" modified:"1694202793" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+---
+time 1694202870
+old [description:"Exercisios aula 08-09-2023" entry:"1694202778" modified:"1694202778" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+new [description:"Exercisios aula 08-09-2023" due:"1694300400" entry:"1694202778" modified:"1694202870" status:"pending" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+---
+time 1694202891
+old [description:"Exercisios aula 04-09-2023" entry:"1694202793" modified:"1694202793" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+new [description:"Exercisios aula 04-09-2023" due:"1694386800" entry:"1694202793" modified:"1694202891" status:"pending" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+---
+time 1694202928
+old [description:"Exercisios aula 08-09-2023" due:"1694300400" entry:"1694202778" modified:"1694202870" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+new [description:"00:00:00" due:"1694386800" entry:"1694202778" modified:"1694202928" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+---
+time 1694202954
+old [description:"00:00:00" due:"1694386800" entry:"1694202778" modified:"1694202928" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+new [description:"Exercisios aula -> 08-09-2023" due:"1694386800" entry:"1694202778" modified:"1694202954" status:"pending" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+---
+time 1694202964
+old [description:"Exercisios aula 04-09-2023" due:"1694386800" entry:"1694202793" modified:"1694202891" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+new [description:"Exercisios aula -> 04-09-2023" due:"1694386800" entry:"1694202793" modified:"1694202964" status:"pending" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+---
+time 1694202996
+new [description:"Create stored procedures for DotNet classes and projects DotNet" entry:"1694202996" modified:"1694202996" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
+---
+time 1694203010
+old [description:"Create stored procedures for DotNet classes and projects DotNet" entry:"1694202996" modified:"1694202996" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
+new [description:"Create stored procedures for DotNet classes and projects" entry:"1694202996" modified:"1694203010" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
+---
+time 1694204970
+new [description:"Criar pagina \"login_app.aspx\"" entry:"1694204970" modified:"1694204970" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+---
+time 1694204994
+new [description:"Permite efetuar autenticacao e recolher o perfil do utilizador" entry:"1694204994" modified:"1694204994" status:"pending" uuid:"a3587820-eb85-4230-8285-116fcd7ebebe"]
+---
+time 1694204994
+old [description:"Criar pagina \"login_app.aspx\"" entry:"1694204970" modified:"1694204970" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+new [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe" description:"Criar pagina \"login_app.aspx\"" entry:"1694204970" modified:"1694204994" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+---
+time 1694205021
+new [description:"Redireciona para a pagina \"main_app.aspx\"" entry:"1694205021" modified:"1694205021" status:"pending" uuid:"b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2"]
+---
+time 1694205021
+old [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe" description:"Criar pagina \"login_app.aspx\"" entry:"1694204970" modified:"1694204994" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+new [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" entry:"1694204970" modified:"1694205021" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+---
+time 1694205159
+new [description:"Apresenta o nome do utilizador" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"9b8d37d3-1be8-4f05-876e-a151e3058050"]
+---
+time 1694205159
+new [description:"Apresenta link que permite redirecionar para a pagina \"lista_utilizadores_app.aspx\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"1fb0e21c-a261-4d7c-9362-13db8d079e7e"]
+---
+time 1694205159
+new [description:"Apresenta um grafico com o numero de utilizadores por perfil" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"b99a8ac3-a34c-48be-8a0c-d8b48c588021"]
+---
+time 1694205159
+new [description:"Permite redirecionar para a pagina \" alterar_app.aspx\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"5b7e09a8-157e-46f3-8b08-e250b5a8a125"]
+---
+time 1694205159
+new [dep_1fb0e21c-a261-4d7c-9362-13db8d079e7e:"x" dep_b99a8ac3-a34c-48be-8a0c-d8b48c588021:"x" depends:"1fb0e21c-a261-4d7c-9362-13db8d079e7e,b99a8ac3-a34c-48be-8a0c-d8b48c588021" description:"Se o utilizador for \"administrador\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"8267ea8d-98c5-44d7-a338-e39fdcc1a4ec"]
+---
+time 1694205159
+new [dep_5b7e09a8-157e-46f3-8b08-e250b5a8a125:"x" dep_8267ea8d-98c5-44d7-a338-e39fdcc1a4ec:"x" dep_9b8d37d3-1be8-4f05-876e-a151e3058050:"x" depends:"5b7e09a8-157e-46f3-8b08-e250b5a8a125,8267ea8d-98c5-44d7-a338-e39fdcc1a4ec,9b8d37d3-1be8-4f05-876e-a151e3058050" description:"Criar pagina \"main_app.aspx\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"48c2fc74-8d20-4927-8182-3d41a6dee3a5"]
+---
+time 1694205226
+new [description:"Apresenta uma gridview com a listagem de todos os utilizadores" entry:"1694205226" modified:"1694205226" status:"pending" uuid:"66139e5c-37d3-43c8-b75c-378516643d08"]
+---
+time 1694205226
+new [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" entry:"1694205226" modified:"1694205226" status:"pending" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
+---
+time 1694205261
+new [description:"Permite alterar a palavra-passe do utilizador autenticado" entry:"1694205261" modified:"1694205261" status:"pending" uuid:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c"]
+---
+time 1694205261
+new [dep_ace9442f-c5e9-4eac-98c9-97bf9145fc0c:"x" depends:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c" description:"Criar pagina \"alterar_app.aspx\"" entry:"1694205261" modified:"1694205261" status:"pending" uuid:"fe839bbd-e066-4058-b833-297ecfa4c1b4"]
+---
