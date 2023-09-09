@@ -364,7 +364,8 @@ set -g status-bg '#191724'
 set -g status-fg '#E0DEF4'
 
 # bindings
-bind t run-shell "tmux neww 'vit'"
+bind v run-shell "tmux neww 'vit'"
+bind n run-shell "tmux neww 'cd $HOME/vimwiki; nvim index.md'"
 
 # start with mouse mode enabled
 #set -g mouse on
