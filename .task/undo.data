@@ -1476,3 +1476,181 @@ new [description:"Permite alterar a palavra-passe do utilizador autenticado" ent
 time 1694205261
 new [dep_ace9442f-c5e9-4eac-98c9-97bf9145fc0c:"x" depends:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c" description:"Criar pagina \"alterar_app.aspx\"" entry:"1694205261" modified:"1694205261" status:"pending" uuid:"fe839bbd-e066-4058-b833-297ecfa4c1b4"]
 ---
+time 1694374547
+new [description:"Water garden" due:"1694300400" entry:"1694374547" imask:"14" modified:"1694196441" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"3e0e5804-fcb9-443e-9035-ec4cb29a409e"]
+---
+time 1694374547
+new [description:"Water garden" due:"1694386800" entry:"1694374547" imask:"15" modified:"1694196441" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"f666d2c1-deec-4d19-92d3-7aa3bf2d644d"]
+---
+time 1694374547
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++++++-" modified:"1694196441" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++++++---" modified:"1694374547" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1694374547
+new [description:"Take out trash" due:"1694300400" entry:"1694374547" imask:"14" modified:"1694196442" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5e2fb1a9-f1de-4ea4-b715-96e5469e234d"]
+---
+time 1694374547
+new [description:"Take out trash" due:"1694386800" entry:"1694374547" imask:"15" modified:"1694196442" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"19cbc450-8217-4664-8d1d-dbb4947bde31"]
+---
+time 1694374547
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++++++-" modified:"1694196442" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++++++---" modified:"1694374547" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1694374547
+new [description:"Fechar portadas" due:"1694372400" entry:"1694374547" imask:"12" modified:"1694202325" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"fb8eafd8-a0cf-48b6-98f9-60ec3251aad6"]
+---
+time 1694374547
+new [description:"Fechar portadas" due:"1694458800" entry:"1694374547" imask:"13" modified:"1694202325" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"242b833f-10e9-4fbb-8a43-8770fd96ef91"]
+---
+time 1694374547
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++-X" modified:"1694202325" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++-X--" modified:"1694374547" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1694374552
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"++++++++++-X--" modified:"1694374547" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++++++++X--" modified:"1694374552" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1694374552
+old [description:"Fechar portadas" due:"1694199600" entry:"1694196401" imask:"10" modified:"1693872787" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"04f9c778-ca05-411a-882d-cbf9257d2ad7"]
+new [description:"Fechar portadas" due:"1694199600" end:"1694374552" entry:"1694196401" imask:"10" modified:"1694374552" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"04f9c778-ca05-411a-882d-cbf9257d2ad7"]
+---
+time 1694374553
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++++++---" modified:"1694374547" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++++++++--" modified:"1694374553" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1694374553
+old [description:"Water garden" due:"1694214000" entry:"1694196401" imask:"13" modified:"1693872788" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"3e3695fc-9123-421c-aac0-d76d426913d4"]
+new [description:"Water garden" due:"1694214000" end:"1694374553" entry:"1694196401" imask:"13" modified:"1694374553" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"3e3695fc-9123-421c-aac0-d76d426913d4"]
+---
+time 1694374554
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++++++---" modified:"1694374547" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++++++++--" modified:"1694374554" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1694374554
+old [description:"Take out trash" due:"1694214000" entry:"1694196401" imask:"13" modified:"1693872789" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5b7dbed2-afd2-43bc-9772-ec9eabcd8a9e"]
+new [description:"Take out trash" due:"1694214000" end:"1694374554" entry:"1694196401" imask:"13" modified:"1694374554" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"5b7dbed2-afd2-43bc-9772-ec9eabcd8a9e"]
+---
+time 1694374555
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++++++++--" modified:"1694374553" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++++++++-" modified:"1694374555" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1694374555
+old [description:"Water garden" due:"1694300400" entry:"1694374547" imask:"14" modified:"1694196441" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"3e0e5804-fcb9-443e-9035-ec4cb29a409e"]
+new [description:"Water garden" due:"1694300400" end:"1694374555" entry:"1694374547" imask:"14" modified:"1694374555" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"3e0e5804-fcb9-443e-9035-ec4cb29a409e"]
+---
+time 1694374556
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++++++++--" modified:"1694374554" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++++++++-" modified:"1694374556" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1694374556
+old [description:"Take out trash" due:"1694300400" entry:"1694374547" imask:"14" modified:"1694196442" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5e2fb1a9-f1de-4ea4-b715-96e5469e234d"]
+new [description:"Take out trash" due:"1694300400" end:"1694374556" entry:"1694374547" imask:"14" modified:"1694374556" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"5e2fb1a9-f1de-4ea4-b715-96e5469e234d"]
+---
+time 1694374557
+old [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++++++++X--" modified:"1694374552" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+new [description:"Fechar portadas" due:"1693335600" entry:"1693257488" mask:"+++++++++++X+-" modified:"1694374557" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"4ea6df6b-860d-48db-a3e1-fbb44afaf628"]
+---
+time 1694374557
+old [description:"Fechar portadas" due:"1694372400" entry:"1694374547" imask:"12" modified:"1694202325" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"fb8eafd8-a0cf-48b6-98f9-60ec3251aad6"]
+new [description:"Fechar portadas" due:"1694372400" end:"1694374557" entry:"1694374547" imask:"12" modified:"1694374557" parent:"4ea6df6b-860d-48db-a3e1-fbb44afaf628" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"fb8eafd8-a0cf-48b6-98f9-60ec3251aad6"]
+---
+time 1694374573
+old [description:"Permite efetuar autenticacao e recolher o perfil do utilizador" entry:"1694204994" modified:"1694204994" status:"pending" uuid:"a3587820-eb85-4230-8285-116fcd7ebebe"]
+new [description:"Permite efetuar autenticacao e recolher o perfil do utilizador" end:"1694374573" entry:"1694204994" modified:"1694374573" status:"completed" uuid:"a3587820-eb85-4230-8285-116fcd7ebebe"]
+---
+time 1694374574
+old [description:"Redireciona para a pagina \"main_app.aspx\"" entry:"1694205021" modified:"1694205021" status:"pending" uuid:"b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2"]
+new [description:"Redireciona para a pagina \"main_app.aspx\"" end:"1694374574" entry:"1694205021" modified:"1694374574" status:"completed" uuid:"b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2"]
+---
+time 1694374575
+old [description:"Apresenta o nome do utilizador" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"9b8d37d3-1be8-4f05-876e-a151e3058050"]
+new [description:"Apresenta o nome do utilizador" end:"1694374575" entry:"1694205159" modified:"1694374575" status:"completed" uuid:"9b8d37d3-1be8-4f05-876e-a151e3058050"]
+---
+time 1694374576
+old [description:"Apresenta link que permite redirecionar para a pagina \"lista_utilizadores_app.aspx\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"1fb0e21c-a261-4d7c-9362-13db8d079e7e"]
+new [description:"Apresenta link que permite redirecionar para a pagina \"lista_utilizadores_app.aspx\"" end:"1694374576" entry:"1694205159" modified:"1694374576" status:"completed" uuid:"1fb0e21c-a261-4d7c-9362-13db8d079e7e"]
+---
+time 1694374576
+old [description:"Apresenta um grafico com o numero de utilizadores por perfil" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"b99a8ac3-a34c-48be-8a0c-d8b48c588021"]
+new [description:"Apresenta um grafico com o numero de utilizadores por perfil" end:"1694374576" entry:"1694205159" modified:"1694374576" status:"completed" uuid:"b99a8ac3-a34c-48be-8a0c-d8b48c588021"]
+---
+time 1694374577
+old [description:"Permite redirecionar para a pagina \" alterar_app.aspx\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"5b7e09a8-157e-46f3-8b08-e250b5a8a125"]
+new [description:"Permite redirecionar para a pagina \" alterar_app.aspx\"" end:"1694374577" entry:"1694205159" modified:"1694374577" status:"completed" uuid:"5b7e09a8-157e-46f3-8b08-e250b5a8a125"]
+---
+time 1694374578
+old [dep_1fb0e21c-a261-4d7c-9362-13db8d079e7e:"x" dep_b99a8ac3-a34c-48be-8a0c-d8b48c588021:"x" depends:"1fb0e21c-a261-4d7c-9362-13db8d079e7e,b99a8ac3-a34c-48be-8a0c-d8b48c588021" description:"Se o utilizador for \"administrador\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"8267ea8d-98c5-44d7-a338-e39fdcc1a4ec"]
+new [dep_1fb0e21c-a261-4d7c-9362-13db8d079e7e:"x" dep_b99a8ac3-a34c-48be-8a0c-d8b48c588021:"x" depends:"1fb0e21c-a261-4d7c-9362-13db8d079e7e,b99a8ac3-a34c-48be-8a0c-d8b48c588021" description:"Se o utilizador for \"administrador\"" end:"1694374578" entry:"1694205159" modified:"1694374578" status:"completed" uuid:"8267ea8d-98c5-44d7-a338-e39fdcc1a4ec"]
+---
+time 1694374579
+old [description:"Apresenta uma gridview com a listagem de todos os utilizadores" entry:"1694205226" modified:"1694205226" status:"pending" uuid:"66139e5c-37d3-43c8-b75c-378516643d08"]
+new [description:"Apresenta uma gridview com a listagem de todos os utilizadores" end:"1694374579" entry:"1694205226" modified:"1694374579" status:"completed" uuid:"66139e5c-37d3-43c8-b75c-378516643d08"]
+---
+time 1694374580
+old [description:"Permite alterar a palavra-passe do utilizador autenticado" entry:"1694205261" modified:"1694205261" status:"pending" uuid:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c"]
+new [description:"Permite alterar a palavra-passe do utilizador autenticado" end:"1694374580" entry:"1694205261" modified:"1694374580" status:"completed" uuid:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c"]
+---
+time 1694374622
+old [description:"Exercisios aula -> 08-09-2023" due:"1694386800" entry:"1694202778" modified:"1694202954" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+new [description:"Exercisios aula -> 08-09-2023" due:"1694444400" entry:"1694202778" modified:"1694374622" status:"pending" tags_Pacheco:"x" uuid:"69e60e75-30ce-4298-baca-37ef609e8a33"]
+---
+time 1694374631
+old [description:"Exercisios aula -> 04-09-2023" due:"1694386800" entry:"1694202793" modified:"1694202964" status:"pending" tags:"Pacheco" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+new [description:"Exercisios aula -> 04-09-2023" due:"1694444400" entry:"1694202793" modified:"1694374631" status:"pending" tags_Pacheco:"x" uuid:"c1cf9f91-567d-40e6-a163-9a2fd53a0402"]
+---
+time 1694374651
+old [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" entry:"1694204970" modified:"1694205021" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+new [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" due:"1694469600" entry:"1694204970" modified:"1694374651" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+---
+time 1694374659
+old [dep_5b7e09a8-157e-46f3-8b08-e250b5a8a125:"x" dep_8267ea8d-98c5-44d7-a338-e39fdcc1a4ec:"x" dep_9b8d37d3-1be8-4f05-876e-a151e3058050:"x" depends:"5b7e09a8-157e-46f3-8b08-e250b5a8a125,8267ea8d-98c5-44d7-a338-e39fdcc1a4ec,9b8d37d3-1be8-4f05-876e-a151e3058050" description:"Criar pagina \"main_app.aspx\"" entry:"1694205159" modified:"1694205159" status:"pending" uuid:"48c2fc74-8d20-4927-8182-3d41a6dee3a5"]
+new [dep_5b7e09a8-157e-46f3-8b08-e250b5a8a125:"x" dep_8267ea8d-98c5-44d7-a338-e39fdcc1a4ec:"x" dep_9b8d37d3-1be8-4f05-876e-a151e3058050:"x" depends:"5b7e09a8-157e-46f3-8b08-e250b5a8a125,8267ea8d-98c5-44d7-a338-e39fdcc1a4ec,9b8d37d3-1be8-4f05-876e-a151e3058050" description:"Criar pagina \"main_app.aspx\"" due:"1694469600" entry:"1694205159" modified:"1694374659" status:"pending" uuid:"48c2fc74-8d20-4927-8182-3d41a6dee3a5"]
+---
+time 1694374666
+old [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" entry:"1694205226" modified:"1694205226" status:"pending" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
+new [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" due:"1694469600" entry:"1694205226" modified:"1694374666" status:"pending" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
+---
+time 1694374671
+old [dep_ace9442f-c5e9-4eac-98c9-97bf9145fc0c:"x" depends:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c" description:"Criar pagina \"alterar_app.aspx\"" entry:"1694205261" modified:"1694205261" status:"pending" uuid:"fe839bbd-e066-4058-b833-297ecfa4c1b4"]
+new [dep_ace9442f-c5e9-4eac-98c9-97bf9145fc0c:"x" depends:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c" description:"23:00:00" due:"1694386800" entry:"1694205261" modified:"1694374671" status:"pending" uuid:"fe839bbd-e066-4058-b833-297ecfa4c1b4"]
+---
+time 1694374692
+old [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"+++++++++++++++-" modified:"1694374556" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+new [description:"Take out trash" due:"1693090800" entry:"1693066569" mask:"++++++++++++++++" modified:"1694374692" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"fac27261-3b88-4de0-b60b-9cf4daaeef58"]
+---
+time 1694374692
+old [description:"Take out trash" due:"1694386800" entry:"1694374547" imask:"15" modified:"1694196442" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"19cbc450-8217-4664-8d1d-dbb4947bde31"]
+new [description:"Take out trash" due:"1694386800" end:"1694374692" entry:"1694374547" imask:"15" modified:"1694374692" parent:"fac27261-3b88-4de0-b60b-9cf4daaeef58" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"19cbc450-8217-4664-8d1d-dbb4947bde31"]
+---
+time 1694374696
+old [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"+++++++++++++++-" modified:"1694374555" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+new [description:"Water garden" due:"1693090800" entry:"1693066563" mask:"++++++++++++++++" modified:"1694374696" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d1efcc2-4a3f-4ee6-877c-6778845016d6"]
+---
+time 1694374696
+old [description:"Water garden" due:"1694386800" entry:"1694374547" imask:"15" modified:"1694196441" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"f666d2c1-deec-4d19-92d3-7aa3bf2d644d"]
+new [description:"Water garden" due:"1694386800" end:"1694374696" entry:"1694374547" imask:"15" modified:"1694374696" parent:"1d1efcc2-4a3f-4ee6-877c-6778845016d6" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"f666d2c1-deec-4d19-92d3-7aa3bf2d644d"]
+---
+time 1694374756
+old [description:"Create stored procedures for DotNet classes and projects" entry:"1694202996" modified:"1694203010" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
+new [description:"Create stored procedures for DotNet classes and projects" due:"1694469600" entry:"1694202996" modified:"1694374756" status:"pending" tags_DotNet:"x" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
+---
+time 1694374787
+old [dep_ace9442f-c5e9-4eac-98c9-97bf9145fc0c:"x" depends:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c" description:"23:00:00" due:"1694386800" entry:"1694205261" modified:"1694374671" status:"pending" uuid:"fe839bbd-e066-4058-b833-297ecfa4c1b4"]
+new [dep_ace9442f-c5e9-4eac-98c9-97bf9145fc0c:"x" depends:"ace9442f-c5e9-4eac-98c9-97bf9145fc0c" description:"23:00:00" due:"1694386800" end:"1694374787" entry:"1694205261" modified:"1694374787" status:"deleted" uuid:"fe839bbd-e066-4058-b833-297ecfa4c1b4"]
+---
+time 1694374800
+old [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" due:"1694469600" entry:"1694204970" modified:"1694374651" status:"pending" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+new [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" due:"1694469600" entry:"1694204970" modified:"1694374800" status:"pending" tags:"DotNet" tags_DotNet:"x" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+---
+time 1694374804
+old [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" due:"1694469600" entry:"1694204970" modified:"1694374800" status:"pending" tags:"DotNet" tags_DotNet:"x" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+new [dep_a3587820-eb85-4230-8285-116fcd7ebebe:"x" dep_b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2:"x" depends:"a3587820-eb85-4230-8285-116fcd7ebebe,b4b02c85-6826-4ba2-9fe9-94b8b41ed8c2" description:"Criar pagina \"login_app.aspx\"" due:"1694469600" entry:"1694204970" modified:"1694374804" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"5f3d03c9-ec57-4735-bb72-dac6f5329a6c"]
+---
+time 1694374821
+old [dep_5b7e09a8-157e-46f3-8b08-e250b5a8a125:"x" dep_8267ea8d-98c5-44d7-a338-e39fdcc1a4ec:"x" dep_9b8d37d3-1be8-4f05-876e-a151e3058050:"x" depends:"5b7e09a8-157e-46f3-8b08-e250b5a8a125,8267ea8d-98c5-44d7-a338-e39fdcc1a4ec,9b8d37d3-1be8-4f05-876e-a151e3058050" description:"Criar pagina \"main_app.aspx\"" due:"1694469600" entry:"1694205159" modified:"1694374659" status:"pending" uuid:"48c2fc74-8d20-4927-8182-3d41a6dee3a5"]
+new [dep_5b7e09a8-157e-46f3-8b08-e250b5a8a125:"x" dep_8267ea8d-98c5-44d7-a338-e39fdcc1a4ec:"x" dep_9b8d37d3-1be8-4f05-876e-a151e3058050:"x" depends:"5b7e09a8-157e-46f3-8b08-e250b5a8a125,8267ea8d-98c5-44d7-a338-e39fdcc1a4ec,9b8d37d3-1be8-4f05-876e-a151e3058050" description:"Criar pagina \"main_app.aspx\"" due:"1694469600" entry:"1694205159" modified:"1694374821" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"48c2fc74-8d20-4927-8182-3d41a6dee3a5"]
+---
+time 1694374833
+old [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" due:"1694469600" entry:"1694205226" modified:"1694374666" status:"pending" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
+new [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" due:"1694469600" entry:"1694205226" modified:"1694374833" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
+---
