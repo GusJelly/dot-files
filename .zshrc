@@ -39,28 +39,28 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
-bindkey -v '^?' backward-delete-char
+# bindkey -v '^?' backward-delete-char
 
-# Change cursor shape for different vi modes.
-function zle-keymap-select {
-  if [[ ${KEYMAP} == vicmd ]] ||
-     [[ $1 = 'block' ]]; then
-    echo -ne '\e[2 q'
-  elif [[ ${KEYMAP} == main ]] ||
-       [[ ${KEYMAP} == viins ]] ||
-       [[ ${KEYMAP} = '' ]] ||
-       [[ $1 = 'beam' ]]; then
-    echo -ne '\e[6 q'
-  fi
-}
-zle -N zle-keymap-select
-zle-line-init() {
-    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-    echo -ne "\e[6 q"
-}
-zle -N zle-line-init
-echo -ne '\e[6 q' # Use beam shape cursor on startup.
-preexec() { echo -ne '\e[6 q' ;} # Use beam shape cursor for each new prompt.
+# # Change cursor shape for different vi modes.
+# function zle-keymap-select {
+#   if [[ ${KEYMAP} == vicmd ]] ||
+#      [[ $1 = 'block' ]]; then
+#     echo -ne '\e[2 q'
+#   elif [[ ${KEYMAP} == main ]] ||
+#        [[ ${KEYMAP} == viins ]] ||
+#        [[ ${KEYMAP} = '' ]] ||
+#        [[ $1 = 'beam' ]]; then
+#     echo -ne '\e[6 q'
+#   fi
+# }
+# zle -N zle-keymap-select
+# zle-line-init() {
+#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+#     echo -ne "\e[6 q"
+# }
+# zle -N zle-line-init
+# echo -ne '\e[6 q' # Use beam shape cursor on startup.
+# preexec() { echo -ne '\e[6 q' ;} # Use beam shape cursor for each new prompt.
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
@@ -97,6 +97,7 @@ export PATH=$PATH:$LOCAL
 export PATH=$PATH:"/home/gustavo/idea-IC-232.8660.185/bin/"
 # export FZF_DEFAULT_OPTS="--preview 'less --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f"
+export PATH=$PATH:"$HOME/.config/emacs/bin"
 
 # key-bindings for fzf and default nvim editor:
 source $HOME/.config/key-bindings.zsh
