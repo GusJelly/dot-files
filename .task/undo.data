@@ -1654,3 +1654,7 @@ time 1694374833
 old [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" due:"1694469600" entry:"1694205226" modified:"1694374666" status:"pending" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
 new [dep_66139e5c-37d3-43c8-b75c-378516643d08:"x" depends:"66139e5c-37d3-43c8-b75c-378516643d08" description:"Criar pagina \"lista_utilizadores_app.aspx\"" due:"1694469600" entry:"1694205226" modified:"1694374833" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"fb3cbca2-1758-409e-bc76-67f4b3307760"]
 ---
+time 1694375815
+old [description:"Outsystems project with Tomas" entry:"1693709597" modified:"1693709597" scheduled:"1693749600" status:"pending" tags:"outsystems" tags_outsystems:"x" uuid:"7b1599cb-66c1-42fc-84d2-2c539a1b6344"]
+new [description:"Outsystems project" due:"1694617200" entry:"1693709597" modified:"1694375815" scheduled:"1693749600" status:"pending" tags_outsystems:"x" uuid:"7b1599cb-66c1-42fc-84d2-2c539a1b6344"]
+---
