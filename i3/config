@@ -38,7 +38,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -48,7 +48,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+p exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e bash -ic "{cmd} && read"'
 # bindsym $mod+p exec --no-startup-id ulauncher-toggle
 bindsym $mod+Tab exec --no-startup-id rofi -show window
-bindsym $mod+F4 exec --no-startup-id rofi -show p -modi p:rofi-power-menu
+bindsym $mod+Shift+c exec --no-startup-id rofi -show p -modi p:rofi-power-menu
 
 # change focus
 bindsym $mod+h focus left
@@ -138,7 +138,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+F4 reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
@@ -174,13 +174,13 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-    #status_command i3blocks
-    status_command i3status
+    status_command i3blocks
+    # status_command i3status
     tray_output primary
 
-    position top
+    position bottom
 
-    workspace_min_width 20
+    # workspace_min_width 20
 
     # colors {
     #     background #000000
@@ -203,6 +203,7 @@ exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --out
 exec xset r rate 200 30
 exec mouse_accell_off
 exec picom
+exec sxhkd
 # exec ulauncher
 
 # noot noot
