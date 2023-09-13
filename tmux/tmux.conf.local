@@ -365,7 +365,7 @@ set -g status-fg '#E0DEF4'
 
 # bindings
 bind v run-shell "tmux neww 'vit'"
-bind n run-shell "tmux neww 'cd $HOME/vimwiki; nvim index.md'"
+bind n run-shell "tmux neww 'cd $HOME/notes; nvim refile.org'"
 
 # start with mouse mode enabled
 #set -g mouse on

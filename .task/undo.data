@@ -1695,3 +1695,18 @@ time 1694395685
 old [description:"Create stored procedures for DotNet classes and projects" due:"1694469600" entry:"1694202996" modified:"1694374756" status:"pending" tags:"DotNet,Pacheco" tags_DotNet:"x" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
 new [description:"Create stored procedures for DotNet classes and projects" due:"1694444400" entry:"1694202996" modified:"1694395685" status:"pending" tags_DotNet:"x" tags_Pacheco:"x" uuid:"ac55ef48-9628-4443-8914-e371a0eafddb"]
 ---
+time 1694407563
+new [description:"Learn Neorg neovim plugin" entry:"1694407563" modified:"1694407563" status:"pending" uuid:"8d147eb5-cd21-40e6-9592-57d9b3f9b02e"]
+---
+time 1694407570
+old [description:"Learn Neorg neovim plugin" entry:"1694407563" modified:"1694407563" status:"pending" uuid:"8d147eb5-cd21-40e6-9592-57d9b3f9b02e"]
+new [description:"Learn Neorg neovim plugin" entry:"1694407563" modified:"1694407570" status:"pending" tags:"neovim" tags_neovim:"x" uuid:"8d147eb5-cd21-40e6-9592-57d9b3f9b02e"]
+---
+time 1694422028
+old [description:"Road Code class" entry:"1693438131" modified:"1693671149" scheduled:"1694422800" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694426400" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+new [description:"Road Code class" entry:"1693438131" modified:"1694422028" scheduled:"1694422800" start:"1694422028" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694426400" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
+time 1694444924
+old [description:"Road Code class" entry:"1693438131" modified:"1694422028" scheduled:"1694422800" start:"1694422028" status:"pending" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694426400" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+new [description:"Road Code class" end:"1694444924" entry:"1693438131" modified:"1694444924" scheduled:"1694422800" start:"1694422028" status:"deleted" tags:"DriversLicense" tags_DriversLicense:"x" until:"1694426400" uuid:"9d68c997-8e41-4fb4-8412-cc04ca9cfc01"]
+---
