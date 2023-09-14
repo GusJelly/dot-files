@@ -51,7 +51,7 @@ tmux_conf_new_pane_reconnect_ssh=false
 # automatic detection relies on the COLORTERM environment variable being defined
 # to 'truecolor' or '24bit' or '$ tput colors' answering '16777216'
 # see https://github.com/termstandard/colors
-tmux_conf_24b_colour=auto
+# tmux_conf_24b_colour=auto
 
 
 # -- theming -------------------------------------------------------------------
@@ -359,13 +359,15 @@ set -g base-index 1           # start windows numbering at 1
 setw -g pane-base-index 1     # make pane numbering consistent with windows
 
 # set -g default-terminal "foot"
-set -g default-terminal "tmux-256color"
+# set -g default-terminal "tmux-256color"
 set -g status-bg '#191724'
 set -g status-fg '#E0DEF4'
+# set -g status-bg '#282C34'
+# set -g status-fg '#E0DEF4'
 
 # bindings
 bind v run-shell "tmux neww 'vit'"
-bind n run-shell "tmux neww 'cd $HOME/notes; nvim refile.org'"
+bind n run-shell "tmux neww 'cd $HOME/org; nvim .'"
 
 # start with mouse mode enabled
 #set -g mouse on
@@ -438,6 +440,7 @@ tmux_conf_uninstall_plugins_on_reload=true
 # set -g @tmux-gruvbox 'dark' # or 'light'
 # set -g @plugin 'jimeh/tmux-themepack'
 # set -g @themepack 'basic'
+# set -g @plugin "janoamaral/tokyo-night-tmux"
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the
