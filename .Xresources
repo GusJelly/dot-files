@@ -7,10 +7,12 @@ xterm*vt100.utf8: true
 XTerm.vt100.backarrowKey: false
 XTerm.ttyModes: erase ^?
 XTerm.vt100.metaSendsEscape: true
-xterm*faceName: CaskaydiaCove Nerd Font Mono
+xterm*faceName: Hack Nerd Font Mono
 xterm*faceSize: 10
 xterm*ScrollBar: false
 ! xterm*bufferedFPS: 175
+!
+xterm*disallowedWindowOps: 20,21,SetXProp
 
 ! KEYBINDINGS
 xterm*VT100.Translations: #override \n\
@@ -20,42 +22,78 @@ xterm*VT100.Translations: #override \n\
   Ctrl <Key> plus: larger-vt-font() \n\
   Ctrl <Key>c: string("Alt + C pressed")
 
-! special
-xterm*.foreground:   #ffffff
-xterm*.background:   #282C34
-xterm*.cursorColor:  #ffffff
+! catppuccin-latte theme:
+*background: #EFF1F5
+*foreground: #4C4F69
 
 ! black
-*.color0:       #282C34
-*.color8:       #5c5855
+*color0: #5C5F77
+*color8: #6C6F85
 
 ! red
-*.color1:       #db2d20
-*.color9:       #db2d20
+*color1: #D20F39
+*color9: #D20F39
 
 ! green
-*.color2:       #01a252
-*.color10:      #01a252
+*color2: #40A02B
+*color10: #40A02B
 
 ! yellow
-*.color3:       #fded02
-*.color11:      #fded02
+*color3: #DF8E1D
+*color11: #DF8E1D
 
 ! blue
-*.color4:       #01a0e4
-*.color12:      #01a0e4
+*color4: #1E66F5
+*color12: #1E66F5
 
 ! magenta
-*.color5:       #a16a94
-*.color13:      #a16a94
+*color5: #EA76CB
+*color13: #EA76CB
 
 ! cyan
-*.color6:       #b5e4f4
-*.color14:      #b5e4f4
+*color6: #179299
+*color14: #179299
 
 ! white
-*.color7:       #a5a2a2
-*.color15:      #f7f7f7
+*color7: #ACB0BE
+*color15: #BCC0CC
+
+! ! special
+! xterm*.foreground:   #ffffff
+! xterm*.background:   #282C34
+! xterm*.cursorColor:  #ffffff
+!
+! ! black
+! *.color0:       #282C34
+! *.color8:       #5c5855
+!
+! ! red
+! *.color1:       #db2d20
+! *.color9:       #db2d20
+!
+! ! green
+! *.color2:       #01a252
+! *.color10:      #01a252
+!
+! ! yellow
+! *.color3:       #fded02
+! *.color11:      #fded02
+!
+! ! blue
+! *.color4:       #01a0e4
+! *.color12:      #01a0e4
+!
+! ! magenta
+! *.color5:       #a16a94
+! *.color13:      #a16a94
+!
+! ! cyan
+! *.color6:       #b5e4f4
+! *.color14:      #b5e4f4
+!
+! ! white
+! *.color7:       #a5a2a2
+! *.color15:      #f7f7f7
 
 ! ! ! Rose-Pine
 ! *background: #191724 
