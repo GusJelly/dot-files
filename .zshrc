@@ -119,6 +119,12 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
+nvimnotes() {
+    cd $HOME/org
+    nvim .
+}
+bindkey -s '^p' 'nvimnotes\n'
+
 # Source custom scripts:
 sh_folder="$HOME/projects/scripts/shellScripts"
 for script_file in "$sh_folder"/*.sh; do
