@@ -123,7 +123,23 @@ nvimnotes() {
     cd $HOME/org
     nvim .
 }
-bindkey -s '^p' 'nvimnotes\n'
+bindkey -s '^n' 'nvimnotes\n'
+
+projects() {
+    oldDir=$(pwd)
+    cd "$HOME"/projects
+
+    selected=$(ls -1 | fzf --reverse --preview 'ls {}')
+
+    if [ -z $selected ]; then
+        cd $oldDir
+    else
+        cd $selected
+        nvim .
+    fi
+}
+bindkey -s '^p' 'projects\n'
+
 
 # Source custom scripts:
 sh_folder="$HOME/projects/scripts/shellScripts"
@@ -138,4 +154,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
