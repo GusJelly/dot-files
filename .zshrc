@@ -137,9 +137,6 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 # aliases
-alias ls="exa"
-alias l="exa -l"
-alias la="exa -la"
 alias pt='setxkbmap pt,pt'
 alias us='setxkbmap us,us'
 alias night='redshift -P -O 3500k'
@@ -165,9 +162,9 @@ export CGO_ENABLED=1
 export PATH=$PATH:$GO
 export PATH=$PATH:$LOCAL
 export PATH=$PATH:"/home/gustavo/idea-IC-232.8660.185/bin/"
-# export FZF_DEFAULT_OPTS="--preview 'less --color=always {}'"
-export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_DEFAULT_COMMAND="fd"
 export PATH=$PATH:"$HOME/.config/emacs/bin"
+export PATH=$PATH:"$HOME/idea-community/bin"
 
 # key-bindings for fzf and default nvim editor:
 source $HOME/.config/key-bindings.zsh
