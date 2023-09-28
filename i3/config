@@ -38,7 +38,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Shift+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -200,7 +200,7 @@ gaps inner 0
 
 exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off
 
-exec xset r rate 200 30
+exec xset r rate 200 20
 exec mouse_accell_off
 exec picom
 exec sxhkd
@@ -211,3 +211,5 @@ exec_always nitrogen --restore
 
 # Change keyboard layout with alt+space:
 exec_always "setxkbmap -layout us,pt -option 'grp:_alt_toggle'"
+
+exec lxpolkit

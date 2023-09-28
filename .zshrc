@@ -152,6 +152,7 @@ alias notes="cd $HOME/vimwiki; nvim index.md"
 alias diary="cd $HOME/vimwiki/diary; nvim diary.md"
 alias chess="cd $HOME/ProjetoJava2/chess-app"
 alias p="prj"
+alias tui="taskwarrior-tui"
 
 # PATH fuckery:
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.8.0.7-1.fc38.x86_64
@@ -216,4 +217,39 @@ for script_file in "$sh_folder"/*.sh; do
     fi
 done
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Find current distro and source correct zsh-syntax-highlighting script path
+findDistro() {
+    # Check for /etc/os-release file (common on modern distributions)
+    if [ -f /etc/os-release ]; then
+        source /etc/os-release
+        echo "$NAME"
+
+        if [[ "$ID" == "arch" ]]; then
+            source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+        fi
+
+        if [[ "$ID" == "nobara" ]]; then
+            source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+        fi
+
+        # echo "Version: $VERSION"
+    else
+        # Check for /etc/lsb-release file (common on Debian-based distributions)
+        if [ -f /etc/lsb-release ]; then
+            source /etc/lsb-release
+            echo "$DISTRIB_ID"
+            # echo "Version: $DISTRIB_RELEASE"
+        else
+            # Check for /etc/redhat-release file (common on Red Hat-based distributions)
+            if [ -f /etc/redhat-release ]; then
+                REDHAT_RELEASE=$(cat /etc/redhat-release)
+                echo "$REDHAT_RELEASE"
+            else
+                # If none of the above files exist, print an error message
+                echo "Unable to determine the distribution."
+            fi
+        fi
+    fi
+}
+
+findDistro
