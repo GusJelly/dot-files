@@ -40,6 +40,7 @@ font:
   glyph_offset:
     x: 0
     y: 0
+  builtin_box_drawing: false
 
 draw_bold_text_with_bright_colors: true
 
@@ -270,7 +271,7 @@ schemes:
      text: '0x000000'
      cursor: '0xffffff'
    primary:
-     background: '0x282C34'
+     background: '0x1D1F21'
      foreground: '0xcccccc'
   
    # Normal colors
@@ -294,7 +295,7 @@ schemes:
      magenta:    '0xb4009e'
      cyan:       '0x61d6d6'
      white:      '0xf2f2f2'
-colors: *gruvbox_material_hard_dark
+colors: *campbell
 
 
 # TokyoNight Alacritty Colors
