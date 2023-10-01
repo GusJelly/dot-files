@@ -38,7 +38,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Shift+Return exec xfce4-terminal
+bindsym $mod+Shift+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -75,7 +75,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+g split h
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -178,9 +178,9 @@ bar {
     # status_command i3status
     tray_output primary
 
-    position bottom
+    position top
 
-    # workspace_min_width 20
+    workspace_min_width 20
 
     # colors {
     #     background #000000
@@ -192,11 +192,11 @@ bar {
     # }
 }
 
-default_border pixel 2
-gaps inner 0
+default_border pixel 5
+gaps inner 10
 
 # class                 border  backgr. text    indicator child_border
-#client.focused          #F3BF76 #285577 #ffffff #2e9ef4   #F3BF76
+client.focused          #F3BF76 #285577 #ffffff #ffffff   #ffffff
 
 exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off
 
@@ -204,12 +204,12 @@ exec xset r rate 200 20
 exec mouse_accell_off
 exec picom
 exec sxhkd
-# exec ulauncher
+exec_always autotiling
 
 # noot noot
-exec_always nitrogen --restore
+# exec_always nitrogen --restore
 
 # Change keyboard layout with alt+space:
-exec_always "setxkbmap -layout us,pt -option 'grp:_alt_toggle'"
+# exec_always "setxkbmap -layout us,pt -option 'grp:_alt_toggle'"
 
 exec lxpolkit
