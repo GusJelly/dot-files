@@ -309,3 +309,109 @@ time 1696177653
 old [description:"Melhorar bookings project" due:"1696201200" entry:"1695862514" modified:"1696097445" scheduled:"1696093200" status:"pending" tags:"outsystems,school" tags_outsystems:"x" tags_school:"x" uuid:"1ca245ed-fb58-4bf3-a833-5114500ecbfa"]
 new [description:"Melhorar bookings project" due:"1696201200" end:"1696177653" entry:"1695862514" modified:"1696177653" scheduled:"1696093200" status:"completed" tags:"outsystems,school" tags_outsystems:"x" tags_school:"x" uuid:"1ca245ed-fb58-4bf3-a833-5114500ecbfa"]
 ---
+time 1696183348
+new [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696183348" scheduled:"1696201200" status:"pending" tags:"school" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+---
+time 1696183361
+old [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696183348" scheduled:"1696201200" status:"pending" tags:"school" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+new [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696183361" scheduled:"1696258800" status:"pending" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+---
+time 1696183431
+new [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183431" scheduled:"1696287600" status:"pending" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+---
+time 1696183439
+old [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183431" scheduled:"1696287600" status:"pending" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+new [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183439" scheduled:"1696345200" status:"pending" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+---
+time 1696183494
+old [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183439" scheduled:"1696345200" status:"pending" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+new [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183494" scheduled:"1696345200" status:"pending" tags:",maths,school" tags_:"x" tags_maths:"x" tags_school:"x" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+---
+time 1696183503
+old [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183494" scheduled:"1696345200" status:"pending" tags:",maths,school" tags_:"x" tags_maths:"x" tags_school:"x" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+new [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183503" scheduled:"1696345200" status:"pending" tags:"maths,school" tags_maths:"x" tags_school:"x" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+---
+time 1696183508
+old [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696183361" scheduled:"1696258800" status:"pending" tags:"school" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+new [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696183508" scheduled:"1696258800" status:"pending" tags:"maths,school" tags_maths:"x" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+---
+time 1696183516
+old [description:"Despejar lixo" due:"1696201200" entry:"1696163208" imask:"3" modified:"1696032639" parent:"d87f55ce-fb8f-498e-a16a-5c96b56e3711" recur:"daily" rtype:"periodic" status:"pending" uuid:"5899f639-cf0f-463b-a037-565b7dc157f6"]
+new [description:"Despejar lixo" due:"1696201200" entry:"1696163208" imask:"3" modified:"1696183516" parent:"d87f55ce-fb8f-498e-a16a-5c96b56e3711" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5899f639-cf0f-463b-a037-565b7dc157f6"]
+---
+time 1696183915
+old [description:"Take a shower" due:"1696201200" entry:"1696163208" imask:"1" modified:"1696100376" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" status:"pending" tags:"Health" tags_Health:"x" uuid:"3796f59b-839e-438b-bb0c-78db5d96034d"]
+new [description:"Take a shower" due:"1696201200" entry:"1696163208" imask:"1" modified:"1696183915" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" start:"1696183915" status:"pending" tags:"Health" tags_Health:"x" uuid:"3796f59b-839e-438b-bb0c-78db5d96034d"]
+---
+time 1696189812
+old [description:"Take a shower" due:"1696114800" entry:"1696100265" mask:"--" modified:"1696163208" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"ed915b6a-6559-4708-afee-2eb6645e2292"]
+new [description:"Take a shower" due:"1696114800" entry:"1696100265" mask:"-+" modified:"1696189812" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"ed915b6a-6559-4708-afee-2eb6645e2292"]
+---
+time 1696189824
+old [description:"Take a shower" due:"1696201200" entry:"1696163208" imask:"1" modified:"1696183915" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" start:"1696183915" status:"pending" tags:"Health" tags_Health:"x" uuid:"3796f59b-839e-438b-bb0c-78db5d96034d"]
+new [description:"Take a shower" due:"1696201200" end:"1696189824" entry:"1696163208" imask:"1" modified:"1696189824" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" status:"completed" tags:"Health" tags_Health:"x" uuid:"3796f59b-839e-438b-bb0c-78db5d96034d"]
+---
+time 1696189825
+old [description:"Take a shower" due:"1696114800" entry:"1696100265" mask:"-+" modified:"1696189812" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"ed915b6a-6559-4708-afee-2eb6645e2292"]
+new [description:"Take a shower" due:"1696114800" entry:"1696100265" mask:"++" modified:"1696189825" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"ed915b6a-6559-4708-afee-2eb6645e2292"]
+---
+time 1696189825
+old [description:"Take a shower" due:"1696114800" entry:"1696100376" imask:"0" modified:"1696100376" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" status:"pending" tags:"Health" tags_Health:"x" uuid:"5bf18851-ecc9-426a-997a-1591c748de03"]
+new [description:"Take a shower" due:"1696114800" end:"1696189825" entry:"1696100376" imask:"0" modified:"1696189825" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" status:"completed" tags:"Health" tags_Health:"x" uuid:"5bf18851-ecc9-426a-997a-1591c748de03"]
+---
+time 1696189829
+old [description:"Despejar lixo" due:"1695942000" entry:"1695922136" mask:"+++-" modified:"1696163211" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d87f55ce-fb8f-498e-a16a-5c96b56e3711"]
+new [description:"Despejar lixo" due:"1695942000" entry:"1695922136" mask:"++++" modified:"1696189829" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d87f55ce-fb8f-498e-a16a-5c96b56e3711"]
+---
+time 1696189829
+old [description:"Despejar lixo" due:"1696201200" entry:"1696163208" imask:"3" modified:"1696183516" parent:"d87f55ce-fb8f-498e-a16a-5c96b56e3711" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"5899f639-cf0f-463b-a037-565b7dc157f6"]
+new [description:"Despejar lixo" due:"1696201200" end:"1696189829" entry:"1696163208" imask:"3" modified:"1696189829" parent:"d87f55ce-fb8f-498e-a16a-5c96b56e3711" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"5899f639-cf0f-463b-a037-565b7dc157f6"]
+---
+time 1696202246
+new [description:"Despejar lixo" due:"1696287600" entry:"1696202246" imask:"4" modified:"1696189829" parent:"d87f55ce-fb8f-498e-a16a-5c96b56e3711" recur:"daily" rtype:"periodic" status:"pending" uuid:"82c57f53-0c67-4dc4-811b-5a1a45611a3b"]
+---
+time 1696202246
+old [description:"Despejar lixo" due:"1695942000" entry:"1695922136" mask:"++++" modified:"1696189829" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d87f55ce-fb8f-498e-a16a-5c96b56e3711"]
+new [description:"Despejar lixo" due:"1695942000" entry:"1695922136" mask:"++++-" modified:"1696202246" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d87f55ce-fb8f-498e-a16a-5c96b56e3711"]
+---
+time 1696202246
+new [description:"Water garden" due:"1696287600" entry:"1696202246" imask:"2" modified:"1696163208" parent:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"867f5d04-7139-40fc-97a8-3e4a74431572"]
+---
+time 1696202246
+old [description:"Water garden" due:"1696114800" entry:"1696097237" mask:"+-" modified:"1696163208" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c"]
+new [description:"Water garden" due:"1696114800" entry:"1696097237" mask:"+--" modified:"1696202246" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c"]
+---
+time 1696202246
+new [description:"Take a shower" due:"1696287600" entry:"1696202246" imask:"2" modified:"1696189825" parent:"ed915b6a-6559-4708-afee-2eb6645e2292" recur:"daily" rtype:"periodic" status:"pending" tags:"Health" tags_Health:"x" uuid:"e74ac7d8-5fae-4ca0-b626-264c342d08a2"]
+---
+time 1696202246
+old [description:"Take a shower" due:"1696114800" entry:"1696100265" mask:"++" modified:"1696189825" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"ed915b6a-6559-4708-afee-2eb6645e2292"]
+new [description:"Take a shower" due:"1696114800" entry:"1696100265" mask:"++-" modified:"1696202246" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"ed915b6a-6559-4708-afee-2eb6645e2292"]
+---
+time 1696202246
+new [description:"Brush teeth" due:"1696287600" entry:"1696202246" imask:"2" modified:"1696163208" parent:"e9f2b607-cbcc-4a82-ab0f-20d52979d5df" recur:"daily" rtype:"periodic" status:"pending" tags:"Health" tags_Health:"x" uuid:"7b5e41d2-f55e-4109-ad58-da77872790e0"]
+---
+time 1696202246
+old [description:"Brush teeth" due:"1696114800" entry:"1696100269" mask:"+-" modified:"1696163208" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"e9f2b607-cbcc-4a82-ab0f-20d52979d5df"]
+new [description:"Brush teeth" due:"1696114800" entry:"1696100269" mask:"+--" modified:"1696202246" recur:"daily" rtype:"periodic" status:"recurring" tags:"Health" tags_Health:"x" uuid:"e9f2b607-cbcc-4a82-ab0f-20d52979d5df"]
+---
+time 1696202288
+old [description:"Water garden" due:"1696114800" entry:"1696097237" mask:"+--" modified:"1696202246" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c"]
+new [description:"Water garden" due:"1696114800" entry:"1696097237" mask:"++-" modified:"1696202288" recur:"daily" rtype:"periodic" status:"recurring" tags:"housekeeping" tags_housekeeping:"x" uuid:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c"]
+---
+time 1696202288
+old [description:"Water garden" due:"1696201200" entry:"1696163208" imask:"1" modified:"1696103769" parent:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c" recur:"daily" rtype:"periodic" status:"pending" tags:"housekeeping" tags_housekeeping:"x" uuid:"6d181267-2c95-4523-908d-e68c028ec00d"]
+new [description:"Water garden" due:"1696201200" end:"1696202288" entry:"1696163208" imask:"1" modified:"1696202288" parent:"1d4f344c-2a52-43b2-9a30-4d7d009e0a6c" recur:"daily" rtype:"periodic" status:"completed" tags:"housekeeping" tags_housekeeping:"x" uuid:"6d181267-2c95-4523-908d-e68c028ec00d"]
+---
+time 1696251007
+old [description:"Teste de matemática 16:00" entry:"1696183431" modified:"1696183503" scheduled:"1696345200" status:"pending" tags:"maths,school" tags_maths:"x" tags_school:"x" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+new [description:"Teste de matemática" entry:"1696183431" modified:"1696251007" scheduled:"1696345200" status:"pending" tags_maths:"x" tags_school:"x" uuid:"4459d456-8c9d-400b-8038-d999316cd0d4"]
+---
+time 1696251035
+old [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696183508" scheduled:"1696258800" status:"pending" tags:"maths,school" tags_maths:"x" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+new [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696251035" scheduled:"1696345200" status:"pending" tags_maths:"x" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+---
+time 1696251045
+old [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696251035" scheduled:"1696345200" status:"pending" tags:"maths,school" tags_maths:"x" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+new [description:"Estudar matrizes para test de maths" entry:"1696183348" modified:"1696251045" scheduled:"1696334400" status:"pending" tags_maths:"x" tags_school:"x" uuid:"1a0415d4-8c2e-4a59-833e-8fd4b27e09b0"]
+---
