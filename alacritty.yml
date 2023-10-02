@@ -296,6 +296,47 @@ schemes:
      magenta:    '0xb4009e'
      cyan:       '0x61d6d6'
      white:      '0xf2f2f2'
+
+  modus-operandi: &modus-operandi
+    cursor:
+     text: '0xffffff'
+     cursor: '0x000000'
+    primary:
+      background: "#ffffff"
+      foreground: "#000000"   
+      # Bright and dim foreground colors
+      dim_foreground: "#595959"
+      bright_foreground: "#ffffff"
+      # Normal colors
+    normal:
+      black:   "#000000"
+      red:     "#a60000"
+      green:   "#006800"
+      yellow:  "#6f5500"
+      blue:    "#0031a9"
+      magenta: "#721045"
+      cyan:    "#005e8b"
+      white:   "#ffffff"
+      # Bright colors
+    bright:
+      black:   "#000000"
+      red:     "#d00000"
+      green:   "#008900"
+      yellow:  "#808000"
+      blue:    "#0000ff"
+      magenta: "#dd22dd"
+      cyan:    "#008899"
+      white:   "#ffffff"
+      # Dim colors
+    dim:
+      black:   "#f0f0f0"
+      red:     "#7f0000"
+      green:   "#2a5045"
+      yellow:  "#624416"
+      blue:    "#003497"
+      magenta: "#7c318f"
+      cyan:    "#005077"
+      white:   "#595959"
 colors: *campbell
 
 
