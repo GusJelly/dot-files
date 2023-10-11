@@ -155,7 +155,7 @@ alias p="prj"
 alias tui="taskwarrior-tui"
 
 # PATH fuckery:
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.8.0.7-1.fc38.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
 export LOCAL="$HOME/.local/bin"
 export GO="/usr/local/go/bin"
 export PATH
@@ -187,11 +187,17 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
-nvimnotes() {
+nvimNotes() {
     cd $HOME/org
     nvim .
 }
-bindkey -s '^n' 'nvimnotes\n'
+bindkey -s '^n' 'nvimNotes\n'
+
+nvimVimwiki() {
+    cd $HOME/vimwiki
+    nvim index.md
+}
+bindkey -s '^w' 'nvimVimwiki\n'
 
 projects() {
     oldDir=$(pwd)
@@ -208,6 +214,22 @@ projects() {
 }
 bindkey -s '^p' 'projects\n'
 
+projectsD() {
+    oldDir=$(pwd)
+    cd "$HOME"/projects
+
+    selected=$(ls -1 | dmenu)
+
+    if [ -z $selected ]; then
+        cd $oldDir
+    else
+        cd $selected
+        nvim .
+    fi
+}
+bindkey -s '^p' 'projects\n'
+
+bindkey -s '^v' 'vit\n'
 
 # Source custom scripts:
 sh_folder="$HOME/projects/scripts/shellScripts"
@@ -224,11 +246,11 @@ findDistro() {
         source /etc/os-release
         echo "$NAME"
 
-        if [[ "$ID" == "arch" ]]; then
+        if [[ "$ID" == "arch" || "$ID" == "endeavouros" ]]; then
             source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
         fi
 
-        if [[ "$ID" == "nobara" ]]; then
+        if [[ "$ID" == "nobara" || "$ID" == "fedora" ]]; then
             source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
         fi
 
@@ -251,5 +273,4 @@ findDistro() {
         fi
     fi
 }
-
 findDistro
