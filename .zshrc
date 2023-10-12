@@ -197,7 +197,6 @@ nvimVimwiki() {
     cd $HOME/vimwiki
     nvim index.md
 }
-bindkey -s '^w' 'nvimVimwiki\n'
 
 projects() {
     oldDir=$(pwd)
@@ -212,7 +211,6 @@ projects() {
         nvim .
     fi
 }
-bindkey -s '^p' 'projects\n'
 
 projectsD() {
     oldDir=$(pwd)
@@ -230,6 +228,8 @@ projectsD() {
 bindkey -s '^p' 'projects\n'
 
 bindkey -s '^v' 'vit\n'
+
+bindkey -s '^f' 'pulsemixer\n'
 
 # Source custom scripts:
 sh_folder="$HOME/projects/scripts/shellScripts"
