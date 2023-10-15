@@ -1,11 +1,11 @@
 !! xterm
 xterm*termName: xterm-256color
 xterm*selectToClipboard: true
-xterm*vt100.locale: true
-xterm*vt100.utf8: true
-XTerm.vt100.backarrowKey: false
-XTerm.ttyModes: erase ^?
-XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.locale: false
+XTerm.vt100.utf8: true
+xTerm.vt100.backarrowKey: false
+xTerm.ttyModes: erase ^?
+xTerm.vt100.metaSendsEscape: true
 xterm*faceName: CaskaydiaCove Nerd Font Mono
 ! xterm*faceSize: 12
 xterm*ScrollBar: false
@@ -19,67 +19,140 @@ xterm*VT100.Translations: #override \n\
   Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
   Ctrl <Key> minus: smaller-vt-font() \n\
   Ctrl <Key> plus: larger-vt-font() \n\
-  Ctrl <Key>c: string("Alt + C pressed")
 
 
-! ! Base16 Spacemacs
-! ! Scheme: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+!!! COLORSCHEMES !!!
+! ! Catppucin-Frappe theme
+! *background: #303446
+! *foreground: #C6D0F5
 !
-! #define base00 #1f2022
-! #define base01 #282828
-! #define base02 #444155
-! #define base03 #585858
-! #define base04 #b8b8b8
-! #define base05 #a3a3a3
-! #define base06 #e8e8e8
-! #define base07 #f8f8f8
-! #define base08 #f2241f
-! #define base09 #ffa500
-! #define base0A #b1951d
-! #define base0B #67b11d
-! #define base0C #2d9574
-! #define base0D #4f97d7
-! #define base0E #a31db1
-! #define base0F #b03060
+! ! black
+! *color0: #51576D
+! *color8: #626880
 !
-! *.foreground:   base05
-! #ifdef background_opacity
-! *.background:   [background_opacity]base00
-! #else
-! *.background:   #1f1f1f
-! #endif
-! *.cursorColor:  #ffffff
+! ! red
+! *color1: #E78284
+! *color9: #E78284
 !
-! *.color0:       base00
-! *.color1:       base08
-! *.color2:       base0B
-! *.color3:       base0A
-! *.color4:       base0D
-! *.color5:       base0E
-! *.color6:       base0C
-! *.color7:       base05
+! ! green
+! *color2: #A6D189
+! *color10: #A6D189
 !
-! *.color8:       base03
-! *.color9:       base08
-! *.color10:      base0B
-! *.color11:      base0A
-! *.color12:      base0D
-! *.color13:      base0E
-! *.color14:      base0C
-! *.color15:      base07
+! ! yellow
+! *color3: #E5C890
+! *color11: #E5C890
 !
-! ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
-! ! use 'shell' template to set these if necessary
-! *.color16:      base09
-! *.color17:      base0F
-! *.color18:      base01
-! *.color19:      base02
-! *.color20:      base04
-! *.color21:      base06
+! ! blue
+! *color4: #8CAAEE
+! *color12: #8CAAEE
+!
+! ! magenta
+! *color5: #F4B8E4
+! *color13: #F4B8E4
+!
+! ! cyan
+! *color6: #81C8BE
+! *color14: #81C8BE
+!
+! ! white
+! *color7: #B5BFE2
+! *color15: #A5ADCE
 
-! Base16 OneDark
-! Scheme: Lalit Magant (http://github.com/tilal6991)
- 
+! ! Catppuccin-Mocha theme
+! *background: #1E1E2E
+! *foreground: #CDD6F4
+!
+! ! black
+! ! *color0: #45475A
+! *color0: #1E1E2E
+! *color8: #585B70
+!
+! ! red
+! *color1: #F38BA8
+! *color9: #F38BA8
+!
+! ! green
+! *color2: #A6E3A1
+! *color10: #A6E3A1
+!
+! ! yellow
+! *color3: #F9E2AF
+! *color11: #F9E2AF
+!
+! ! blue
+! *color4: #89B4FA
+! *color12: #89B4FA
+!
+! ! magenta
+! *color5: #F5C2E7
+! *color13: #F5C2E7
+!
+! ! cyan
+! *color6: #94E2D5
+! *color14: #94E2D5
+!
+! ! white
+! *color7: #BAC2DE
+! *color15: #A6ADC8
+
+! Base16 Spacemacs
+! Scheme: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+
+#define base00 #1f2022
+#define base01 #282828
+#define base02 #444155
+#define base03 #585858
+#define base04 #b8b8b8
+#define base05 #a3a3a3
+#define base06 #e8e8e8
+#define base07 #f8f8f8
+#define base08 #f2241f
+#define base09 #ffa500
+#define base0A #b1951d
+#define base0B #67b11d
+#define base0C #2d9574
+#define base0D #4f97d7
+#define base0E #a31db1
+#define base0F #b03060
+
+*.foreground:   base05
+#ifdef background_opacity
+*.background:   [background_opacity]base00
+#else
+*.background:   #1f1f1f
+#endif
+*.cursorColor:  #ffffff
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
+
+! ! Base16 OneDark
+! ! Scheme: Lalit Magant (http://github.com/tilal6991)
+
 ! xterm*.cursorColor:  #ffffff
 ! #define base00 #282c34
 ! #define base01 #353b45
@@ -123,9 +196,9 @@ xterm*VT100.Translations: #override \n\
 ! *.color13:      base0E
 ! *.color14:      base0C
 ! *.color15:      base07
-
-! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
-! use 'shell' template to set these if necessary
+!
+! ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! ! use 'shell' template to set these if necessary
 ! *.color16:      base09
 ! *.color17:      base0F
 ! *.color18:      base01
@@ -133,43 +206,43 @@ xterm*VT100.Translations: #override \n\
 ! *.color20:      base04
 ! *.color21:      base06
 
-! Rose-pine-dawn
-! special
-*.foreground:   #575279
-*.background:   #faf4ed
-*.cursorColor:  #575279
-
-! black
-*.color0:       #fffaf3
-*.color8:       #f2e9e1
-
-! red
-*.color1:       #b4637a
-*.color9:       #b4637a
-
-! green
-*.color2:       #ea9d34
-*.color10:      #ea9d34
-
-! yellow
-*.color3:       #d7827e
-*.color11:      #d7827e
-
-! blue
-*.color4:       #286983
-*.color12:      #286983
-
-! magenta
-*.color5:       #907aa9
-*.color13:      #907aa9
-
-! cyan
-*.color6:       #56949f
-*.color14:      #56949f
-
-! white
-*.color7:       #9893a5
-*.color15:      #797593
+! ! Rose-pine-dawn
+! ! special
+! *.foreground:   #575279
+! *.background:   #faf4ed
+! *.cursorColor:  #575279
+!
+! ! black
+! *.color0:       #fffaf3
+! *.color8:       #f2e9e1
+!
+! ! red
+! *.color1:       #b4637a
+! *.color9:       #b4637a
+!
+! ! green
+! *.color2:       #ea9d34
+! *.color10:      #ea9d34
+!
+! ! yellow
+! *.color3:       #d7827e
+! *.color11:      #d7827e
+!
+! ! blue
+! *.color4:       #286983
+! *.color12:      #286983
+!
+! ! magenta
+! *.color5:       #907aa9
+! *.color13:      #907aa9
+!
+! ! cyan
+! *.color6:       #56949f
+! *.color14:      #56949f
+!
+! ! white
+! *.color7:       #9893a5
+! *.color15:      #797593
 
 ! ! catppuccin-latte theme:
 ! *background: #EFF1F5
