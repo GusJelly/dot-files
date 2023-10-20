@@ -25,18 +25,18 @@ cursor:
 
 font:
   normal:
-    family: CaskaydiaCove Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Regular
   bold:
-    family: CaskaydiaCove Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Italic
-  size: 11
+  size: 10
   offset:
     x: 0
-    y: 0
+    y: -1
   glyph_offset:
     x: 0
     y: 0
@@ -368,6 +368,9 @@ schemes:
       bright_foreground: '0xffffff'
       dim_background: '0x31363b'
       bright_background: '0x000000'
+    cursor:
+      text: "#000000"
+      cursor: "#ffffff"
     normal:
       black: '0x232627'
       red: '0xed1515'
@@ -400,6 +403,9 @@ schemes:
     primary:
       background: '0x0c0c0c'
       foreground: '0xcccccc'
+    cursor:
+      text: "#000000"
+      cursor: "#ffffff"
     normal:
       black:      '0x0c0c0c'
       red:        '0xc50f1f'
@@ -2761,7 +2767,7 @@ schemes:
       magenta: "0xA02F6F"
       cyan: "0x24837B"
       white: "0xFFFCF0"
-colors: *github_light_default
+colors: *breeze
 
 # ### COLORSCHEMES ###
 # Gruvbox-Material:
