@@ -111,27 +111,6 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
-# # Change cursor shape for different vi modes.
-# function zle-keymap-select {
-#   if [[ ${KEYMAP} == vicmd ]] ||
-#      [[ $1 = 'block' ]]; then
-#     echo -ne '\e[2 q'
-#   elif [[ ${KEYMAP} == main ]] ||
-#        [[ ${KEYMAP} == viins ]] ||
-#        [[ ${KEYMAP} = '' ]] ||
-#        [[ $1 = 'beam' ]]; then
-#     echo -ne '\e[6 q'
-#   fi
-# }
-# zle -N zle-keymap-select
-# zle-line-init() {
-#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-#     echo -ne "\e[6 q"
-# }
-# zle -N zle-line-init
-# echo -ne '\e[6 q' # Use beam shape cursor on startup.
-# preexec() { echo -ne '\e[6 q' ;} # Use beam shape cursor for each new prompt.
-#
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
@@ -155,7 +134,7 @@ alias p="prj"
 alias tui="taskwarrior-tui"
 
 # PATH fuckery:
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export JAVA_HOME=/usr/lib/jvm/java-openjdk
 export LOCAL="$HOME/.local/bin"
 export GO="/usr/local/go/bin"
 export PATH
@@ -175,17 +154,19 @@ export VISUAL=nvim
 # Make ranger exit into current directory:
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
+bindkey -s '^o' 'r\n'
+
 # Use lf to switch directories and bind it to ctrl-o
-lfcd () {
-    tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp"
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-    fi
-}
-bindkey -s '^o' 'lfcd\n'
+# vicd()
+# {
+#     local dst="$(command vifm --choose-dir - "$@")"
+#     if [ -z "$dst" ]; then
+#         echo 'Directory picking cancelled/failed'
+#         return 1
+#     fi
+#     cd "$dst"
+# }
+# bindkey -s '^o' 'vicd\n'
 
 nvimNotes() {
     cd $HOME/org
@@ -228,8 +209,6 @@ projectsD() {
 bindkey -s '^p' 'projects\n'
 
 bindkey -s '^v' 'vit\n'
-
-bindkey -s '^f' 'pulsemixer\n'
 
 # Source custom scripts:
 sh_folder="$HOME/projects/scripts/shellScripts"
