@@ -15,7 +15,7 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 # Recommends: foot
-set $term st
+set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -205,7 +205,7 @@ mode "resize" {
 }  
 bindsym $mod+r mode "resize"
 
-output DP-1 {
+output DP-2 {
 	res 1920x1080@165Hz
 	pos 1920 0
 }
@@ -213,8 +213,17 @@ output DP-1 {
 input * {
     accel_profile "flat"
     pointer_accel 0.0
-    repeat_rate 40
-    repeat_delay 225
+    repeat_rate 20
+    repeat_delay 150
+}
+
+set $my_cursor Adwaita
+set $my_cursor_size 24
+
+seat seat0 xcursor_theme $my_cursor $my_cursor_size
+exec_always {
+    gsettings set org.gnome.desktop.interface cursor-theme $my_cursor
+    gsettings set org.gnome.desktop.interface cursor-size $my_cursor_size
 }
 
 default_border pixel 2
