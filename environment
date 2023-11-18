@@ -1,3 +1,4 @@
-WLR_NO_HARDWARE=1
-WLR_RENDERER=vulkan
-XWAYLAND_NO_GLAMOR=1
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+EDITOR=vim
+__GL_SYNC_DISPLAY_DEVICE=DP-2
+__GL_SYNC_TO_VBLANK=0
