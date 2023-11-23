@@ -9,17 +9,21 @@ color=#A4C2F4
 command=cpu.sh
 interval=5
 
-# Print ram usage
-[ram]
-command=ram.sh
-interval=5
-
 # Print disk usage
 [disk]
 command=disk.sh
 interval=5
 
+# Print ram usage
+[ram]
+command=ram.sh
+interval=5
+
+[key_layout]
+command=key_layout
+interval=1
+
 # Update time every 5 seconds
 [time]
 command=date +"%a %d-%m-%Y %X"
-interval=5
+interval=1
