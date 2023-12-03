@@ -1,4 +1,12 @@
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-EDITOR=vim
-__GL_SYNC_DISPLAY_DEVICE=DP-2
-__GL_SYNC_TO_VBLANK=0
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+QT_QPA_PLATFORMTHEME=qt5ct
+#QT_STYLE_OVERRIDE=kvantum
+BROWSER=firefox
+EDITOR=nvim
+XWAYLAND_NO_GLAMOR=1
+WLR_NO_HARDWARE_CURSORS=1
+WLR_RENDERER=vulkan
