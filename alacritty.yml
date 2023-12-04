@@ -8,7 +8,7 @@ selection:
   save_to_clipboard: true
 
 window:
-  opacity: 1.0
+  opacity: 1.00
   dynamic_padding: false
   # decorations: none
 
@@ -26,24 +26,27 @@ cursor:
 font:
   normal:
     # family: Fixedsys Excelsior
-    family: Terminess Nerd Font
-    style: Bold
+    # family: Terminess Nerd Font
+    family: JetBrainsMono Nerd Font
+    style: Regular
   bold:
     # family: Fixedsys Excelsior
-    family: Terminess Nerd Font
+    # family: Terminess Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Bold
   italic:
     # family: Fixedsys Excelsior
-    family: Terminess Nerd Font
-    style: Bold Italic
-  size: 10.5
+    # family: Terminess Nerd Font
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  size: 13.5
   offset:
     x: 0
     y: 0
   glyph_offset:
     x: 0
     y: 0
-  builtin_box_drawing: true
+  builtin_box_drawing: false
 
 draw_bold_text_with_bright_colors: false
 
@@ -589,7 +592,8 @@ schemes:
 
   campbell: &campbell
     primary:
-      background: '0x0c0c0c'
+      # background: '0x0c0c0c'
+      background: '0x181616'
       foreground: '0xcccccc'
     cursor:
       text: "#000000"
@@ -641,8 +645,8 @@ schemes:
       background: '#1E1E2E'
       foreground: '0xd6d6d6'
     cursor:
-      text: '#CDD6F4'
-      cursor: '#D9D9D9'
+      text: '#000000'
+      cursor: '#ffffff'
     normal:
       black: '#181A1F'
       red: '#E86671'
@@ -1178,10 +1182,10 @@ schemes:
 
   hyper: &hyper
     primary:
-      background: '0x000000'
+      background: '0x0f0f0f'
       foreground: '0xffffff'
     cursor:
-      text:   '0xF81CE5'
+      text:   '0x000000'
       cursor: '0xffffff'
     normal:
       black:   '0x000000'
@@ -1250,72 +1254,75 @@ schemes:
       white:   '0xffffff'
 
   kanagawa_dragon: &kanagawa_dragon
-    colors:
-      primary:
-        background: '0x181616'
-        foreground: '0xc5c9c5'
+     primary:
+       background: '0x181616'
+       foreground: '0xc5c9c5'
+     cursor:
+       cursor: '0xffffff'
+       text: '0x000000'
+     normal:
+       black: '0x0d0c0c'
+       blue: '0x8ba4b0'
+       cyan: '0x8ea4a2'
+       green: '0x8a9a7b'
+       magenta: '0xa292a3'
+       red: '0xc4746e'
+       white: '0xC8C093'
+       yellow: '0xc4b28a'
 
-      normal:
-        black: '0x0d0c0c'
-        blue: '0x8ba4b0'
-        cyan: '0x8ea4a2'
-        green: '0x8a9a7b'
-        magenta: '0xa292a3'
-        red: '0xc4746e'
-        white: '0xC8C093'
-        yellow: '0xc4b28a'
+     bright:
+       black: '0xa6a69c'
+       blue: '0x7FB4CA'
+       cyan: '0x7AA89F'
+       green: '0x87a987'
+       magenta: '0x938AA9'
+       red: '0xE46876'
+       white: '0xc5c9c5'
+       yellow: '0xE6C384'
 
-      bright:
-        black: '0xa6a69c'
-        blue: '0x7FB4CA'
-        cyan: '0x7AA89F'
-        green: '0x87a987'
-        magenta: '0x938AA9'
-        red: '0xE46876'
-        white: '0xc5c9c5'
-        yellow: '0xE6C384'
+     selection:
+       background: '0x2d4f67'
+       foreground: '0xc8c093'
 
-      selection:
-        background: '0x2d4f67'
-        foreground: '0xc8c093'
-
-      indexed_colors:
-        - { index: 16, color: '0xffa066' }
-        - { index: 17, color: '0xff5d62' }
+     indexed_colors:
+       - { index: 16, color: '0xffa066' }
+       - { index: 17, color: '0xff5d62' }
 
   kanagawa_wave: &kanagawa_wave
-    colors:
-      primary:
-        background: '0x1f1f28'
-        foreground: '0xdcd7ba'
+     primary:
+       # background: '0x1f1f28'
+       background: '0x181616'
+       foreground: '0xdcd7ba'
+     cursor:
+       cursor: '0xffffff'
+       text: '0x000000'
+     normal:
+       black:   '0x090618'
+       red:     '0xc34043'
+       green:   '0x76946a'
+       yellow:  '0xc0a36e'
+       blue:    '0x7e9cd8'
+       magenta: '0x957fb8'
+       cyan:    '0x6a9589'
+       white:   '0xc8c093'
 
-      normal:
-        black:   '0x090618'
-        red:     '0xc34043'
-        green:   '0x76946a'
-        yellow:  '0xc0a36e'
-        blue:    '0x7e9cd8'
-        magenta: '0x957fb8'
-        cyan:    '0x6a9589'
-        white:   '0xc8c093'
+     bright:
+       black:   '0x727169'
+       red:     '0xe82424'
+       green:   '0x98bb6c'
+       yellow:  '0xe6c384'
+       blue:    '0x7fb4ca'
+       magenta: '0x938aa9'
+       cyan:    '0x7aa89f'
+       white:   '0xdcd7ba'
 
-      bright:
-        black:   '0x727169'
-        red:     '0xe82424'
-        green:   '0x98bb6c'
-        yellow:  '0xe6c384'
-        blue:    '0x7fb4ca'
-        magenta: '0x938aa9'
-        cyan:    '0x7aa89f'
-        white:   '0xdcd7ba'
+     selection:
+       background: '0x2d4f67'
+       foreground: '0xc8c093'
 
-      selection:
-        background: '0x2d4f67'
-        foreground: '0xc8c093'
-
-      indexed_colors:
-        - { index: 16, color: '0xffa066' }
-        - { index: 17, color: '0xff5d62' }
+     indexed_colors:
+       - { index: 16, color: '0xffa066' }
+       - { index: 17, color: '0xff5d62' }
 
   konsole_linux: &konsole_linux
     primary:
@@ -2133,7 +2140,7 @@ schemes:
       magenta: "0xA02F6F"
       cyan: "0x24837B"
       white: "0xFFFCF0"
-# colors: *catppuccin
+colors: *kanagawa_wave
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
