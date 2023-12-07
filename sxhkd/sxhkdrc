@@ -1,2 +1,35 @@
-super + space
+alt + shift + Return
+    kitty
+
+alt + space
 	setxkbmap {pt, us}
+
+alt + shift + p
+    j4-dmenu-desktop
+
+alt + p
+    dmenu_run
+
+# Restart bspwm
+alt + shift + w
+    bspc wm -r
+
+# Close current window
+alt + shift + q
+    bspc node -c
+
+# Focus on window in direction
+alt + {h,j,k,l}
+	bspc node -f {west,south,north,east}
+
+# Switch do desktop
+alt + {0-9}
+    bspc desktop -f {0-9}
+
+# Send window to desktop
+alt + shift + {0-9}
+    bspc node -d {0-9}
+
+# Switch focus of monitors
+alt + {comma, period}
+    bspc monitor -f {west, east}
