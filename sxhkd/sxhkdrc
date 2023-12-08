@@ -19,17 +19,29 @@ alt + shift + q
     bspc node -c
 
 # Focus on window in direction
-alt + {h,j,k,l}
+alt + {h, j, k, l}
 	bspc node -f {west,south,north,east}
 
-# Switch do desktop
+# Switch to desktop
 alt + {0-9}
-    bspc desktop -f {0-9}
+    bspc desktop -f focused:'^{0-9}'
 
 # Send window to desktop
 alt + shift + {0-9}
-    bspc node -d {0-9}
+    bspc node -d focused:'^{0-9}'
 
 # Switch focus of monitors
 alt + {comma, period}
     bspc monitor -f {west, east}
+
+# Send windows to other monitor while keeping focus of the window
+alt + shift + {comma, period}
+    bspc node -m {west, east} --follow
+
+# Swap focused window with given window
+alt + shift + {h, j, k, l}
+    bspc node -s {west, south, north, east} --follow
+
+# Toggle floating window
+alt + shift + space
+    bspc node -t \~floating
