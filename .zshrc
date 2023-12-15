@@ -47,23 +47,13 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 # aliases
-alias pt='setxkbmap pt,pt'
-alias us='setxkbmap us,us'
-alias night='redshift -P -O 3500k'
 alias n="nvim"
 alias db="distrobox"
 alias ta="tmux attach"
 alias t="tmux"
 alias lg="lazygit"
 alias nc="cd $HOME/.config/nvim; nvim ."
-alias ac="cd $HOME/.config; nvim alacritty.yml"
 alias zshrc="cd $HOME; nvim .zshrc"
-alias notes="cd $HOME/vimwiki; nvim index.md"
-alias diary="cd $HOME/vimwiki/diary; nvim diary.md"
-alias chess="cd $HOME/ProjetoJava2/chess-app"
-alias p="prj"
-alias tui="taskwarrior-tui"
-alias night='redshift -P -O 3500k'
 
 # aliases for ls
 alias l="exa -l"
@@ -106,8 +96,8 @@ bindkey -s '^o' 'r\n'
 # bindkey -s '^o' 'vicd\n'
 
 nvimNotes() {
-    cd $HOME/org
-    nvim .
+    cd $HOME/notes/
+    nvim index.norg
 }
 bindkey -s '^n' 'nvimNotes\n'
 
