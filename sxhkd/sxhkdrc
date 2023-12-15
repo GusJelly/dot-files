@@ -45,3 +45,10 @@ alt + shift + {h, j, k, l}
 # Toggle floating window
 alt + shift + space
     bspc node -t \~floating
+
+# Layout change bindings
+alt + t
+    bsp-layout set tall
+
+alt + e
+    bsp-layout set tiled
