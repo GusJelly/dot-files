@@ -17,6 +17,27 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
+# Change cursor shape for different vi modes.
+function zle-keymap-select {
+  if [[ ${KEYMAP} == vicmd ]] ||
+     [[ $1 = 'block' ]]; then
+    echo -ne '\e[1 q'
+  elif [[ ${KEYMAP} == main ]] ||
+       [[ ${KEYMAP} == viins ]] ||
+       [[ ${KEYMAP} = '' ]] ||
+       [[ $1 = 'beam' ]]; then
+    echo -ne '\e[5 q'
+  fi
+}
+zle -N zle-keymap-select
+zle-line-init() {
+    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    echo -ne "\e[5 q"
+}
+zle -N zle-line-init
+echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
@@ -29,6 +50,11 @@ alias t="tmux"
 alias lg="lazygit"
 alias nc="cd $HOME/.config/nvim; nvim ."
 alias zshrc="cd $HOME; nvim .zshrc"
+alias ls="eza"
+alias ll="eza -l"
+alias la="eza -la"
+alias l="eza -l"
+alias lsa="eza -a"
 
 export LOCAL="$HOME/.local/bin"
 export GO="/usr/local/go/bin"
@@ -95,13 +121,11 @@ findDistro() {
         # Check for /etc/lsb-release file (common on Debian-based distributions)
         if [ -f /etc/lsb-release ]; then
             source /etc/lsb-release
-            echo "$DISTRIB_ID"
             # echo "Version: $DISTRIB_RELEASE"
         else
             # Check for /etc/redhat-release file (common on Red Hat-based distributions)
             if [ -f /etc/redhat-release ]; then
                 REDHAT_RELEASE=$(cat /etc/redhat-release)
-                echo "$REDHAT_RELEASE"
             else
                 # If none of the above files exist, print an error message
                 echo "Unable to determine the distribution."
@@ -110,6 +134,5 @@ findDistro() {
     fi
 }
 findDistro
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
