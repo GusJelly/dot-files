@@ -6,10 +6,10 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "idle_inhibitor", "pulseaudio", "backlight", "network", "custom/updates"],
-    "modules-center": ["hyprland/window"],
+    "modules-center": ["sway/window"],
     "modules-right": ["cpu", "memory", "temperature", "battery", "tray", "hyprland/language", "clock"],
     // Modules configuration
-     "hyprland/workspaces": {
+     "sway/workspaces": {
          "disable-scroll": true,
          "on-click": "activate",
          // "all-outputs": false,
@@ -137,8 +137,8 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
