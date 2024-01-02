@@ -1,12 +1,14 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    /* border-bottom: 0px solid rgba(100, 114, 125, 0.5); */
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -16,14 +18,13 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
 window#waybar.empty {
-    background-color: transparent;
+    background-color: #1F1F1F;
 }
+
 window#waybar.solo {
-    background-color: #FFFFFF;
+    background-color: #1f1f1f;
 }
-*/
 
 window#waybar.termite {
     background-color: #3F3F3F;
@@ -50,6 +51,7 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
+    padding-top: 2px;
     background-color: transparent;
     color: #ffffff;
 }
@@ -109,6 +111,7 @@ button:hover {
 
 #clock {
     background-color: #64727D;
+    padding-top: 2px;
 }
 
 #battery {
@@ -250,9 +253,11 @@ label:focus {
 #language {
     background: #00b093;
     color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
+    padding: 0 0px;
+    margin: 0 0px;
     min-width: 16px;
+    padding: 0 5px;
+    padding-top: 2px;
 }
 
 #keyboard-state {
