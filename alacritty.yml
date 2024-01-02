@@ -9,7 +9,7 @@ selection:
 
 window:
   opacity: 1.00
-  dynamic_padding: false
+  dynamic_padding: true
   # decorations: none
 
 scrolling:
@@ -25,21 +25,15 @@ cursor:
 
 font:
   normal:
-    # family: Fixedsys Excelsior
-    # family: Terminess Nerd Font
-    family: JetBrainsMono Nerd Font
+    family: CaskaydiaCove Nerd Font
     style: Regular
   bold:
-    # family: Fixedsys Excelsior
-    # family: Terminess Nerd Font
-    family: JetBrainsMono Nerd Font
+    family: CaskaydiaCove Nerd Font
     style: Bold
   italic:
-    # family: Fixedsys Excelsior
-    # family: Terminess Nerd Font
-    family: JetBrainsMono Nerd Font
+    family: CaskaydiaCove Nerd Font
     style: Italic
-  size: 13.5
+  size: 13
   offset:
     x: 0
     y: 0
@@ -90,42 +84,42 @@ draw_bold_text_with_bright_colors: false
 #     - { index: 16, color: '0xfec43f' }
 #     - { index: 17, color: '0xff9580' }
 
-# Modus-operandi
-colors:
-  # Default colors
-  primary:
-    background: '0xffffff'
-    foreground: '0x000000'
-
-  cursor:
-    text: '0xffffff'
-    cursor: '0x000000'
-
-  # Normal colors
-  normal:
-    black:   '0xffffff'
-    red:     '0xa60000'
-    green:   '0x006800'
-    yellow:  '0x6f5500'
-    blue:    '0x0031a9'
-    magenta: '0x721045'
-    cyan:    '0x005e8b'
-    white:   '0x000000'
-
-  # Bright colors
-  bright:
-    black:   '0xf2f2f2'
-    red:     '0xd00000'
-    green:   '0x008900'
-    yellow:  '0x808000'
-    blue:    '0x0000ff'
-    magenta: '0xdd22dd'
-    cyan:    '0x008899'
-    white:   '0x595959'
-
-  indexed_colors:
-    - { index: 16, color: '0x884900' }
-    - { index: 17, color: '0x7f0000' }
+# # Modus-operandi
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0xffffff'
+#     foreground: '0x000000'
+#
+#   cursor:
+#     text: '0xffffff'
+#     cursor: '0x000000'
+#
+#   # Normal colors
+#   normal:
+#     black:   '0xffffff'
+#     red:     '0xa60000'
+#     green:   '0x006800'
+#     yellow:  '0x6f5500'
+#     blue:    '0x0031a9'
+#     magenta: '0x721045'
+#     cyan:    '0x005e8b'
+#     white:   '0x000000'
+#
+#   # Bright colors
+#   bright:
+#     black:   '0xf2f2f2'
+#     red:     '0xd00000'
+#     green:   '0x008900'
+#     yellow:  '0x808000'
+#     blue:    '0x0000ff'
+#     magenta: '0xdd22dd'
+#     cyan:    '0x008899'
+#     white:   '0x595959'
+#
+#   indexed_colors:
+#     - { index: 16, color: '0x884900' }
+#     - { index: 17, color: '0x7f0000' }
 
 # ### Edge (Light variant)
 # colors:
@@ -592,8 +586,8 @@ schemes:
 
   campbell: &campbell
     primary:
-      # background: '0x0c0c0c'
-      background: '0x181616'
+      background: '0x0f0f0f'
+      # background: '0x181616'
       foreground: '0xcccccc'
     cursor:
       text: "#000000"
@@ -1290,8 +1284,7 @@ schemes:
 
   kanagawa_wave: &kanagawa_wave
      primary:
-       # background: '0x1f1f28'
-       background: '0x181616'
+       background: '0x1f1f28'
        foreground: '0xdcd7ba'
      cursor:
        cursor: '0xffffff'
@@ -1319,6 +1312,41 @@ schemes:
      selection:
        background: '0x2d4f67'
        foreground: '0xc8c093'
+
+  kanagawa_light: &kanagawa_light
+     primary:
+       background: '0xf2ecbc'
+       foreground: '0x545464'
+     cursor:
+       cursor: '0x000000'
+       text: '0xffffff'
+     normal:
+       black:   '0x1F1F28'
+       red:     '0xc84053'
+       green:   '0x6f894e'
+       yellow:  '0x77713f'
+       blue:    '0x4d699b'
+       magenta: '0xb35b79'
+       cyan:    '0x597b75'
+       white:   '0x545464'
+
+     bright:
+       black:   '0x8a8980'
+       red:     '0xd7474b'
+       green:   '0x6e915f'
+       yellow:  '0x836f4a'
+       blue:    '0x6693bf'
+       magenta: '0x624c83'
+       cyan:    '0x5e857a'
+       white:   '0x43436c'
+
+     selection:
+       background: '0x2d4f67'
+       foreground: '0xc8c093'
+
+     indexed_colors:
+       - { index: 16, color: '0xffa066' }
+       - { index: 17, color: '0xff5d62' }
 
      indexed_colors:
        - { index: 16, color: '0xffa066' }
@@ -2140,7 +2168,63 @@ schemes:
       magenta: "0xA02F6F"
       cyan: "0x24837B"
       white: "0xFFFCF0"
-colors: *kanagawa_wave
+
+    codelight: &code_light
+      primary:
+        background: '#ffffff'
+        foreground: '#000000'
+      cursor:
+        text: '#ffffff'
+        cursor: '#000000'
+      normal:
+        black:   '#1e1e1e'
+        red:     '#c72e0f'
+        green:   '#009000'
+        yellow:  '#795e25'
+        blue:    '#007acc'
+        magenta: '#af00db'
+        cyan:    '#56b6c2'
+        white:   '#d4d4d4'
+
+      bright:
+        black:   '#1e1e1e'
+        red:     '#c72e0f'
+        green:   '#009000'
+        yellow:  '#795e25'
+        blue:    '#007acc'
+        magenta: '#af00db'
+        cyan:    '#56b6c2'
+        white:   '#d4d4d4'
+
+    codedark: &code_dark
+      primary:
+        background: '#1e1e1e'
+        foreground: '#d4d4d4'
+
+      cursor:
+        text: '#d4d4d4'
+        cursor: '#d4d4d4'
+
+      normal:
+        black:   '#1e1e1e'
+        red:     '#f44747'
+        green:   '#608b4e'
+        yellow:  '#dcdcaa'
+        blue:    '#569cd6'
+        magenta: '#c678dd'
+        cyan:    '#56b6c2'
+        white:   '#d4d4d4'
+
+      bright:
+        black:   '#545454'
+        red:     '#f44747'
+        green:   '#608b4e'
+        yellow:  '#dcdcaa'
+        blue:    '#569cd6'
+        magenta: '#c678dd'
+        cyan:    '#56b6c2'
+        white:   '#d4d4d4'
+colors: *code_light
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
