@@ -1028,6 +1028,9 @@ schemes:
       background: '0xfbf1c7'
       # soft contrast: background = '0xf2e5bc'
       foreground: '0x3c3836'
+    cursor:
+      cursor: '0x000000'
+      text: '0xffffff'
     normal:
       black:   '0xfbf1c7'
       red:     '0xcc241d'
@@ -2224,7 +2227,7 @@ schemes:
         magenta: '#c678dd'
         cyan:    '#56b6c2'
         white:   '#d4d4d4'
-colors: *code_light
+colors: *gruvbox_light
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
