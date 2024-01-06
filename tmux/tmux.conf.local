@@ -352,6 +352,9 @@ tmux_conf_copy_to_os_clipboard=true
 # -- user customizations -------------------------------------------------------
 # this is the place to override or undo settings
 
+# Change default shell
+set -g default-shell /usr/bin/fish
+
 # increase history size
 set -g history-limit 10000
 set -sg repeat-time 0                   # increase repeat timeout
@@ -362,51 +365,41 @@ setw -g pane-base-index 1     # make pane numbering consistent with windows
 set -g mouse on
 set -g set-clipboard external
 
-# Make truecolors work on foot
+# # Make truecolors work on foot
 # set -g default-terminal "tmux-256color"
 # set -ag terminal-overrides ",foot:RGB"
 
-# # Make true-color work on alacritty
-# set -g default-terminal "tmux-256color"
-# set -ag terminal-overrides ",xterm-256color:RGB"
-
-# set -g status-bg '#191724'
-# set -g status-fg '#E0DEF4'
-# set -g status-bg '#282C34'
-# set -g status-fg '#E0DEF4'
+# Make true-color work on alacritty
+set -g default-terminal "tmux-256color"
+set -ag terminal-overrides ",xterm-256color:RGB"
 
 # bindings
 bind n run-shell "tmux neww -n notes 'cd $HOME/notes; nvim index.norg'"
 bind v run-shell "tmux neww -n tasks 'vit'"
 
-# # Github theme:
-# set -g mode-style "fg=#010409,bg=#ffffff"
-# 
-# set -g message-style "fg=#ffffff,bg=#010409"
-# set -g message-command-style "fg=#ffffff,bg=#010409"
-# 
-# set -g pane-border-style "fg=#010409"
-# set -g pane-active-border-style "fg=#0349b4"
-# 
-# set -g status "on"
-# set -g status-justify "left"
-# 
-# set -g status-style "fg=#0349b4,bg=#010409"
-# 
-# set -g status-left-length "100"
-# set -g status-right-length "100"
-# 
-# set -g status-left-style NONE
-# set -g status-right-style NONE
-# 
-# set -g status-left "#[fg=#010409,bg=#0349b4,bold] #S #[fg=#0349b4,bg=#010409,nobold,nounderscore,noitalics]"
-# set -g status-right "#[fg=#010409,bg=#010409,nobold,nounderscore,noitalics]#[fg=#010409,bg=#010409] #{prefix_highlight} #[fg=#babbbd,bg=#010409,nobold,nounderscore,noitalics]#[fg=#ffffff,bg=#babbbd] %Y-%m-%d | %I:%M %p #[fg=#0366d6,bg=#babbbd,nobold,nounderscore,noitalics]#[fg=#010409,bg=#0366d6,bold] #h "
-# 
-# setw -g window-status-activity-style "underscore,fg=#66707b,bg=#010409"
-# setw -g window-status-separator ""
-# setw -g window-status-style "NONE,fg=#88929d,bg=#010409"
-# setw -g window-status-format "#[fg=#010409,bg=#010409,nobold,nounderscore,noitalics]#[fg=#eef0f2,bg=#010409,nobold,nounderscore,noitalics] #I  #W #F #[fg=#010409,bg=#010409,nobold,nounderscore,noitalics]"
-# setw -g window-status-current-format "#[fg=#010409,bg=#055d20,nobold,nounderscore,noitalics]#[fg=#ffffff,bg=#055d20,bold] #I  #W #F #[fg=#055d20,bg=#010409,nobold,nounderscore,noitalics]"
+# # Kanagawa wave:
+# set -g  status-bg '#1F1F28'
+# set -g  status-fg '#DCD7BA'
+
+# Campbell:
+set -g  status-bg '#1f1f1f'
+set -g  status-fg '#ffffff'
+
+# # base16:
+# set -g  status-bg '#181818'
+# set -g  status-fg '#ffffff'
+
+# Kanagawa light:
+# set -g  status-bg '#1F1F28'
+# set -g  status-fg '#DCD7BA'
+
+# # Gruvbox light:
+# set -g  status-bg '#fbf1c7'
+# set -g  status-fg '#3c3836'
+#
+# # Gruvbox dark hard:
+# set -g  status-bg '#1d2021'
+# set -g  status-fg '#ebdbb2'
 
 # start with mouse mode enabled
 #set -g mouse on
@@ -427,7 +420,7 @@ bind v run-shell "tmux neww -n tasks 'vit'"
 # bind c new-window -c '#{pane_current_path}' #!important
 
 # move status line to top
-set -g status-position top
+# set -g status-position top
 
 
 # -- tpm -----------------------------------------------------------------------
@@ -480,21 +473,21 @@ set -g @continuum-restore 'on'
 # set -g @themepack 'basic'
 # set -g @plugin "janoamaral/tokyo-night-tmux"
 
-set -g @plugin 'catppuccin/tmux'
-set -g @catppuccin_flavour 'mocha' # or frappe, macchiato, mocha
-set -g @catppuccin_window_right_separator "█ "
-set -g @catppuccin_window_number_position "right"
-set -g @catppuccin_window_middle_separator " | "
-
-set -g @catppuccin_window_default_fill "none"
-
-set -g @catppuccin_window_current_fill "all"
-
-set -g @catppuccin_status_modules_right "application session user host date_time"
-set -g @catppuccin_status_left_separator "█"
-set -g @catppuccin_status_right_separator "█"
-
-set -g @catppuccin_date_time_text "%Y-%m-%d %H:%M:%S"
+# set -g @plugin 'catppuccin/tmux'
+# set -g @catppuccin_flavour 'mocha' # or frappe, macchiato, mocha
+# set -g @catppuccin_window_right_separator "█ "
+# set -g @catppuccin_window_number_position "right"
+# set -g @catppuccin_window_middle_separator " | "
+# 
+# set -g @catppuccin_window_default_fill "none"
+# 
+# set -g @catppuccin_window_current_fill "all"
+# 
+# set -g @catppuccin_status_modules_right "application session user host date_time"
+# set -g @catppuccin_status_left_separator "█"
+# set -g @catppuccin_status_right_separator "█"
+# 
+# set -g @catppuccin_date_time_text "%Y-%m-%d %H:%M:%S"
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the

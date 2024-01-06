@@ -6,10 +6,10 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "idle_inhibitor", "pulseaudio", "backlight", "network", "custom/updates"],
-    "modules-center": ["sway/window"],
+    "modules-center": ["hyprland/window"],
     "modules-right": ["cpu", "memory", "temperature", "battery", "tray", "hyprland/language", "clock"],
     // Modules configuration
-     "sway/workspaces": {
+     "hyprland/workspaces": {
          "disable-scroll": true,
          "on-click": "activate",
          // "all-outputs": false,
@@ -30,7 +30,7 @@
      },
     "hyprland/language": {
         "format": "{}",
-        "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+        "on-click": "hyprlandmsg input type:keyboard xkb_switch_layout next",
     },
     "keyboard-state": {
         "numlock": false,
@@ -176,10 +176,10 @@
             "dnd-inhibited-none": ""
         },
         "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click": "sleep 0.1 && swaync-client -t -sw",
-        "on-click-right": "swaync-client -d -sw",
+        "exec-if": "which hyprlandnc-client",
+        "exec": "hyprlandnc-client -swb",
+        "on-click": "sleep 0.1 && hyprlandnc-client -t -sw",
+        "on-click-right": "hyprlandnc-client -d -sw",
         "escape": true
     },
     "custom/updates": {
