@@ -7,4 +7,10 @@ fish_add_path "$HOME/.local/bin/"
 fish_add_path "$HOME/.nix-profile/bin/"
 fish_add_path "/nix/var/nix/profiles/default/bin/"
 
+# Vi mode cursor changing
+set fish_cursor_default block
+set fish_cursor_insert line
+set fish_cursor_replace_one underscore
+set fish_cursor_visual block
+
 eval "$(starship init fish)"
