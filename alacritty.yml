@@ -19,21 +19,24 @@ scrolling:
 mouse:
   hide_when_typing: true
 
-cursor:
-  blinking: never
-  vi_mode_style: block
+# cursor:
+  # blinking: never
+  # vi_mode_style: block
 
 font:
   normal:
-    family: CaskaydiaCove Nerd Font
+    # family: CaskaydiaCove Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Regular
   bold:
-    family: CaskaydiaCove Nerd Font
+    # family: CaskaydiaCove Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font
+    # family: CaskaydiaCove Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Italic
-  size: 13
+  size: 9.5
   offset:
     x: 0
     y: 0
@@ -147,92 +150,92 @@ draw_bold_text_with_bright_colors: false
 #     cyan: "0x3a8b84"
 #     white: "0xfafafa"
 
-# Catppuccin Latte theme
-colors:
-    # Default colors
-    primary:
-        background: "#EFF1F5" # base
-        foreground: "#4C4F69" # text
-        # Bright and dim foreground colors
-        dim_foreground: "#4C4F69" # text
-        bright_foreground: "#4C4F69" # text
-
-    # Cursor colors
-    cursor:
-        text: "#FFFFFF" # base
-        cursor: "#000000" # rosewater
-    vi_mode_cursor:
-        text: "#FFFFFF" # base
-        cursor: "#000000" # lavender
-    # cursor:
-    #     text: "#EFF1F5" # base
-    #     cursor: "#DC8A78" # rosewater
-    # vi_mode_cursor:
-    #     text: "#EFF1F5" # base
-    #     cursor: "#7287FD" # lavender
-
-    # Search colors
-    search:
-        matches:
-            foreground: "#EFF1F5" # base
-            background: "#6C6F85" # subtext0
-        focused_match:
-            foreground: "#EFF1F5" # base
-            background: "#40A02B" # green
-        footer_bar:
-            foreground: "#EFF1F5" # base
-            background: "#6C6F85" # subtext0
-
-    # Keyboard regex hints
-    hints:
-        start:
-            foreground: "#EFF1F5" # base
-            background: "#DF8E1D" # yellow
-        end:
-            foreground: "#EFF1F5" # base
-            background: "#6C6F85" # subtext0
-
-    # Selection colors
-    selection:
-        text: "#EFF1F5" # base
-        background: "#DC8A78" # rosewater
-
-    # Normal colors
-    normal:
-        black: "#5C5F77" # subtext1
-        red: "#D20F39" # red
-        green: "#40A02B" # green
-        yellow: "#DF8E1D" # yellow
-        blue: "#1E66F5" # blue
-        magenta: "#EA76CB" # pink
-        cyan: "#179299" # teal
-        white: "#ACB0BE" # surface2
-
-    # Bright colors
-    bright:
-        black: "#6C6F85" # subtext0
-        red: "#D20F39" # red
-        green: "#40A02B" # green
-        yellow: "#DF8E1D" # yellow
-        blue: "#1E66F5" # blue
-        magenta: "#EA76CB" # pink
-        cyan: "#179299" # teal
-        white: "#BCC0CC" # surface1
-
-    # Dim colors
-    dim:
-        black: "#5C5F77" # subtext1
-        red: "#D20F39" # red
-        green: "#40A02B" # green
-        yellow: "#DF8E1D" # yellow
-        blue: "#1E66F5" # blue
-        magenta: "#EA76CB" # pink
-        cyan: "#179299" # teal
-        white: "#ACB0BE" # surface2
-
-    indexed_colors:
-        - { index: 16, color: "#FE640B" }
-        - { index: 17, color: "#DC8A78" }
+# # Catppuccin Latte theme
+# colors:
+#     # Default colors
+#     primary:
+#         background: "#EFF1F5" # base
+#         foreground: "#4C4F69" # text
+#         # Bright and dim foreground colors
+#         dim_foreground: "#4C4F69" # text
+#         bright_foreground: "#4C4F69" # text
+#
+#     # Cursor colors
+#     cursor:
+#         text: "#FFFFFF" # base
+#         cursor: "#000000" # rosewater
+#     vi_mode_cursor:
+#         text: "#FFFFFF" # base
+#         cursor: "#000000" # lavender
+#     # cursor:
+#     #     text: "#EFF1F5" # base
+#     #     cursor: "#DC8A78" # rosewater
+#     # vi_mode_cursor:
+#     #     text: "#EFF1F5" # base
+#     #     cursor: "#7287FD" # lavender
+#
+#     # Search colors
+#     search:
+#         matches:
+#             foreground: "#EFF1F5" # base
+#             background: "#6C6F85" # subtext0
+#         focused_match:
+#             foreground: "#EFF1F5" # base
+#             background: "#40A02B" # green
+#         footer_bar:
+#             foreground: "#EFF1F5" # base
+#             background: "#6C6F85" # subtext0
+#
+#     # Keyboard regex hints
+#     hints:
+#         start:
+#             foreground: "#EFF1F5" # base
+#             background: "#DF8E1D" # yellow
+#         end:
+#             foreground: "#EFF1F5" # base
+#             background: "#6C6F85" # subtext0
+#
+#     # Selection colors
+#     selection:
+#         text: "#EFF1F5" # base
+#         background: "#DC8A78" # rosewater
+#
+#     # Normal colors
+#     normal:
+#         black: "#5C5F77" # subtext1
+#         red: "#D20F39" # red
+#         green: "#40A02B" # green
+#         yellow: "#DF8E1D" # yellow
+#         blue: "#1E66F5" # blue
+#         magenta: "#EA76CB" # pink
+#         cyan: "#179299" # teal
+#         white: "#ACB0BE" # surface2
+#
+#     # Bright colors
+#     bright:
+#         black: "#6C6F85" # subtext0
+#         red: "#D20F39" # red
+#         green: "#40A02B" # green
+#         yellow: "#DF8E1D" # yellow
+#         blue: "#1E66F5" # blue
+#         magenta: "#EA76CB" # pink
+#         cyan: "#179299" # teal
+#         white: "#BCC0CC" # surface1
+#
+#     # Dim colors
+#     dim:
+#         black: "#5C5F77" # subtext1
+#         red: "#D20F39" # red
+#         green: "#40A02B" # green
+#         yellow: "#DF8E1D" # yellow
+#         blue: "#1E66F5" # blue
+#         magenta: "#EA76CB" # pink
+#         cyan: "#179299" # teal
+#         white: "#ACB0BE" # surface2
+#
+#     indexed_colors:
+#         - { index: 16, color: "#FE640B" }
+#         - { index: 17, color: "#DC8A78" }
 
 schemes:
   afterglow: &afterglow
@@ -586,8 +589,7 @@ schemes:
 
   campbell: &campbell
     primary:
-      background: '0x0f0f0f'
-      # background: '0x181616'
+      background: '0x1f1f1f'
       foreground: '0xcccccc'
     cursor:
       text: "#000000"
@@ -999,10 +1001,13 @@ schemes:
 
   gruvbox_dark: &gruvbox_dark
     primary:
-      # hard contrast: background = '0x1d2021'
-      background: '0x282828'
+      hard contrast: background = '0x1d2021'
+      # background: '0x282828'
       # soft contrast: background = '0x32302f'
       foreground: '0xebdbb2'
+    cursor:
+      cursor: '0xffffff'
+      text: '0x000000'
     normal:
       black:   '0x282828'
       red:     '0xcc241d'
@@ -2227,7 +2232,7 @@ schemes:
         magenta: '#c678dd'
         cyan:    '#56b6c2'
         white:   '#d4d4d4'
-colors: *gruvbox_light
+colors: *kanagawa_wave
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
@@ -2681,8 +2686,8 @@ colors: *gruvbox_light
 # Default:
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
+shell:
+ program: /usr/bin/fish
 #  args:
 #    - --login
 

@@ -374,7 +374,7 @@ set -g set-clipboard external
 # set -ag terminal-overrides ",xterm-256color:RGB"
 
 # bindings
-bind n run-shell "tmux neww -n notes 'cd $HOME/vaults/personal; nvim index.md'"
+bind n run-shell "tmux neww -n notes 'cd $HOME/notes; nvim index.norg'"
 bind v run-shell "tmux neww -n tasks 'vit'"
 
 # Kanagawa wave:
