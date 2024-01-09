@@ -15,6 +15,7 @@ alias lsa="eza -a"
 alias l="eza -l"
 alias la="eza -la"
 alias vim="nvim"
+alias lg="lazygit"
 
 # Commands to run in interactive sessions can go here
 if status is-interactive

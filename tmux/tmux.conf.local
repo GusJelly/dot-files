@@ -420,7 +420,7 @@ set -g  status-fg '#DCD7BA'
 # bind c new-window -c '#{pane_current_path}' #!important
 
 # move status line to top
-# set -g status-position top
+set -g status-position top
 
 
 # -- tpm -----------------------------------------------------------------------
@@ -457,11 +457,11 @@ tmux_conf_uninstall_plugins_on_reload=true
 
 # to enable a plugin, use the 'set -g @plugin' syntax:
 # visit https://github.com/tmux-plugins for available plugins
-# set -g @plugin 'tmux-plugins/tmux-copycat'
+set -g @plugin 'tmux-plugins/tmux-copycat'
 #set -g @plugin 'tmux-plugins/tmux-cpu'
-# set -g @plugin 'tmux-plugins/tmux-resurrect'
-# set -g @plugin 'tmux-plugins/tmux-continuum'
-# set -g @continuum-restore 'on'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @continuum-restore 'on'
 
 # available plugins: battery, cpu-usage, git, gpu-usage, ram-usage, network, network-bandwidth, network-ping, attached-clients, network-vpn, weather, time, spotify-tui, kubernetes-context
 # set -g @plugin 'dracula/tmux'
@@ -473,7 +473,7 @@ tmux_conf_uninstall_plugins_on_reload=true
 # set -g @themepack 'basic'
 # set -g @plugin "janoamaral/tokyo-night-tmux"
 
-# set -g @plugin 'catppuccin/tmux'
+set -g @plugin 'catppuccin/tmux'
 # set -g @catppuccin_flavour 'mocha' # or frappe, macchiato, mocha
 # set -g @catppuccin_window_right_separator "█ "
 # set -g @catppuccin_window_number_position "right"
