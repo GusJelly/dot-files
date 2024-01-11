@@ -1,7 +1,7 @@
 live_config_reload = true
 
 import = [
-    "~/.config/alacritty/themes/themes/rose-pine-dawn.toml"
+    "~/.config/alacritty/themes/themes/catppuccin_frappe.toml"
 ]
 
 [env]
@@ -15,12 +15,12 @@ opacity = 1.00
 [font]
 normal = { family = "Comic Code", style = "Regular" }
 offset = {x = 0, y = 0}
-glyph_offset = { x = 0, y = 2 }
+glyph_offset = { x = 0, y = 1 }
 builtin_box_drawing = false
 
 [colors]
-vi_mode_cursor = { text = "#ffffff", cursor = "#000000" }
-cursor = { text = "#ffffff", cursor = "#000000" }
+vi_mode_cursor = { text = "#000000", cursor = "#ffffff" }
+cursor = { text = "#000000", cursor = "#ffffff" }
 
 [mouse]
 hide_when_typing = true
