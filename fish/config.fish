@@ -1,8 +1,8 @@
-# Vi mode cursor changing
-set fish_cursor_default block
-set fish_cursor_insert line
-set fish_cursor_replace_one underscore
-set fish_cursor_visual block
+# # Vi mode cursor changing
+# set fish_cursor_default block
+# set fish_cursor_insert line
+# set fish_cursor_replace_one underscore
+# set fish_cursor_visual block
 
 # Path fuckery
 fish_add_path "$HOME/.local/bin/"
@@ -19,6 +19,9 @@ alias lg="lazygit"
 
 # Commands to run in interactive sessions can go here
 if status is-interactive
+    # Keybindings
+    bind -M insert \cP 'projects'
 end
+
 
 eval "$(starship init fish)"
