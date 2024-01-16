@@ -15,6 +15,7 @@ alias lsa="eza -a"
 alias l="eza -l"
 alias la="eza -la"
 alias vim="nvim"
+alias v="vim"
 alias lg="lazygit"
 
 # Commands to run in interactive sessions can go here
@@ -25,3 +26,8 @@ end
 
 
 eval "$(starship init fish)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

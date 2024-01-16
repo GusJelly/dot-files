@@ -1,43 +1,71 @@
-nnoremap <SPACE> <Nop> 
+" AutoInstalling Vim-Plug
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
+" Install plugins
+call plug#begin()
+
+" tpope plugins:
+Plug 'tpope/vim-sensible'
+
+Plug 'tpope/vim-vinegar'
+
+Plug 'tpope/vim-fugitive'
+
+Plug 'tpope/vim-commentary'
+
+Plug 'tpope/vim-sleuth'
+
+" Rest of the plugins:
+Plug 'morhetz/gruvbox'
+
+Plug 'liuchengxu/vim-which-key'
+
+Plug 'tribela/vim-transparent'
+
+Plug 'vimwiki/vimwiki'
+
+Plug 'airblade/vim-gitgutter'
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+call plug#end()
+
+
+" Set <space> as leader key
+nnoremap <SPACE> <Nop>
 let mapleader=" "
 
-nnoremap <leader>pv :Explore<CR>
+" Make which key activate on <leader> press
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 
-vnoremap J :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
-
-nnoremap J mzJ`z
-nnoremap <C-d> <C-d>zz
+" Remaps for myself
 nnoremap <C-u> <C-u>zz
-nnoremap n nzzzv
-nnoremap N Nzzzv
+nnoremap <C-d> <C-d>zz
 
-" greatest remap ever
-xnoremap <leader>p "_dP
+" Sensible defaults
+set scrolloff=8
+set number
+set rnu
+set nohlsearch
+set termguicolors
+filetype plugin indent on
+set nocompatible
+syntax on
+set tabstop=4
+set updatetime=100
+set signcolumn=auto
+set colorcolumn=80
+set nowrap
 
-" next greatest remap ever : asbjornHaland
-noremap <leader>y "+y
-noremap <leader>Y "+Y
+" Colorscheme
+colorscheme gruvbox
+set background=dark
 
-noremap <leader>d "_d
+" Vimwiki
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': 'md'}]
 
-" This is going to get me cancelled
-inoremap <C-c> <Esc>
-
-noremap Q <nop>
-nnoremap <leader>f :lua vim.lsp.buf.format()<CR>
-
-noremap <C-k> :cnext<CR>zz
-noremap <C-j> :cprev<CR>zz
-noremap <leader>k :lnext<CR>zz
-noremap <leader>j :lprev<CR>zz
-
-noremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
-noremap <leader>x :!chmod +x %<CR>
-
-nnoremap <leader>mr :CellularAutomaton make_it_rain<CR>
-
-nnoremap <leader><leader> :so %
-
-nnoremap <leader>f ?Prettier<CR>

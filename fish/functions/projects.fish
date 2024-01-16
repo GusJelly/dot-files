@@ -11,4 +11,5 @@ function projects
     clear
     fish_prompt
   end
+
 end
