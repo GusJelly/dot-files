@@ -368,20 +368,21 @@ set -g set-clipboard external
 # # Make truecolors work on foot
 # set -g default-terminal "tmux-256color"
 # set -ag terminal-overrides ",foot:RGB"
+set -ag terminal-overrides ",kitty-xterm:RGB"
 
 # # Make true-color work on alacritty
-set -ag terminal-overrides ",alacritty:RGB"
+# set -ag terminal-overrides ",alacritty:RGB"
 
 # bindings
 bind n run-shell "tmux neww -n notes 'cd $HOME/vaults/personal; nvim index.md'"
 bind v run-shell "tmux neww -n tasks 'vit'"
 
-# # alacritty default colors
-# set -g  status-bg '#181818'
-# set -g  status-fg '#ffffff'
+# alacritty default colors
+set -g  status-bg '#0a0a0a'
+set -g  status-fg '#ededed'
 
-set -g  status-bg '#1E1E2E'
-set -g  status-fg '#D6D6D6'
+# set -g  status-bg '#303446'
+# set -g  status-fg '#C6D0F5'
 
 # start with mouse mode enabled
 #set -g mouse on
