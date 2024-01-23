@@ -38,14 +38,14 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Shift+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start rofi(a program launcher)
-#bindsym $mod+d exec --no-startup-id rofi -show run
-bindsym $mod+p exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e bash -ic "{cmd} && read"'
+bindsym $mod+Shift+p exec --no-startup-id rofi -show drun
+bindsym $mod+p exec --no-startup-id rofi -show run
 # bindsym $mod+p exec --no-startup-id ulauncher-toggle
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $mod+Shift+c exec --no-startup-id rofi -show p -modi p:rofi-power-menu
@@ -174,11 +174,11 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-    status_command i3blocks
-    # status_command i3status
+    # status_command i3blocks
+    status_command i3status
     tray_output primary
 
-    position top
+    # position top
 
     workspace_min_width 20
 
@@ -192,19 +192,20 @@ bar {
     # }
 }
 
-default_border pixel 5
-gaps inner 10
+# default_border pixel 5
+# gaps inner 10
 
-# class                 border  backgr. text    indicator child_border
-client.focused          #F3BF76 #285577 #ffffff #ffffff   #ffffff
+# # class                 border  backgr. text    indicator child_border
+# client.focused          #F3BF76 #285577 #ffffff #ffffff   #ffffff
 
-exec xrandr --output DVI-D-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off
+exec xrandr --output DP-2 --primary --mode 1920x1080 --refresh 165.00 --pos 0x0 --rotate normal
 
-exec xset r rate 200 20
+exec xset r rate 150 20
 exec mouse_accell_off
 exec picom
 exec sxhkd
-exec_always autotiling
+exec lxpolkit
+# exec_always autotiling
 
 # noot noot
 # exec_always nitrogen --restore
@@ -212,4 +213,3 @@ exec_always autotiling
 # Change keyboard layout with alt+space:
 # exec_always "setxkbmap -layout us,pt -option 'grp:_alt_toggle'"
 
-exec lxpolkit
