@@ -5,15 +5,17 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+set termguicolors
+
 " Install plugins
 call plug#begin()
 
 " tpope plugins:
-Plug 'tpope/vim-sensible'
-
 Plug 'tpope/vim-vinegar'
 
 Plug 'tpope/vim-fugitive'
+
+Plug 'tpope/vim-sensible'
 
 Plug 'tpope/vim-commentary'
 
@@ -32,6 +34,8 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
+Plug 'rose-pine/vim'
+
 call plug#end()
 
 
@@ -42,7 +46,7 @@ let mapleader=" "
 " Make which key activate on <leader> press
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 
-" Remaps for myself
+" Remaps for half page jumping
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
 
@@ -51,19 +55,23 @@ set scrolloff=8
 set number
 set rnu
 set nohlsearch
-set termguicolors
 filetype plugin indent on
 set nocompatible
 syntax on
 set tabstop=4
 set updatetime=100
-set signcolumn=auto
+set signcolumn=yes
 set colorcolumn=80
 set nowrap
 
+set mouse=a
+
 " Colorscheme
-colorscheme gruvbox
+colorscheme rosepine
 set background=dark
+
+highlight CursorLine ctermbg=NONE
+highlight CursorLine guibg=NONE
 
 " Vimwiki
 let g:vimwiki_list = [{'path': '~/vimwiki/',

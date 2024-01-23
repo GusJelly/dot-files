@@ -1,8 +1,8 @@
-# # Vi mode cursor changing
-# set fish_cursor_default block
-# set fish_cursor_insert line
-# set fish_cursor_replace_one underscore
-# set fish_cursor_visual block
+# Vi mode cursor changing
+set fish_cursor_default block
+set fish_cursor_insert line
+set fish_cursor_replace_one underscore
+set fish_cursor_visual block
 
 # Path fuckery
 fish_add_path "$HOME/.local/bin/"
@@ -15,7 +15,6 @@ alias lsa="eza -a"
 alias l="eza -l"
 alias la="eza -la"
 alias vim="nvim"
-alias v="vim"
 alias lg="lazygit"
 
 # Commands to run in interactive sessions can go here
