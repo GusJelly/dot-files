@@ -5,8 +5,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-set termguicolors
-
 " Install plugins
 call plug#begin()
 
@@ -38,6 +36,7 @@ Plug 'rose-pine/vim'
 
 call plug#end()
 
+set termguicolors
 
 " Set <space> as leader key
 nnoremap <SPACE> <Nop>
@@ -77,3 +76,5 @@ highlight CursorLine guibg=NONE
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': 'md'}]
 
+" FZF Remaps
+nnoremap <leader>sf :FZF<CR>
