@@ -1,12 +1,12 @@
 live_config_reload = true
 
 import = [
-    "~/.config/alacritty/themes/themes/catppuccin_frappe.toml"
+    "~/.config/alacritty/themes/github_light_default.toml"
 ]
 
 [env]
 # This makes it so that tmux can use true colors
-TERM = 'xterm-256color'
+# TERM = 'xterm-256color'
 
 [window]
 dynamic_padding = true
@@ -20,7 +20,7 @@ builtin_box_drawing = false
 
 [colors]
 vi_mode_cursor = { text = "#000000", cursor = "#ffffff" }
-cursor = { text = "#000000", cursor = "#ffffff" }
+cursor = { text = "#ffffff", cursor = "#000000" }
 
 [mouse]
 hide_when_typing = true
