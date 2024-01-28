@@ -16,6 +16,7 @@ alias l="eza -l"
 alias la="eza -la"
 alias vim="nvim"
 alias lg="lazygit"
+alias db="distrobox"
 
 # Commands to run in interactive sessions can go here
 if status is-interactive
